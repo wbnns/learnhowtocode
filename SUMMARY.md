@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Test](README.md)
+* [Learn How to Code](README.md)
 
