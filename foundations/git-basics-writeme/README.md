@@ -1,2 +1,2 @@
-# Git basics \[WRITEME\]
+# Git basics
 

@@ -4,7 +4,7 @@ description: >-
   curriculum for learning web development.
 ---
 
-# Welcome \[WRITEME\]
+# Welcome
 
 #### \# WRITE ME
 
