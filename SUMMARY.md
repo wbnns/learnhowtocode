@@ -44,3 +44,7 @@
   * [Frameworks](foundations/backend/frameworks.md)
 * [Next steps](foundations/next-steps.md)
 
+## Electives
+
+* [Specialization](electives/specialization.md)
+
