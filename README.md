@@ -6,7 +6,15 @@ description: >-
 
 # Welcome
 
-#### \# WRITE ME
+This website is divided into several sections to help you learn how to code, and for those who already do, to become a better programmer. Stick to this material, and you grant yourself a hammer, a saw, and a lifetime supply of wood and nails.
+
+> Those who dream by night in the dusty recesses of their minds wake in the day to find that all was vanity; but the dreamers of the day are dangerous, for they may act their dream with open eyes, and make it possible.  
+>   
+> T. E. Lawrence
+
+**Read the "Introduction" to begin:**
+
+{% page-ref page="foundations/introduction/" %}
 
 ### Acknowledgments and many special thanks
 

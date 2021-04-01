@@ -5,7 +5,7 @@
 ## Foundations
 
 * [Introduction](foundations/introduction/README.md)
-  * [How this course will work](foundations/introduction/how-this-course-will-work.md)
+  * [Overview](foundations/introduction/overview.md)
   * [Becoming a web developer](foundations/introduction/becoming-a-web-developer.md)
   * [Motivation and mindset](foundations/introduction/motivation-and-mindset.md)
   * [Join a supportive community](foundations/introduction/join-a-supportive-community.md)
@@ -26,4 +26,10 @@
   * [HTML and CSS](foundations/frontend/html-and-css.md)
   * [Developer Tools](foundations/frontend/developer-tools.md)
   * [Project: Create a web page](foundations/frontend/project-create-a-web-page.md)
+* [JavaScript](foundations/javascript/README.md)
+  * [Variables and Numbers](foundations/javascript/variables-and-numbers.md)
+  * [Strings and Conditionals](foundations/javascript/strings-and-conditionals.md)
+  * [Using Developer Tools](foundations/javascript/using-developer-tools.md)
+  * [Functions](foundations/javascript/functions.md)
+  * [Problem solving](foundations/javascript/problem-solving.md)
 
