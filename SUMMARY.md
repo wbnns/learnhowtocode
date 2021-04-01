@@ -39,10 +39,8 @@
   * [Project: Etch-a-sketch](foundations/javascript/project-etch-a-sketch.md)
   * [Objects and More Arrays](foundations/javascript/objects-and-more-arrays.md)
   * [Project: Calculator](foundations/javascript/project-calculator.md)
-
----
-
-* [Backend](backend/README.md)
-  * [Overview](backend/overview.md)
-  * [Frameworks](backend/frameworks.md)
+* [Backend](foundations/backend/README.md)
+  * [Overview](foundations/backend/overview.md)
+  * [Frameworks](foundations/backend/frameworks.md)
+* [Next steps](foundations/next-steps.md)
 
