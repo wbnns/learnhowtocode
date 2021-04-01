@@ -37,4 +37,6 @@
   * [Arrays and Loops](foundations/javascript/arrays-and-loops.md)
   * [The DOM](foundations/javascript/the-dom.md)
   * [Project: Etch-a-sketch](foundations/javascript/project-etch-a-sketch.md)
+  * [Objects and More Arrays](foundations/javascript/objects-and-more-arrays.md)
+  * [Project: Calculator](foundations/javascript/project-calculator.md)
 

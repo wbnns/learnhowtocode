@@ -1,8 +1,6 @@
 # Project: Etch-a-sketch
 
-
-
-#### Introduction
+## Introduction
 
 In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills. You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
@@ -10,9 +8,9 @@ This project should _not_ be easy for you. You'll probably have to Google freque
 
 If you get totally stuck drop by The Odin Project chatroom.. some one will be there to point you in the right direction.
 
-#### Assignment
+## Assignment
 
-1. Follow the instructions at the beginning of the [Create a web page project](https://www.learnhowtocodebook.com/foundations/frontend/project-create-a-web-page) to setup a git repository for this project.
+1. [Follow the instructions](https://www.learnhowtocodebook.com/foundations/frontend/project-create-a-web-page) at the beginning of the "Create a web page" project to setup a git repository for this project.
 2. Create a webpage with a 16x16 grid of square divs
    * Create the divs using JavaScript... don't try making them by hand with copy and pasting in your html file!
    * Best to put your grid squares inside another "container" div \(that one can go directly in your html\)
