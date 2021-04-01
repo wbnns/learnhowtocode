@@ -1,6 +1,6 @@
 # Join a supportive community
 
-## Introduction
+## Connecting with others
 
 Working and collaborating with other people is an important part of working as a web developer. The Odin Project, which the open curriculum that this GitBook is based on, encourages you to participate in their online chat community, which we'll talk more about below. By joining the community, you can grow alongside other Odinites \(Odin Project users\) and help each other learn web development. While you're at it, you can check out their [Facebook page](https://www.facebook.com/theodinproject/), [follow them on Twitter](https://twitter.com/TheOdinProject) and catch up on [Instagram](https://www.instagram.com/theodinproject/). Use \#TheOdinProject to share your progress, updates, thoughts and to see what other learners are up to!
 
@@ -46,7 +46,7 @@ If the puzzle still can't be solved, push your project to GitHub or put your cod
 
 Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
 
-### **An Important Read**
+### **An important read**
 
 The article [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) has really great tips on how to put together an effective question. An effective question makes it easy for us to help you. The strategies outlined there invite you to think deeply about your problem. Sometimes, as a happy accident, you may even lead yourself to the answer as you reflect on the matter. But asking good questions isn't just about us helping you. Great questions make you a great teammate. A future co-worker or manager does not want to spend time poking at your code to learn about your problem. You'll be expected to bring thoughtful and fully developed questions.
 

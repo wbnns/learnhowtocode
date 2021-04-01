@@ -16,7 +16,7 @@ Computers don't get tired, and they're really _really_ fast! For that reason the
 
 ## Practice
 
-### Test Driven Development
+### Test Driven Development \(TDD\)
 
 Test Driven Development \(TDD\) is a phrase you often hear in the dev world. It refers to the practice of writing automated tests that describe how your code should work before you actually write the code. For example, if you want to write a function that adds a couple of numbers, you would first write a test that uses the function and supplies the expected output. Before you write your code the test will fail, and you should be able to know that your code works correctly when the tests pass.
 
@@ -24,7 +24,7 @@ In many ways TDD is much more productive than writing code without tests. If we 
 
 We will teach you the art of actually writing these tests later in the course. The following exercises have the tests already written out for you. All you have to do is read the specs and write the code that makes them pass! The very first exercise \(`01-helloWorld`\) is intentionally very simple and walks you through the process of running the tests and making them pass.
 
-### Good Luck!
+### Good luck!
 
 Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jasmine. Solutions for the exercises can be found on the 'solutions' branch of that repo.
 

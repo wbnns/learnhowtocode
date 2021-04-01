@@ -1,6 +1,6 @@
 # Developer Tools
 
-## Introduction
+## A developer's close friend
 
 All of the most popular modern web browsers include a suite of tools designed to help with the development of websites. They are sometimes referred to as the web inspector. These tools allow you to inspect the HTML, CSS, JavaScript and much more on websites you visit and build.
 
@@ -12,7 +12,7 @@ As you will come to see in the assignments, much, much more can be done with dev
 
 Although they offer you so many useful capabilities, learning how to use the developer tools isn't that difficult. It can feel clunky the first few times you use them, but with a little practice, you will soon find yourself comfortably using them to experiment and fix bugs with ease on your web pages.
 
-## Learning Outcomes
+## Learning outcomes
 
 Make sure you can do each of the following once you have finished the assignments:
 

@@ -1,6 +1,6 @@
 # Prerequisites
 
-## Introduction
+## Getting started
 
 If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors), you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
@@ -100,7 +100,7 @@ When the VM starts up, you'll be asked to install Xubuntu. All of the default op
 
 The rest of the installation is pretty straightforward, but if you have any questions, you can find Ubuntu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
 
-## Step 3: Install and Enable Guest Additions
+## Step 3: Install and enable guest additions
 
 Your regular operating system \(Windows in this case\) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
 
@@ -131,7 +131,7 @@ While your VM is running, do the following steps:
 * If you encounter the error "VirtualBox-Error: Failed to open a session for the virtual machine..." you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow these [instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
 * Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
 
-## Step 4: Understand Your New VM
+## Step 4: Understand your new VM
 
 Here are some tips to help you get started in a virtual environment:
 

@@ -1,6 +1,6 @@
 # Writing clean code
 
-## Introduction
+## The importance of clean code
 
 Developers spend SO MUCH more time reading code than writing it. This is true even with your own code. As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
@@ -39,7 +39,7 @@ The second one, however, is much easier to follow. Even if you don't know exactl
 
 There are many different opinions on what constitutes great JavaScript code. The most important thing is just that you're consistent. The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI), but it doesn't _really_ matter as long as you're consistent.
 
-## Rules of Thumb
+## Rules of thumb
 
 1. Indentation: It doesn't _really_ matter what style of indentation you use. Various JS style-guides recommend different options, and one is not really superior to the other. What _is_ important, however, is consistency. In our examples we will use 2 spaces for indentation.
 2. Semicolons: Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons. Just do it!
@@ -82,7 +82,7 @@ Read through these articles that discuss a few elements of writing good clean co
 1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
-## Additional Resources
+## Additional resources
 
 * [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)

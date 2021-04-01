@@ -1,6 +1,6 @@
 # Problem solving
 
-## Introduction
+## A definitive way to solve problems
 
 Before we start digging into some pretty nifty JavaScript, we need to begin talking about _problem solving_: the most important skill a developer needs.
 
@@ -20,7 +20,7 @@ The best way to improve your problem solving ability is by building experience b
 
 In this lesson we will walk through a few techniques that can be used to help with the problem solving process.
 
-## Learning Outcomes
+## Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -28,7 +28,7 @@ By the end of this lesson, you should be able to do the following:
 * Explain what pseudo code is and be able to use it to solve problems.
 * Be able to break a problem down into subproblems.
 
-## Understand the Problem
+## Understand the problem
 
 The first step to solving a problem is understanding exactly what the problem is. If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution.
 
@@ -47,7 +47,7 @@ Some of the questions you should answer at this stage of the process:
 
 The last question is where you will write out an algorithm to solve the problem. You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudo code.
 
-### **Pseudo Code**
+### **Pseudo code**
 
 Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.
 
@@ -62,7 +62,7 @@ Print the value of the counter variable
 
 This is a very simple program to demonstrate how pseudo code looks. There will be more examples of pseudo code included in the assignments.
 
-## Divide and Conquer
+## Divide and conquer
 
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
@@ -76,7 +76,7 @@ In short, break the big problem down and solve each of the smaller problems unti
 
 To demonstrate this workflow in action, let's solve a common programming exercise: [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
-### **Understanding The Problem**
+### **Understanding the problem**
 
 > Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
 
@@ -103,7 +103,7 @@ If the current number is divisible by 3 and 5 then print "FizzBuzz"
 Otherwise print the current number
 ```
 
-### **Divide and Conquer \(Implement\)**
+### **Divide and conquer \(implement\)**
 
 As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
@@ -242,14 +242,14 @@ Buzz
 2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
 3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Read [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid=1540326000&sr=8-3&keywords=think+like+a+programmer) \(_not free_\). This book's examples are in C++, but you will understand everything since the main idea of the book is to teach programmers to better solve problems. It's an amazing book and worth every penny. It will make you a better programmer.
 * Watch this [video on repetitive programming techniques](https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/problem-solving/basic-programming-techniques/).
 
-## Knowledge Check
+## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 

@@ -1,12 +1,12 @@
 # Project: Create a web page
 
-## Introduction
+## Building a web page
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it. Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML \(very exciting!\).
 
 Using the browser's developer tools \(right-clicking something on the page and clicking "inspect element" will get you there\) will be your best friend. Build the page in a .html text file and open it in your browser to check it out.
 
-## Try These Before Starting
+## Try these before starting
 
 These skills will be helpful for you when you start building. Either try them yourself or at least make sure you know how to do it:
 
@@ -19,7 +19,7 @@ These skills will be helpful for you when you start building. Either try them yo
 7. Understand how to use classes and ids to target CSS at specific elements on the page
 8. Build a very basic form \(even if it doesn't "go" anywhere\)
 
-## Setting Up Your Project's GitHub Repository \(optional\)
+## Setting up your project's GitHub repository \(optional\)
 
 As mentioned in the [introduction to Git](https://www.learnhowtocodebook.com/foundations/git/overview), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
@@ -47,24 +47,21 @@ If you have entered `git push origin main` and typed out your username and passw
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
-#### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
+#### A warning about looking at other people's code before you have completed your own
 
-All of our projects have a "Student Solutions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you to compare your **completed** code to and see what other routes people have chosen to take with their project code and designs.
+We know it may be tempting to look up solutions when you get stuck or don't know where to start, but **don't** do it! Here are some reasons why:
 
-We know it may be tempting to look at the solutions when you get stuck or don't know where to start, but **don't** do it! Here are some reasons why:
-
-* All of the submitted projects are other _student_ solutions. This means they are written by other people who are also still learning and may not necessarily be representative of "best practice" or quality code.
 * Looking at solutions robs you of the chance to develop your problem solving and researching skills. In the real world, there will not always be "solutions" for you to look at and you will have to come up with your own.
 * There are many different ways to achieve the same end result, it is not "one size fits all".
 * An Analogy: "Looking at completed code is like learning how to make pizza dough from looking at a baked pizza."  There is a lot more that goes into it than you would have assumed by only seeing the final product and not the process that lead to it.
 
-Once you have completed your project feel free to look at the other solutions to see alternative ways the project was completed.
+Once you have completed your project feel free to look up solutions to see alternative ways the project was completed.
 
 _Note: It is okay to check the "Live Preview" to get an idea of layout and styling before starting but not the code files._
 
 ## Assignment
 
-### **Easy Version: Build the Google.com homepage**
+### **Easy version: Build the Google.com homepage**
 
 \(the simple one with just a search box\).
 
@@ -83,7 +80,7 @@ Inside your project folder, create your index.html file
 5. In general, do as much on your own as you can before relying on the developer tools \(or viewing the page's source code\) to help you along.
 6. Push your project to GitHub using the instructions above! Then consider sharing your project with the community by submitting a link to your repository in the Solutions section below.
 
-### **Difficult Version \(optional\): Build the Google.com search results page**
+### **Difficult version \(optional\): Build the Google.com search results page**
 
 You should be able to reuse much of your code from before if you started with that project. Again, don't worry about links to nowhere and forms that won't submit and hard coding the search results \(which you'll have to do of course\), just focus on placement and order of items on the page.
 
@@ -103,7 +100,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * change the **Source** from _none_ to _main branch_ and click Save.
 * it may take a few minutes \(the GitHub website says up to 10\) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` \(obviously substituting your own details in the link\)
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

@@ -1,12 +1,12 @@
 # HTML and CSS
 
-## Introduction
+## Getting started
 
 HTML is the markup that contains all the actual stuff that a web page has. All the text on this page you're reading right now lives inside HTML tags that tell your browser how to order the content on the page. Go on, right click any element on the page and choose "Inspect Element" to open up your browser's Developer Tools and it will show you the structure of the page.
 
 [CSS](https://skillcrush.com/2012/04/03/css/) tells the browser if you want to display any of those tags a particular way, for instance, turning its background blue and pushing it a little to the left. In your Developer Tools, you can see the CSS styles in another panel, usually showing which specific properties were inherited from which lines of CSS.
 
-## Learning Outcomes
+## Learning outcomes
 
 Look through these now and then use them to test yourself after doing the assignment:
 
@@ -36,7 +36,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 2. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](https://www.youtube.com/watch?v=14Vb6tZCjEY) \(resets are mentioned starting at the 2:00 mark\). This is why there are some spaces that show up in your layout even if you haven't specified CSS. Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch. If you're still curious, here's a [longer video](https://www.youtube.com/watch?v=HqRFPLP7Ffs) on resets.
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

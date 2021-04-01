@@ -1,10 +1,10 @@
 # How does the web work?
 
-## Introduction
+## The minute details
 
 Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.
 
-## Learning Outcomes
+## Learning outcomes
 
 At the end of this lesson, you should be able to do the following:
 
@@ -52,7 +52,7 @@ In your own words, explain what happens when you run a search on google.com.
 5. Watch this [Google short](https://youtu.be/BrXPcaRlBqo) explaining what a web browser is. Then, find out what web browser you are using right [now](https://www.whatsmybrowser.org/).
 6. Read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read about](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
 

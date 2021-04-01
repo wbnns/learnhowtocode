@@ -1,6 +1,6 @@
 # Frameworks
 
-## Introduction
+## What are frameworks?
 
 If you're programming with any other language, you pretty much start with a blank text file and go from there. Programmers, the best of whom are pretty lazy folk \(in a good way\), got tired of having to write the same code over and over and over again just to cover the basic tasks that they wanted their applications to perform. So they batched that recycled code together and called it a framework.
 
@@ -10,7 +10,7 @@ There are often several different popular frameworks for a given language. They 
 
 A final thing to note is about licensing -- frameworks are typically \(though not always\) open-source and their license allows you to use them, modify them, make money off them, sell products with them, etc., all without owing any fees to their original creators. You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software. We'll get more into [Open Source Software \(OSS\)](https://en.wikipedia.org/wiki/Open-source_software) in later units.
 
-## Learning Outcomes
+## Learning outcomes
 
 Look through these now and then use them to test yourself after doing the assignment:
 
@@ -23,7 +23,7 @@ Look through these now and then use them to test yourself after doing the assign
 1. Get introduced to frameworks by reading these brief articles from [Wired \(originally from WebMonkey\)](https://web.archive.org/web/20180402231229/https://www.wired.com/2010/02/get_started_with_web_frameworks/) and [Dev.to](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0).
 2. Glance over [this article](https://rubygarage.org/blog/technology-stack-for-web-development) from RubyGarage or [this description](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks) from Mozilla's website to understand some of the thought process that goes into picking a framework.
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

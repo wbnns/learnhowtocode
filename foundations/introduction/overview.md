@@ -1,6 +1,6 @@
 # Overview
 
-## Introduction
+## Getting started
 
 In this unit, we'll learn about how the web works and start thinking about the basics of computer and web programming.
 
@@ -12,13 +12,13 @@ By the end of this unit, you should not only understand how the web works but al
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful \(and why you should learn it!\).
 
-## How It Works
+## How it works
 
 This curriculum works by pulling together the best content from across the internet for learning a particular topic. In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
 
 Most lessons will contain questions that you should be able to answer before moving on. Some of the lessons will ask you to complete exercises. In addition, we provide several projects throughout the curriculum to help you grow your understanding by actually building things.
 
-## A Note About Language
+## A note about language
 
 Please be aware that this curriculum is written in English, and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
 
@@ -28,7 +28,7 @@ As another part of this preparation, we _highly_ recommend spending extra time o
 
 In addition to this, you might also consider using a translation dictionary in your own language alongside of our curriculum so you can readily reference it as you go. We do not have any recommendations on these since there are such a wide variety of languages spoken throughout the world, but finding one may perhaps be a good first step in learning how to find useful tools online by searching. This is a skill you will utilize and improve as you progress in your learning to be a developer.
 
-## What Comes Next
+## What comes next
 
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper. Though we spend a fair bit of time digging into each of the major topics in this course, it's really just a taste of what comes next \(and all the cool stuff you can do with it\).
 

@@ -1,5 +1,7 @@
 # Next steps
 
+## Congratulations
+
 That was quite a journey. Take a second and reflect on the fact that you've just learned the basics of at least three different languages and, if you had to, you could probably hack together a web page on your own already.
 
 You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a functioning page. You should be able to create a basic web page and make it do some basic things with JavaScript. You should understand the purpose of backend code and how frameworks make it easier to write clean and maintainable code. Finally, you should have a clear understanding of how all this fits together in your future as a builder of web applications.
@@ -14,7 +16,7 @@ Arguments about learning the languages used in your area may sound convincing, b
 
 To help you make a decision, here are some perks of each technology:
 
-## **Ruby and Ruby On Rails:**
+## **Ruby and Ruby on Rails:**
 
 * Opinionated 
   * You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
@@ -27,7 +29,7 @@ To help you make a decision, here are some perks of each technology:
 * Single paradigm
   * OOP is the Ruby way, many other languages are primarily OOP based.
 
-## **JavaScript/Node & Express**
+## **JavaScript, Node and Express**
 
 * Un-opinionated
   * There is no standard way of doing things, you are going to have to decide the structure of projects yourself, for better or worse.
@@ -40,7 +42,7 @@ To help you make a decision, here are some perks of each technology:
   * Keeping the language consistent can help with writing consistent code across your entire application.
   * Allows you to do some cool things, like writing code that runs on both the browser and the server for optimization purposes.
 
-In the end, it doesn't matter which path you take, it's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. Not convinced? [click here](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371)
+In the end, it doesn't matter which path you take, it's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. [Not convinced?](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371)
 
 Get ready, because this is only the beginning. Now it's time to delve deeper into the areas covered by Foundations. There are some fantastic projects in the courses that follow which will challenge you to the limit, but you'll come out the other side ready to go and make your mark in the programming world.
 

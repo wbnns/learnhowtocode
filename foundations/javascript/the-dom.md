@@ -1,10 +1,10 @@
 # The DOM
 
-## Introduction
+## Overview
 
 One of the most unique and useful abilities of JavaScript is its ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in.
 
-## Learning Outcomes
+## Learning outcomes
 
 What is the DOM in relation to a webpage?
 
@@ -90,7 +90,7 @@ The DOM \(or Document Object Model\) is a tree-like representation of the conten
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>` is a **parent**, with its **children** on the next level, each on their own "branch".
 
-## Targeting Nodes with Selectors
+## Targeting nodes with selectors
 
 When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:
 
@@ -121,7 +121,7 @@ So you're identifying a certain node based on its relationships to the nodes aro
 
 When your HTML code is parsed by a web browser, it is converted to the DOM as was mentioned above. One of the primary differences is that these nodes are objects that have many properties and methods attached to them. These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes.
 
-### **Query Selectors**
+### **Query selectors**
 
 * _element_.querySelector\(_selector_\) returns reference to the first match of _selector_
 * _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
@@ -130,7 +130,7 @@ When your HTML code is parsed by a web browser, it is converted to the DOM as wa
 
 It's important to note that when using querySelectorAll, the return value is **not** an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. You can do this with Array.from\(\) or the [spread operator.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
-### **Element Creation**
+### **Element creation**
 
 * document.createElement\(tagName\[, options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
 
@@ -140,16 +140,16 @@ const div = document.createElement('div');
 
 This function does NOT put your new element into the DOM - it simply creates it in memory. This is so that you can manipulate the element \(by adding styles, classes, ids, text etc.\) before placing it on the page. You can place the element into the DOM with one of the following methods.
 
-### **Append Elements**
+### **Append elements**
 
 * _parentNode_.appendChild\(_childNode_\) appends _childNode_ as the last child of _parentNode_
 * _parentNode_.insertBefore\(_newNode_, _referenceNode_\) inserts _newNode_ into _parentNode_ before _referenceNode_
 
-### **Remove Elements**
+### **Remove elements**
 
 * _parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns reference to _child_
 
-### **Altering Elements**
+### **Altering elements**
 
 When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
@@ -182,7 +182,7 @@ div.style['background-color'] // also works
 div.style.cssText = "background-color: white" // ok in a string
 ```
 
-### **Editing Attributes**
+### **Editing attributes**
 
 ```javascript
 div.setAttribute('id', 'theDiv');                              
@@ -366,7 +366,7 @@ btn.addEventListener('click', function (e) {
 });
 ```
 
-### **Note that function \(e\) is a callback from addEventListener. Further explanation of callbacks can be found HERE.**
+### **Note that function \(e\) is a callback from addEventListener**
 
 The `e` in that function is an object that references the **event** itself. Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's **target** - the DOM node that was clicked.
 
@@ -440,7 +440,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
    * You will likely have to refactor \(rework/rewrite\) your original code to make it work for this.  That's OK!  Reworking old code is an important part of the programmer's life.
    * Don't forget to go back and add your new version to the original Rock Paper Scissors Project!
 
-## Additional Resources
+## Additional resources
 
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)

@@ -7,7 +7,7 @@ Objects are a _very_ important part of the JavaScript language, and while for th
 1. [This JavaScript.info](http://javascript.info/object) article is the best place to get started with Objects.
 2. [The MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
-## Intermediate/Advanced Array Magic
+## More arrays
 
 Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways. Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions... but as you'll soon see, the possibilities of what you can do with them are near endless.
 

@@ -1,6 +1,6 @@
 # Variables and Numbers
 
-## Learning Outcomes
+## Learning outcomes
 
 Look through these now and then use them to test yourself after doing the assignment:
 
@@ -34,7 +34,7 @@ Numbers are the building blocks of programming logic! In fact, it's hard to thin
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view. There's much more that you can do with numbers, but this is all you need at the moment.
 3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers \(among other things!\) in JavaScript.
 
-## Practice!
+## Practice
 
 You can easily run your own JavaScript code from files you create on your computer. The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it. Type the basic HTML skeleton into a file on your computer somewhere:
 
@@ -76,7 +76,7 @@ Try the following exercises:
    * If you type `percentage` in the console and press enter you should see a value like `0.7719`
 6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
-#### Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

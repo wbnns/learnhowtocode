@@ -1,6 +1,6 @@
 # Setting up Node
 
-## Introduction
+## Node Version Manager
 
 Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, this means that you can code the server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system.
 
@@ -20,7 +20,7 @@ To install nvm properly, you'll need `curl`. Simply run the command below:
 sudo apt install curl
 ```
 
-### **Step 1: Downloading and Installing nvm**
+### **Step 1: Downloading and installing nvm**
 
 Simply run this command:
 
@@ -97,7 +97,7 @@ Downloading and installing Node v14.xx.x...
 
 If not, close the terminal, re-open it and run `nvm install node` again.
 
-### **Step 2: Setting the Node Version**
+### **Step 2: Setting the Node version**
 
 We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy, just run the following command:
 

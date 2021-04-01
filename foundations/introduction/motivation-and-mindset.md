@@ -1,6 +1,6 @@
 # Motivation and mindset
 
-## Introduction
+## Time to build
 
 Learning to code is incredibly rewarding but can also be difficult and frustrating. The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
@@ -38,7 +38,7 @@ And it might even be life changing, too.
 
 _What are you waiting for?_
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

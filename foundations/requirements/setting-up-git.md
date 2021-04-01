@@ -1,6 +1,6 @@
 # Setting up Git
 
-## Introduction
+## Version control
 
 Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the curriculum.
 
@@ -103,11 +103,11 @@ git config --get user.name
 git config --get user.email
 ```
 
-### **Step 2.2: Create a GitHub Account or Sign In**
+### **Step 2.2: Create a GitHub account or sign in**
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
 
-### **Step 2.3: Create an SSH Key**
+### **Step 2.3: Create an SSH key**
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
@@ -130,7 +130,7 @@ ssh-keygen -C <youremail>
 * When it prompts you for a location to save the generated key, just push `Enter`.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
 
-### **Step 2.4: Link Your SSH Key with GitHub**
+### **Step 2.4: Link your SSH key with GitHub**
 
 Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 

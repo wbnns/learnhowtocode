@@ -1,10 +1,10 @@
 # Git basics
 
-## Introduction
+## Establishing a workflow
 
 In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the **basic Git workflow**. When you're using Git, these are the commands that you'll use 70-80% of the time, so if you can get these down, you'll be more than halfway done mastering Git!
 
-## Learning Outcomes
+## Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -52,7 +52,7 @@ The main thing to take away from this lesson is the **basic workflow**. The comm
 
 Don't worry if you don't know all the commands yet or if they aren't quite sticking in your memory yet. They will soon be seared into your brain as you use them over and over in future projects.
 
-#### Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
@@ -63,7 +63,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [This video](https://youtu.be/HkdAHXoRtos) by Jeff Delaney has a fast-paced overview of Git.
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).
 
-#### Knowledge Check
+## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 

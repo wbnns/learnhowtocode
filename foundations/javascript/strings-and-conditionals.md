@@ -1,10 +1,10 @@
 # Strings and Conditionals
 
-## Introduction
+## Overview
 
 There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them. Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
-## Learning Outcomes
+## Learning outcomes
 
 Look through these now and then use them to test yourself after doing the assignment:
 
@@ -63,7 +63,7 @@ To get started, create a free repl account and click "Fork" in order to have acc
 * [Exercise 4](https://repl.it/@I3uckwheat/direction-follow#follow.js)
   * You will be working out of follow.js
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

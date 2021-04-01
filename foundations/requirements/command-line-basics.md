@@ -1,6 +1,6 @@
 # Command line basics
 
-## Introduction
+## Entering the matrix
 
 Feeling scared of the command line? You're not alone. We have this image of developers staring intently at a black screen with white or green text flashing across as they wildly enter incomprehensible commands to hack into the corporate mainframe \(no doubt while guzzling soda and wiping neon orange Cheetos dust off their keyboard\).
 
@@ -8,7 +8,7 @@ That black screen or window is the command line interface \(CLI\), where you're 
 
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories \(also known as folders\) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimidated by the prospect of using the command line for the first time.
 
-### **Test Drive Your Terminal**
+### **Test drive your terminal**
 
 Open a terminal on your computer.
 
@@ -29,7 +29,7 @@ It returns your username. Cool!
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will require you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line \(more on this later\). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
-## Learning Outcomes
+## Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -47,7 +47,7 @@ By the end of this lesson, you should be able to do the following:
 1. Before diving into the command line lesson, you'll want to know how to create a file. You can do so with the `touch` command. Open your terminal and enter `ls` \(the `l` is a lowercase `L`\). `ls` will show you the files and folders in the current directory \(or will show nothing if the current directory is empty\). Create a file called `test.txt` by entering this in your terminal: `touch test.txt`. Now enter `ls` once again. You should see `test.txt` listed in the output. You can also create more than one file at once using the `touch` command. Enter `touch index.html script.js style.css` and press the enter. Then enter `ls` once more. You should see the files in the output. Here is a small way that the terminal reveals its power. How long would it have taken to create all three of those files with your mouse? Thanks, terminal.
 2. Read through [Chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
 
-### **Use the Command Line Like a Pro**
+### **Use the command line like a pro**
 
 There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. If they are forced to do something over and over again, odds are good that they'll figure out a way to automate it instead. The good news is that you get to benefit from the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro \(which is to say, in a really lazy way\).
 
@@ -65,11 +65,11 @@ But once you've typed in a little bit more, it will complete the name for you, m
 
 Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. This shortcut is also commonly used with Git \(which is covered in detail later on\) with commands like `git add .` to add all of the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` \(with the period\) to open up all of the project files. See the next section of this lesson for a more detailed example.
 
-### **Opening files in VSCode from the Command Line**
+### **Opening files in VSCode from the command line**
 
 On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
-#### **MacOS Users:**
+#### **MacOS users:**
 
 MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
@@ -86,7 +86,7 @@ In this exercise, you will practice creating files and directories and deleting 
 
 That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
 
@@ -96,7 +96,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
 * [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, are detailed enough to get started and light your inner curiosity.
 
-## Knowledge Check
+## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 

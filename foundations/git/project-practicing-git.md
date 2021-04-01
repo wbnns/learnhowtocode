@@ -1,6 +1,6 @@
 # Project: Practicing Git
 
-## Introduction
+## Git started
 
 This short project will demonstrate how to use Git to manage and track your project folders.
 
@@ -8,7 +8,7 @@ This short project will demonstrate how to use Git to manage and track your proj
 2. Once this repo is set up locally, you will be able to use Git like a save button for your files and folders.
 3. When you have finalized your saves, you can then push your local repo up onto GitHub to share with everyone!
 
-## Learning Outcomes
+## Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -34,7 +34,7 @@ By the end of this lesson, you should be able to do the following:
 
 In this project, we'll walk through the basic Git workflow that you will use in all your projects.
 
-### **Create the Repository**
+### **Create the repository**
 
 1. You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/foundations/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
 2. Create a new repository by clicking the button shown in the screenshot below. 
@@ -43,7 +43,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 5. In the command line on your local machine, navigate to where you want to store this project, and then clone your repository on GitHub onto your computer with `git clone` followed by the URL you copied in the last step. The full command should look similar to `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`.
 6. That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, you can `cd` into the new **git\_test** folder that was downloaded and then enter `git remote -v` in your command line. This will display the URL of the repository you created in GitHub, which is the remote for your local copy. You may have also noticed the word **origin** at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana". \(Don't worry about the details of origin for now; it will come up again near the end of this tutorial.\)
 
-### **Use the Git Workflow**
+### **Use the Git workflow**
 
 1. Create a new file in the `git_test` folder called "README.md" with the command `touch README.md`.
 2. Type `git status` in your terminal. In the output, notice that your README.md file is shown in red, which means that this file is not staged.
@@ -51,7 +51,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 4. Type `git commit -m "Add README.md"` and then type `git status` once more. The output should now say, "_nothing to commit, working tree clean_", indicating that your changes have been committed. 
 5. Type `git log` and look at the output. You should see an entry for your "Add README.md" commit. You will also see details on the author who made the commit and the date and time for when the commit was made.
 
-### **Add Another File**
+### **Add another file**
 
 1. Create a new file in the `git_test` folder called `hello_world.txt`. In the terminal, type `git status`, and notice `hello_world.txt` is not staged.
 2. Open README.md in your text editor of choice and add the text "This is \(YourUsername\)'s first git project!" and then save the file.
@@ -62,7 +62,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 7. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message `git commit -m "Add hello_world.txt and edit README.md"`. Then, type `git status` once again, which will output "_nothing to commit_".
 8. Take one last look at your commit history by typing `git log`. You should now see two entries.
 
-### **Push Your Work to GitHub**
+### **Push your work to GitHub**
 
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
@@ -78,7 +78,7 @@ In later Git lessons, we will cover some of the more advanced Git features, such
 
 For now, concentrate on using the basics of Git that you've learned here with all of your projects from now on. You will soon know each of the basic Git commands from memory!
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

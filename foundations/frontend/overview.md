@@ -1,6 +1,6 @@
 # Overview
 
-## Introduction
+## Getting started
 
 The "front-end languages" live in the browser. After you type an address into the address bar at the top and hit the enter/return key, your browser will receive at least an HTML file from the web server. That file will likely tell the browser to request a CSS file and a JavaScript file as well \(probably many more than one, but we'll keep it simple\).
 
@@ -12,7 +12,7 @@ On the front end, you will need to be highly conscious of who your user is and h
 
 In the following lessons, you'll get a healthy understanding of each of the three front-end languages. To get warmed up, we'll start at the high level.
 
-## Learning Outcomes
+## Learning outcomes
 
 Look through these now and then use them to test yourself after doing the assignment:
 
@@ -28,7 +28,7 @@ Look through these now and then use them to test yourself after doing the assign
 4. Get an overview of what you can do with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). You will not understand most of what is there just yet, but bookmark the pages for later reference.
 5. Bookmark [DevDocs.io](https://devdocs.io/). Read the "Welcome" message. Massive API documentation collection that even works offline. Essential collection of reference material for everything covered and more. \(Maintained by [FreeCodeCamp](https://www.freecodecamp.org/)\)
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

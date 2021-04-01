@@ -1,6 +1,6 @@
 # Overview
 
-## Introduction
+## Getting started
 
 The first step for building any website is having the right tools. For us, that means setting up a development environment for writing good code.
 
@@ -8,7 +8,7 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 
 We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
-## The Installation Plan
+## The installation plan
 
 In the following sections, we'll go over the steps for setting up your environment. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road.
 
@@ -24,7 +24,7 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 * Google, Google, Google.
 * Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
 
-## OS Options
+## OS options
 
 ### **Mac**
 
@@ -44,7 +44,7 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-## Concerned About Installing A New OS?
+## Concerned about installing a new operating system?
 
 "Woah, woah, woah! I like my OS just fine the way it is!"
 

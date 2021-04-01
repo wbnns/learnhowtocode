@@ -1,6 +1,6 @@
 # Overview
 
-## Introduction
+## What is the backend?
 
 The three languages of the front end are fairly standardized -- HTML for Markup, CSS for Presentation, and JavaScript for Scripting. The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on your user's browser understanding what's going on. All the browser cares about is whether you've sent it properly formatted HTML, CSS and JavaScript files \(and other assets like images\). That's led to a whole lot of different choices for back-end languages. As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.
 
@@ -10,7 +10,7 @@ Some of the most popular server-side languages are PHP, ASP.NET, Ruby, Python an
 
 As we covered back in the [Requirements Overview](https://www.learnhowtocodebook.com/foundations/requirements/overview), the front end languages live in the browser so there are no extra installations required. For the reasons listed above, the back end languages do require you to install them on your computer in order to get them running. NodeJS has already been installed as it is required in the JavaScript section of Foundations. Ruby and Rails is installed in their own respective sections as they aren't required until then.
 
-## Learning Outcomes
+## Learning outcomes
 
 * What is the difference between front-end and back-end development ?
 * Why are we required to install back-end languages to our computer \(besides to run them\)?
