@@ -36,4 +36,5 @@
   * [Writing clean code](foundations/javascript/writing-clean-code.md)
   * [Arrays and Loops](foundations/javascript/arrays-and-loops.md)
   * [The DOM](foundations/javascript/the-dom.md)
+  * [Project: Etch-a-sketch](foundations/javascript/project-etch-a-sketch.md)
 
