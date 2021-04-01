@@ -32,4 +32,8 @@
   * [Using Developer Tools](foundations/javascript/using-developer-tools.md)
   * [Functions](foundations/javascript/functions.md)
   * [Problem solving](foundations/javascript/problem-solving.md)
+  * [Project: Rock paper scissors](foundations/javascript/project-rock-paper-scissors.md)
+  * [Writing clean code](foundations/javascript/writing-clean-code.md)
+  * [Arrays and Loops](foundations/javascript/arrays-and-loops.md)
+  * [The DOM](foundations/javascript/the-dom.md)
 
