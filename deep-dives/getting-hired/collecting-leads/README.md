@@ -1,4 +1,4 @@
-# Collecting leads
+# Applying
 
 ## Time to find opportunities
 

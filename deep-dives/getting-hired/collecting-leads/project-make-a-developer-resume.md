@@ -1,4 +1,4 @@
-# Project: Your resume
+# Project: Make your resume
 
 ## Make it interesting
 
