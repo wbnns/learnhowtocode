@@ -1,4 +1,4 @@
-# Project: Build a personal website
+# Project: Your website
 
 ## A point of reference about yourself
 

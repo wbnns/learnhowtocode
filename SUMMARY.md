@@ -51,6 +51,20 @@
   * [Overview](deep-dives/databases/overview.md)
   * [Databases and SQL](deep-dives/databases/databases-and-sql.md)
   * [Project: SQL Zoo](deep-dives/databases/project-sql-zoo.md)
+* [Getting hired](deep-dives/getting-hired/README.md)
+  * [Overview](deep-dives/getting-hired/overview.md)
+  * [Plan a strategy](deep-dives/getting-hired/plan-a-strategy.md)
+  * [Get yourself together](deep-dives/getting-hired/get-yourself-together.md)
+  * [What companies want](deep-dives/getting-hired/what-companies-want.md)
+  * [How to prepare](deep-dives/getting-hired/how-to-prepare.md)
+  * [Project: Your website](deep-dives/getting-hired/project-build-a-personal-website.md)
+  * [Collecting leads](deep-dives/getting-hired/collecting-leads.md)
+  * [Qualifying leads](deep-dives/getting-hired/qualifying-leads.md)
+  * [Project: Your resume](deep-dives/getting-hired/project-make-a-developer-resume.md)
+  * [Applying for jobs](deep-dives/getting-hired/applying-for-jobs.md)
+  * [Preparing for an interview](deep-dives/getting-hired/preparing-for-an-interview.md)
+  * [Handling an offer](deep-dives/getting-hired/handling-an-offer.md)
+  * [Final words](deep-dives/getting-hired/final-words.md)
 * [HTML / CSS](deep-dives/html-css/README.md)
   * [Overview](deep-dives/html-css/overview.md)
   * [HTML Basics](deep-dives/html-css/html-basics.md)
@@ -61,23 +75,7 @@
   * [Tables](deep-dives/html-css/tables.md)
   * [Lists](deep-dives/html-css/lists.md)
 
-## Find a job
-
-* [Overview](find-a-job/overview.md)
-* [Plan a strategy](find-a-job/plan-a-strategy.md)
-* [Get yourself together](find-a-job/get-yourself-together.md)
-* [What companies want](find-a-job/what-companies-want.md)
-* [How to prepare](find-a-job/how-to-prepare.md)
-* [Project: Build a personal website](find-a-job/project-build-a-personal-website.md)
-* [Collecting leads](find-a-job/collecting-leads.md)
-* [Qualifying leads](find-a-job/qualifying-leads.md)
-* [Project: Make a developer resume](find-a-job/project-make-a-developer-resume.md)
-* [Applying for jobs](find-a-job/applying-for-jobs.md)
-* [Preparing for an interview](find-a-job/preparing-for-an-interview.md)
-* [Handling an offer](find-a-job/handling-an-offer.md)
-* [Final words](find-a-job/final-words.md)
-
 ## License
 
-* [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+* [CC BY-NC-SA 4.0 © 2021](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 

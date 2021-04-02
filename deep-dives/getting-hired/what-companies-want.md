@@ -1,6 +1,6 @@
 # What companies want
 
-## Let's find out
+## Understanding their perspective
 
 Now that you've figured your own situation out, the fact is that you can't get hired by just thinking about why _you_ need or deserve the job. You have to think about things from the perspective of the company. Why are they interested in hiring you? What, therefore, will they look for?
 

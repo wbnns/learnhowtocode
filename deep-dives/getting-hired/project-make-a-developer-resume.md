@@ -1,4 +1,4 @@
-# Project: Make a developer resume
+# Project: Your resume
 
 ## Make it interesting
 
