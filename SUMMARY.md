@@ -44,7 +44,40 @@
   * [Frameworks](foundations/backend/frameworks.md)
 * [Next steps](foundations/next-steps.md)
 
-## Electives
+## Deep dives
 
-* [Specialization](electives/specialization.md)
+* [Computer Science](deep-dives/specialization.md)
+* [Databases](deep-dives/databases/README.md)
+  * [Overview](deep-dives/databases/overview.md)
+  * [Databases and SQL](deep-dives/databases/databases-and-sql.md)
+  * [Project: SQL Zoo](deep-dives/databases/project-sql-zoo.md)
+* [HTML / CSS](deep-dives/html-css/README.md)
+  * [Overview](deep-dives/html-css/overview.md)
+  * [HTML Basics](deep-dives/html-css/html-basics.md)
+  * [Linking](deep-dives/html-css/linking.md)
+  * [Images and media](deep-dives/html-css/images-and-media.md)
+  * [Project: Embedding media](deep-dives/html-css/project-embedding-media.md)
+  * [HTML5](deep-dives/html-css/html5.md)
+  * [Tables](deep-dives/html-css/tables.md)
+  * [Lists](deep-dives/html-css/lists.md)
+
+## Find a job
+
+* [Overview](find-a-job/overview.md)
+* [Plan a strategy](find-a-job/plan-a-strategy.md)
+* [Get yourself together](find-a-job/get-yourself-together.md)
+* [What companies want](find-a-job/what-companies-want.md)
+* [How to prepare](find-a-job/how-to-prepare.md)
+* [Project: Build a personal website](find-a-job/project-build-a-personal-website.md)
+* [Collecting leads](find-a-job/collecting-leads.md)
+* [Qualifying leads](find-a-job/qualifying-leads.md)
+* [Project: Make a developer resume](find-a-job/project-make-a-developer-resume.md)
+* [Applying for jobs](find-a-job/applying-for-jobs.md)
+* [Preparing for an interview](find-a-job/preparing-for-an-interview.md)
+* [Handling an offer](find-a-job/handling-an-offer.md)
+* [Final words](find-a-job/final-words.md)
+
+## License
+
+* [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
