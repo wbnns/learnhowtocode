@@ -14,6 +14,8 @@ This website is divided into several sections to help you learn how to code, and
 >   
 > T. E. Lawrence
 
+What will you build?
+
 **Start with the "Introduction" and begin your course...**
 
 {% page-ref page="foundations/introduction/" %}
