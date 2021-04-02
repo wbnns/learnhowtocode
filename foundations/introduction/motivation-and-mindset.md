@@ -50,3 +50,5 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
 * [Roadmap to becoming a web developer in 2020](https://github.com/kamranahmedse/developer-roadmap)
 
+_The content on this page is based on The Odin Project's_ [_open curriculum_](https://github.com/TheOdinProject/curriculum) _for learning web development._
+

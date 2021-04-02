@@ -42,5 +42,3 @@ Additional resources are the only thing that are considered optional unless expl
 
 **DO NOT SKIP ANYTHING!**
 
-## 
-

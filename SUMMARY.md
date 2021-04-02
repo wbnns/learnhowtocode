@@ -46,7 +46,16 @@
 
 ## Deep dives
 
-* [Computer Science](deep-dives/specialization.md)
+* [Computer Science](deep-dives/specialization/README.md)
+  * [Overview](deep-dives/specialization/overview.md)
+  * [Pseudocode and algorithms](deep-dives/specialization/pseudocode-and-algorithms.md)
+  * [Recursion and algorithms](deep-dives/specialization/recursion-and-algorithms/README.md)
+    * [Project: Fibs and sorting](deep-dives/specialization/recursion-and-algorithms/project-fibs-and-sorting.md)
+    * [More on algorithms](deep-dives/specialization/recursion-and-algorithms/more-on-algorithms.md)
+    * [Big O](deep-dives/specialization/recursion-and-algorithms/big-o.md)
+    * [Project: Practicing Big O](deep-dives/specialization/recursion-and-algorithms/project-practicing-big-o.md)
+  * [Data structures](deep-dives/specialization/data-structures/README.md)
+    * [Maps, stacks and queues](deep-dives/specialization/data-structures/maps-stacks-and-queues.md)
 * [Databases](deep-dives/databases/README.md)
   * [Overview](deep-dives/databases/overview.md)
   * [Databases and SQL](deep-dives/databases/databases-and-sql.md)
@@ -77,7 +86,6 @@
 * [HTML / CSS](deep-dives/html-css/README.md)
   * [Overview](deep-dives/html-css/overview.md)
   * [HTML Basics](deep-dives/html-css/html-basics/README.md)
-    * [Untitled](deep-dives/html-css/html-basics/untitled.md)
     * [Linking](deep-dives/html-css/html-basics/linking.md)
     * [Images and media](deep-dives/html-css/html-basics/images-and-media.md)
     * [Project: Embedding media](deep-dives/html-css/html-basics/project-embedding-media.md)

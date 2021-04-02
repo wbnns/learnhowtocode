@@ -106,3 +106,5 @@ Your Colorful Code
 
    * Discord Settings &gt; Connections &gt; Click GitHub icon &gt; Allow Access &gt; Make sure "Display on profile" is toggled on.
 
+_The content on this page is based on The Odin Project's_ [_open curriculum_](https://github.com/TheOdinProject/curriculum) _for learning web development._
+

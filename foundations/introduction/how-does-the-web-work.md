@@ -62,3 +62,5 @@ This section contains helpful links to other content. It isn't required, so cons
 * If you're in for a bit more reading, you can check out the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. This book also touches on some topics covered later in the curriculum, such as developer tools and security. Additionally, you can learn about HTTP tools, which you may find helpful in the future.
 * Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!  
 
+_The content on this page is based on The Odin Project's_ [_open curriculum_](https://github.com/TheOdinProject/curriculum) _for learning web development._
+

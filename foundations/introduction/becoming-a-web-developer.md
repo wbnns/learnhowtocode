@@ -48,3 +48,5 @@ These are some of the basic tools you will use regularly. You may not know what 
 * [**Git**](https://git-scm.com/)
 * [**GitHub**](https://github.com/)
 
+_The content on this page is based on The Odin Project's_ [_open curriculum_](https://github.com/TheOdinProject/curriculum) _for learning web development._
+
