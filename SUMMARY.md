@@ -170,6 +170,8 @@
     * [Views](deep-dives/ruby-on-rails/basics/views.md)
     * [Asset pipeline](deep-dives/ruby-on-rails/basics/asset-pipeline.md)
     * [Deployment](deep-dives/ruby-on-rails/basics/deployment.md)
+    * [Project: Blog](deep-dives/ruby-on-rails/basics/project-blog.md)
+  * [Active Record](deep-dives/ruby-on-rails/active-record.md)
 
 ## Getting hired
 
