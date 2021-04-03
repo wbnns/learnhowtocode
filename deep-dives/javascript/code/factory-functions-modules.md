@@ -1,4 +1,4 @@
-# Factory functions / Modules
+# Factory functions and module patterns
 
 ## What's wrong with constructors?
 
@@ -242,7 +242,7 @@ const Nerd = (name) => {
 
 * Before moving on have a look at [this](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) article. In the second half of the article, the author goes into some things that we aren't really talking too much about here, but you'll be rewarded if you spend some time figuring out what he's talking about. Good stuff!
 
-## Modules
+## Module patterns
 
 > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'. These are essentially a syntax for importing and exporting code between different JavaScript files. They're very powerful and we WILL be covering them later. They are _not_, however, what we're talking about here.
 

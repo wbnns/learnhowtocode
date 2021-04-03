@@ -101,12 +101,16 @@
 * [JavaScript](deep-dives/javascript/README.md)
   * [Overview](deep-dives/javascript/overview.md)
   * [Refresher](deep-dives/javascript/refresher.md)
-  * [Code](deep-dives/javascript/code/README.md)
+  * [Diving into the code](deep-dives/javascript/code/README.md)
     * [Objects and constructors](deep-dives/javascript/code/objects-and-constructors.md)
     * [Project: Library](deep-dives/javascript/code/project-library.md)
-    * [Factory functions / Modules](deep-dives/javascript/code/factory-functions-modules.md)
+    * [Factory functions and module patterns](deep-dives/javascript/code/factory-functions-modules.md)
     * [Project: Tic Tac Toe](deep-dives/javascript/code/project-tic-tac-toe.md)
     * [Classes](deep-dives/javascript/code/classes.md)
+    * [ES6 Modules](deep-dives/javascript/code/es6-modules.md)
+    * [Project: Restaurant](deep-dives/javascript/code/project-restaurant.md)
+    * [Object Oriented Programming](deep-dives/javascript/code/object-oriented-programming.md)
+    * [Project: Todo list](deep-dives/javascript/code/project-todo-list.md)
 
 ## Getting hired
 
