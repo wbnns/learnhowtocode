@@ -182,6 +182,7 @@
     * [Project: Private Events](deep-dives/ruby-on-rails/advanced-forms-and-active-record/project-private-events.md)
     * [Callbacks](deep-dives/ruby-on-rails/advanced-forms-and-active-record/callbacks.md)
     * [Menus, helpers and nesting](deep-dives/ruby-on-rails/advanced-forms-and-active-record/menus-helpers-and-nesting.md)
+    * [Project: Ticket agent](deep-dives/ruby-on-rails/advanced-forms-and-active-record/project-ticket-agent.md)
 
 ## Getting hired
 
