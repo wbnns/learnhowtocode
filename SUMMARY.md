@@ -120,6 +120,7 @@
   * [Props and State](deep-dives/react/props-and-state.md)
   * [Render lists and handle inputs](deep-dives/react/render-lists-and-handle-inputs.md)
   * [Project: CV](deep-dives/react/project-cv.md)
+  * [Lifecycle methods](deep-dives/react/lifecycle-methods.md)
 
 ## Getting hired
 
