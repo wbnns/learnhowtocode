@@ -149,6 +149,7 @@
   * [Advanced concepts](deep-dives/react/advanced-concepts.md)
 * [Ruby](deep-dives/ruby/README.md)
   * [Installation](deep-dives/ruby/installation.md)
+  * [Data types](deep-dives/ruby/data-types.md)
 * [Ruby on Rails](deep-dives/ruby-on-rails/README.md)
   * [Using Heroku](deep-dives/ruby-on-rails/heroku.md)
   * [Installing Rails](deep-dives/ruby-on-rails/installing-rails.md)
