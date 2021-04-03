@@ -176,7 +176,9 @@
   * [Forms](deep-dives/ruby-on-rails/forms/README.md)
     * [Cookies, sessions, and authentication](deep-dives/ruby-on-rails/forms/cookies-sessions-and-authentication.md)
     * [Project: Password](deep-dives/ruby-on-rails/forms/project-password.md)
-    * [Queries](deep-dives/ruby-on-rails/forms/queries.md)
+  * [Advanced forms and Active Record](deep-dives/ruby-on-rails/advanced-forms-and-active-record/README.md)
+    * [Queries](deep-dives/ruby-on-rails/advanced-forms-and-active-record/queries.md)
+    * [Associations](deep-dives/ruby-on-rails/advanced-forms-and-active-record/associations.md)
 
 ## Getting hired
 
