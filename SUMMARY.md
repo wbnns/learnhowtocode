@@ -138,6 +138,8 @@
     * [Project: Message board](deep-dives/nodejs/express/project-message-board.md)
     * [Routes](deep-dives/nodejs/express/routes.md)
     * [Displaying data](deep-dives/nodejs/express/displaying-data.md)
+    * [Forms and deployment](deep-dives/nodejs/express/forms-and-deployment.md)
+    * [Project: Inventory](deep-dives/nodejs/express/project-inventory.md)
 * [React](deep-dives/react/README.md)
   * [Overview](deep-dives/react/overview.md)
   * [Props and State](deep-dives/react/props-and-state.md)
