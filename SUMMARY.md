@@ -121,6 +121,7 @@
   * [Render lists and handle inputs](deep-dives/react/render-lists-and-handle-inputs.md)
   * [Project: CV](deep-dives/react/project-cv.md)
   * [Lifecycle methods](deep-dives/react/lifecycle-methods.md)
+  * [Hooks](deep-dives/react/hooks.md)
 
 ## Getting hired
 
