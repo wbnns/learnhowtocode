@@ -1,4 +1,4 @@
-# Maps, stacks and queues
+# Maps, Stacks and Queues
 
 ## Introduction
 
