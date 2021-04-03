@@ -171,8 +171,12 @@
     * [Asset pipeline](deep-dives/ruby-on-rails/basics/asset-pipeline.md)
     * [Deployment](deep-dives/ruby-on-rails/basics/deployment.md)
     * [Project: Blog](deep-dives/ruby-on-rails/basics/project-blog.md)
-  * [Active Record](deep-dives/ruby-on-rails/active-record.md)
-  * [Project: Upvote](deep-dives/ruby-on-rails/project-upvote.md)
+  * [Active Record](deep-dives/ruby-on-rails/active-record/README.md)
+    * [Project: Upvote](deep-dives/ruby-on-rails/active-record/project-upvote.md)
+  * [Forms](deep-dives/ruby-on-rails/forms/README.md)
+    * [Cookies, sessions, and authentication](deep-dives/ruby-on-rails/forms/cookies-sessions-and-authentication.md)
+    * [Project: Password](deep-dives/ruby-on-rails/forms/project-password.md)
+    * [Queries](deep-dives/ruby-on-rails/forms/queries.md)
 
 ## Getting hired
 
