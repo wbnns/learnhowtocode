@@ -14,7 +14,7 @@ This website is divided into several sections to help you learn how to code, and
 >   
 > T. E. Lawrence
 
-What would you build, if self-doubt was the only thing that could stop you?
+What would you build if self-doubt was the only thing that could stop you?
 
 **Start with the "Introduction" and begin your course...**
 
