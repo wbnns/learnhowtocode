@@ -180,6 +180,8 @@
     * [Queries](deep-dives/ruby-on-rails/advanced-forms-and-active-record/queries.md)
     * [Associations](deep-dives/ruby-on-rails/advanced-forms-and-active-record/associations.md)
     * [Project: Private Events](deep-dives/ruby-on-rails/advanced-forms-and-active-record/project-private-events.md)
+    * [Callbacks](deep-dives/ruby-on-rails/advanced-forms-and-active-record/callbacks.md)
+    * [Menus, helpers and nesting](deep-dives/ruby-on-rails/advanced-forms-and-active-record/menus-helpers-and-nesting.md)
 
 ## Getting hired
 
