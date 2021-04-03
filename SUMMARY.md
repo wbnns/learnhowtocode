@@ -160,6 +160,14 @@
   * [Router](deep-dives/react/router.md)
   * [Project: Shopping cart](deep-dives/react/project-shopping-cart.md)
   * [Advanced concepts](deep-dives/react/advanced-concepts.md)
+* [Ruby on Rails](deep-dives/ruby-on-rails/README.md)
+  * [Overview](deep-dives/ruby-on-rails/overview.md)
+  * [Heroku](deep-dives/ruby-on-rails/heroku.md)
+  * [Installing Rails](deep-dives/ruby-on-rails/installing-rails.md)
+  * [Basics](deep-dives/ruby-on-rails/basics/README.md)
+    * [Routing](deep-dives/ruby-on-rails/basics/routing.md)
+    * [Controllers](deep-dives/ruby-on-rails/basics/controllers.md)
+    * [Views](deep-dives/ruby-on-rails/basics/views.md)
 
 ## Getting hired
 
