@@ -1,4 +1,4 @@
-# Preparing
+# Preparing to find a job
 
 ## Getting started
 
