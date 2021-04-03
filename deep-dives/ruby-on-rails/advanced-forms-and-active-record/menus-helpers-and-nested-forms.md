@@ -1,4 +1,4 @@
-# Menus, helpers and nesting
+# Menus, helpers and nested forms
 
 ## Introduction
 

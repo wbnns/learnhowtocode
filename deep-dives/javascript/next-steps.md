@@ -1,6 +1,6 @@
 # Next steps
 
-## What's next
+## You're awesome
 
 This is the end! At this point, you should have a deep and nuanced understanding of web development. You know JavaScript works, how to build back-end using a framework of your choice, for example, Rails or NodeJS. Couple them with other knowledge you've gained so far, and you can create exceptional web applications!
 

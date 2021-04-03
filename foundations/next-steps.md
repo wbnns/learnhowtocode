@@ -1,6 +1,6 @@
 # Next steps
 
-## Congratulations
+## You did it
 
 That was quite a journey. Take a second and reflect on the fact that you've just learned the basics of at least three different languages and, if you had to, you could probably hack together a web page on your own already.
 

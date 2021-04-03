@@ -1,6 +1,6 @@
 # Next steps
 
-## Great job
+## Nice job
 
 HTML and CSS are actually surprisingly large topics, who would have thought? If you've made it this far, though, you're more than well on your way to front end development magic. You should be significantly more comfortable breaking down a webpage into its component pieces and then coding them with HTML and CSS. You have the tools necessary to identify an effective visual layout and then bring it to fruition.
 

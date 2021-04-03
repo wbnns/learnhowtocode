@@ -1,4 +1,4 @@
-# Heroku
+# Using Heroku
 
 ## Introduction
 
