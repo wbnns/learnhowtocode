@@ -1,4 +1,4 @@
-# Diving into the code
+# Organization
 
 ## Organizing your JavaScript code
 
