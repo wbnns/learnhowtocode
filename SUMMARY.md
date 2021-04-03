@@ -111,6 +111,15 @@
     * [Project: Restaurant](deep-dives/javascript/code/project-restaurant.md)
     * [Object Oriented Programming](deep-dives/javascript/code/object-oriented-programming.md)
     * [Project: Todo list](deep-dives/javascript/code/project-todo-list.md)
+    * [Linting](deep-dives/javascript/code/linting.md)
+    * [Menus and sliders](deep-dives/javascript/code/menus-and-sliders.md)
+    * [Forms](deep-dives/javascript/code/forms.md)
+    * [ES6 features](deep-dives/javascript/code/es6-features.md)
+* [React](deep-dives/react/README.md)
+  * [Overview](deep-dives/react/overview.md)
+  * [Props and State](deep-dives/react/props-and-state.md)
+  * [Render lists and handle inputs](deep-dives/react/render-lists-and-handle-inputs.md)
+  * [Project: CV](deep-dives/react/project-cv.md)
 
 ## Getting hired
 
