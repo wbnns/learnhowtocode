@@ -168,6 +168,7 @@
     * [Routing](deep-dives/ruby-on-rails/basics/routing.md)
     * [Controllers](deep-dives/ruby-on-rails/basics/controllers.md)
     * [Views](deep-dives/ruby-on-rails/basics/views.md)
+    * [Asset pipeline](deep-dives/ruby-on-rails/basics/asset-pipeline.md)
 
 ## Getting hired
 
