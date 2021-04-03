@@ -122,6 +122,10 @@
   * [Project: CV](deep-dives/react/project-cv.md)
   * [Lifecycle methods](deep-dives/react/lifecycle-methods.md)
   * [Hooks](deep-dives/react/hooks.md)
+  * [Project: Memory card](deep-dives/react/project-memory-card.md)
+  * [Router](deep-dives/react/router.md)
+  * [Project: Shopping cart](deep-dives/react/project-shopping-cart.md)
+  * [Advanced concepts](deep-dives/react/advanced-concepts.md)
 
 ## Getting hired
 
