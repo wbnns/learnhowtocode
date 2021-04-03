@@ -169,6 +169,7 @@
     * [Controllers](deep-dives/ruby-on-rails/basics/controllers.md)
     * [Views](deep-dives/ruby-on-rails/basics/views.md)
     * [Asset pipeline](deep-dives/ruby-on-rails/basics/asset-pipeline.md)
+    * [Deployment](deep-dives/ruby-on-rails/basics/deployment.md)
 
 ## Getting hired
 
