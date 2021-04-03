@@ -172,6 +172,7 @@
     * [Deployment](deep-dives/ruby-on-rails/basics/deployment.md)
     * [Project: Blog](deep-dives/ruby-on-rails/basics/project-blog.md)
   * [Active Record](deep-dives/ruby-on-rails/active-record.md)
+  * [Project: Upvote](deep-dives/ruby-on-rails/project-upvote.md)
 
 ## Getting hired
 
