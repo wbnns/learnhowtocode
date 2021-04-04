@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to make a basic version of the classic game, "Rock, Paper,
+  Scissors"  with JavaScript.
+---
+
 # Project: Rock paper scissors
 
 ## Building a rock paper scissors game

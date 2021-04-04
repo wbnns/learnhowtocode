@@ -1,3 +1,9 @@
+---
+description: >-
+  In this project, we'll walk through the basic Git workflow that you will use
+  in all your projects.
+---
+
 # Project: Practicing Git
 
 ## Git started

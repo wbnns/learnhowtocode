@@ -1,3 +1,9 @@
+---
+description: >-
+  The command line is like our base of operations, from which we can launch
+  other programs and interact with them.
+---
+
 # Command line basics
 
 ## Entering the matrix

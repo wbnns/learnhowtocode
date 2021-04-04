@@ -1,3 +1,10 @@
+---
+description: >-
+  There are many different opinions on what constitutes great JavaScript code,
+  but there are several things you can do to ensure that yours is hopefully easy
+  for others to read.
+---
+
 # Writing clean code
 
 ## The importance of clean code

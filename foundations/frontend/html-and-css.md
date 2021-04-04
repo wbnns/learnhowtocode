@@ -1,3 +1,9 @@
+---
+description: >-
+  HTML codifies the structure and format of a page. CSS codifies the style to
+  determine what it will look like.
+---
+
 # HTML and CSS
 
 ## Getting started

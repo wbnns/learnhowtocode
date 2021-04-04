@@ -1,3 +1,7 @@
+---
+description: Learn the basics about variables and frequently used operators.
+---
+
 # JavaScript
 
 ## Learning outcomes

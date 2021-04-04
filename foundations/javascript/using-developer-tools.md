@@ -1,3 +1,9 @@
+---
+description: >-
+  Developer tools save you lots of time by helping you debug and analyze the
+  effects of code in relation to web pages.
+---
+
 # Using Developer Tools
 
 ## Overview

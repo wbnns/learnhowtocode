@@ -1,3 +1,10 @@
+---
+description: >-
+  A frontend developer works between a designer on one end and a backend
+  developer on the other, translating the design into code and plugging the data
+  from the back-end into the right spots.
+---
+
 # Frontend
 
 ## Getting started

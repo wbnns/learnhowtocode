@@ -1,3 +1,9 @@
+---
+description: >-
+  Functions bundle code into reusable chunks that can be utilized throughout an
+  application.
+---
+
 # Functions
 
 ## How functions work

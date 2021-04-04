@@ -1,3 +1,9 @@
+---
+description: >-
+  The Document Object Model is a tree-like representation of the contents on a
+  webpage or document.
+---
+
 # The DOM
 
 ## Overview

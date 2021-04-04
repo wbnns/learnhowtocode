@@ -1,3 +1,10 @@
+---
+description: >-
+  The best way to improve your problem solving ability is by building experience
+  by making lots of programs. The more practice you have the better you'll be
+  prepared to solve real world problems.
+---
+
 # Problem solving
 
 ## A definitive way to solve problems

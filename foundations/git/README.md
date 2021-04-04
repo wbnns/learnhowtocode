@@ -1,3 +1,9 @@
+---
+description: >-
+  Git is a very popular version control system. You'll become very familiar with
+  this piece of software throughout the curriculum.
+---
+
 # Git
 
 ## Getting started

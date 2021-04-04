@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn the basics about objects and more detailed ways to leverage arrays in
+  JavaScript.
+---
+
 # Objects and More Arrays
 
 ## Objects

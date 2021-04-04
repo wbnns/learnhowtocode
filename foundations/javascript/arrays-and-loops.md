@@ -1,3 +1,7 @@
+---
+description: Learn the basics about arrays and loops in JavaScript.
+---
+
 # Arrays and Loops
 
 ## Arrays

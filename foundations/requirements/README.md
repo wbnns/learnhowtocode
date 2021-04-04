@@ -1,3 +1,10 @@
+---
+description: >-
+  Having the experience of setting up a development environment to run the code
+  you'll write is an invaluable, real-world skill you'll carry with you for the
+  rest of your career.
+---
+
 # Requirements
 
 ## Getting started

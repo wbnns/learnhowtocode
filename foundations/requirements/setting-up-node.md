@@ -1,3 +1,9 @@
+---
+description: >-
+  Node allows you to run JavaScript outside of your web browser, enabling you to
+  build all kinds of applications.
+---
+
 # Setting up Node
 
 ## Node Version Manager

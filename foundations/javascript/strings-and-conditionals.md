@@ -1,3 +1,7 @@
+---
+description: 'Learn the basics about strings, booleans and conditionals in JavaScript.'
+---
+
 # Strings and Conditionals
 
 ## Overview

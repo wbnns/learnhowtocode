@@ -1,3 +1,10 @@
+---
+description: >-
+  This curriculum only supports using a laptop, desktop or supported Chromebook.
+  We cannot help you set up a developer environment on a RaspberryPi or any
+  other device.
+---
+
 # Prerequisites
 
 ## Getting started

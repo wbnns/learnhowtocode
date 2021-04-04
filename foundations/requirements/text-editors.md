@@ -1,3 +1,9 @@
+---
+description: >-
+  You can think of code editors as specialized web development tools. They are
+  highly customizable and offer many features that will make your life easier.
+---
+
 # Text editors
 
 ## Why a text editor?
