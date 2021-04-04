@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to build the first few steps of a checkout process for a one-way
+  flight.
+---
+
 # Project: Ticket agent
 
 ## Introduction

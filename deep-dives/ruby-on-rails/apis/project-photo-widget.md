@@ -1,3 +1,7 @@
+---
+description: Learn how to build a photo widget to display photos from your Flickr feed.
+---
+
 # Project: Photo widget
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Learn more about advanced topics when working with Rails.
+---
+
 # Advanced topics
 
 ## Introduction

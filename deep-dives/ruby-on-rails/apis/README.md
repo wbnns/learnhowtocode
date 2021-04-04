@@ -1,3 +1,9 @@
+---
+description: >-
+  In this lesson, we'll cover how to build your own API. In the following
+  lesson, we'll cover how to interface with the APIs of other applications.
+---
+
 # APIs
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Learn how to explore the Flickr API to retrieve pictures of animals.
+---
+
 # Project: Animals
 
 ## Exploring the Flickr API

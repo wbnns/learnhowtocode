@@ -1,3 +1,9 @@
+---
+description: >-
+  The point of this course has been to get you to a place where you can start
+  thinking about actually getting that first job.
+---
+
 # Next steps
 
 ## Great work

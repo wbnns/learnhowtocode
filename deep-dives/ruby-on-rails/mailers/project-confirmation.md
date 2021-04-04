@@ -1,3 +1,10 @@
+---
+description: >-
+  You'll be dusting off your Ticket agent project (or one of the other projects
+  that has users registering) and having it send out a "You have booked your
+  ticket" email to all Passengers.
+---
+
 # Project: Confirmation
 
 ## Objective

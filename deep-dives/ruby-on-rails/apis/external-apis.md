@@ -1,3 +1,10 @@
+---
+description: >-
+  This lesson will cover common characteristics of external APIs (those you'll
+  most likely encounter throughout the web) and methods for authenticating with
+  them.
+---
+
 # External APIs
 
 ## Introduction

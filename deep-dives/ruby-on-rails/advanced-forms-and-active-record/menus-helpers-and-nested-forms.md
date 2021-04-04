@@ -1,3 +1,9 @@
+---
+description: >-
+  Let's take a look at some of the options you have to make a form handle
+  multiple model objects.
+---
+
 # Menus, helpers and nested forms
 
 ## Introduction

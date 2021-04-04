@@ -1,3 +1,10 @@
+---
+description: >-
+  You'll be building a social network. As usual, any additional styling will be
+  up to you but the really important stuff is to get the data and back end
+  working properly.
+---
+
 # Project: Social network
 
 ## Introduction

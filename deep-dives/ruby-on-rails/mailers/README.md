@@ -1,3 +1,9 @@
+---
+description: >-
+  In this lesson we'll cover the process that generates emails in Rails, and
+  you'll get a chance to send your own.
+---
+
 # Mailers
 
 ## Introduction

@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to build a site that allows users to create events and then manage
+  user signups.
+---
+
 # Project: Private Events
 
 ## Introduction

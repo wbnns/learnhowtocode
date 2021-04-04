@@ -1,3 +1,9 @@
+---
+description: >-
+  Associations are all over the place in Rails and are incredibly useful because
+  of all the new methods they give you access to.
+---
+
 # Associations
 
 ## Introduction
@@ -263,7 +269,7 @@ This is just the most common among several options to specify for `:dependent`. 
 
 ## Conclusion
 
-In this lesson we covered some of the more advanced associations material. Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to. As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble. Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
+In this lesson we covered some of the more advanced associations material. Associations are all over the place in Rails and are incredibly useful because of all the new methods they give you access to. As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble. Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
 
 ## Additional resources
 

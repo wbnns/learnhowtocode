@@ -1,7 +1,7 @@
 ---
 description: >-
-  With what you know already you could start putting together some basic
-  websites, but we're here to help you get a lot further than that.
+  With what you now know you could start putting together some basic websites,
+  but we're here to help you get a lot further than that!
 ---
 
 # Next steps

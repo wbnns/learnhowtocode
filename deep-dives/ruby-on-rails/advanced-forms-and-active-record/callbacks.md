@@ -1,3 +1,9 @@
+---
+description: >-
+  Callbacks provide hooks into specific points (either before, after, or
+  sometimes "around") in the life cycle of an object.
+---
+
 # Callbacks
 
 ## Introduction
