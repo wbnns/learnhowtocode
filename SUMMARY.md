@@ -158,6 +158,7 @@
   * [Hashes](deep-dives/ruby/hashes.md)
   * [Methods](deep-dives/ruby/methods.md)
   * [Enumerables](deep-dives/ruby/enumerables.md)
+  * [More enumerables](deep-dives/ruby/more-enumerables.md)
 * [Ruby on Rails](deep-dives/ruby-on-rails/README.md)
   * [Using Heroku](deep-dives/ruby-on-rails/heroku.md)
   * [Installing Rails](deep-dives/ruby-on-rails/installing-rails.md)
