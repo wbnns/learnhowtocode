@@ -1,3 +1,7 @@
+---
+description: The backend is the server side of a web application.
+---
+
 # Backend
 
 ## What is the backend?

@@ -1,3 +1,10 @@
+---
+description: >-
+  Frameworks help prevent repetition and provide great organization. They tend
+  to force you to organize your files and code in a way that keeps it highly
+  modular and really clean.
+---
+
 # Frameworks
 
 ## What are frameworks?

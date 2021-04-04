@@ -1,5 +1,5 @@
 ---
-description: Learn the basics about variables and frequently used operators.
+description: Learn the basics about variables and frequently used operators in JavaScript.
 ---
 
 # JavaScript
