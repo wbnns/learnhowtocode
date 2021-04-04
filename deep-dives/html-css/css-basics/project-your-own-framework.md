@@ -25,9 +25,3 @@ You'll be creating your own grid-based framework.
 5. Fill in the necessary details/images etc.
 6. Push your solution to GitHub.
 7. Have a frosty beverage, you're done with the HTML/CSS projects!
-
-## Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
-- Add some!
