@@ -1,3 +1,7 @@
+---
+description: Learn about lifecycle methods in React.
+---
+
 # Lifecycle methods
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Learn more about variables in Ruby.
+---
+
 # Variables
 
 ## Introduction

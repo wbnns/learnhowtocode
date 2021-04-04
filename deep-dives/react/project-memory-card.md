@@ -1,3 +1,7 @@
+---
+description: Learn how to build a memory card game.
+---
+
 # Project: Memory card
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Learn more about algorithms.
+---
+
 # More on algorithms
 
 ## Introduction

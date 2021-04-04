@@ -1,3 +1,9 @@
+---
+description: >-
+  An array is a collection of data that can contain any combination of
+  variables, numbers, strings, or other Ruby objects (including other arrays).
+---
+
 # Arrays
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Conditional statements control the flow of code.
+---
+
 # Conditionals
 
 ## Introduction

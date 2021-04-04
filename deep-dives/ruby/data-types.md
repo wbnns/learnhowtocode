@@ -1,3 +1,7 @@
+---
+description: Learn more about data types in Ruby.
+---
+
 # Data types
 
 ## Introduction

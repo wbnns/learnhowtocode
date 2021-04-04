@@ -1,3 +1,7 @@
+---
+description: Learn how to build a CV with React.
+---
+
 # Project: CV
 
 ## Introduction
@@ -23,5 +27,5 @@ So let's get started.
 6. Include a `styles` folder in your `src` directory for your CSS files. You'll need to import these in the component files to use them.
 7. Don't forget to push your solution to GitHub. You should be proud of your work and show it off to the world!
 
-Tip: If you're confused on how to deploy using GitHub Pages, take a look at [this article](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e)
+Tip: If you're confused on how to deploy using GitHub Pages, take a look at [this article](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e).
 

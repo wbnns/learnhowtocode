@@ -1,3 +1,9 @@
+---
+description: >-
+  Ruby hashes are collections of data, similar to objects in JavaScript and
+  dictionaries in Python.
+---
+
 # Hashes
 
 ## Introduction

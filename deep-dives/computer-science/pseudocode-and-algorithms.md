@@ -1,3 +1,7 @@
+---
+description: Learn about pseudocode and algorithms.
+---
+
 # Pseudocode and algorithms
 
 ## Introduction

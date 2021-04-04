@@ -1,3 +1,7 @@
+---
+description: Learn about recursion and algorithms.
+---
+
 # Recursion and algorithms
 
 ## Introduction

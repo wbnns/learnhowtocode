@@ -1,3 +1,9 @@
+---
+description: >-
+  Big O a kind of asymptotic notation that describes how an algorithm grows in
+  time or space in relation to the size of it's input.
+---
+
 # Big O
 
 ## Introduction

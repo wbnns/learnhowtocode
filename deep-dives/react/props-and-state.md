@@ -1,3 +1,7 @@
+---
+description: Learn more about props and state in React.
+---
+
 # Props and State
 
 ## Introduction

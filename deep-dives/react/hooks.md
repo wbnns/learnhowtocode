@@ -1,3 +1,7 @@
+---
+description: Learn about hooks in React.
+---
+
 # Hooks
 
 ## Introduction

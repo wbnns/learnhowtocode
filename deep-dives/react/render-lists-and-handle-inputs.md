@@ -1,3 +1,7 @@
+---
+description: Learn more about how to render lists and handle inputs in React.
+---
+
 # Render lists and handle inputs
 
 ## Introduction

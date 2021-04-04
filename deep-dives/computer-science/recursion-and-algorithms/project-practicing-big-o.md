@@ -1,3 +1,7 @@
+---
+description: 'Learn how to write insertion sort, linear and binary search methods.'
+---
+
 # Project: Practicing Big O
 
 ## Introduction
@@ -26,5 +30,15 @@ In your language of choice...
 
 Now that we figured out how to bring order to the chaos that is our data; let us be able to find what we want within said data with `linear search` and `binary search`.
 
-In your language of choice... 1. Write a method `#linear_search` which takes an array and a desired value, and returns the desired value if found, otherwise false. 1. If you unsure, we actually sneakily covered this very algorithm in our [previous lesson](http://localhost:3000/courses/computer-science/lessons/the-big-o) 2. Test this method against small arrays to ensure you've got it right. 3. Write a methond `#binary_search` which takes the same parameters and returns the same way as your `#linear_search`, 1. We also snuck this algorithm in our [previous lesson](http://localhost:3000/courses/computer-science/lessons/the-big-o) 4. Test this method against small _sorted_ arrays to ensure you've got it right. 5. Test both methods against small sorted arrays where you know you will or won't find your wanted value. 6. Test both methods against small, deliberately unsorted arrays. Do they both work? Why, or why not? 7. Test both methods against a very large, sorted array. Are their discrepancies in performance? Why, or why not?
+In your language of choice... 
+
+1. Write a method `#linear_search` which takes an array and a desired value, and returns the desired value if found, otherwise false.
+2. If you unsure, we actually sneakily covered this very algorithm in our [previous lesson](http://localhost:3000/courses/computer-science/lessons/the-big-o).
+3. Test this method against small arrays to ensure you've got it right.
+4. Write a methond `#binary_search` which takes the same parameters and returns the same way as your `#linear_search`,
+5. We also snuck this algorithm in our [previous lesson](http://localhost:3000/courses/computer-science/lessons/the-big-o)
+6. Test this method against small _sorted_ arrays to ensure you've got it right.
+7. Test both methods against small sorted arrays where you know you will or won't find your wanted value.
+8. Test both methods against small, deliberately unsorted arrays. Do they both work? Why, or why not?
+9. Test both methods against a very large, sorted array. Are their discrepancies in performance? Why, or why not?
 

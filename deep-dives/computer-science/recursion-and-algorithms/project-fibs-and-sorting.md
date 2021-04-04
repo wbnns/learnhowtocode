@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to write a method to find the Fibonacci sequence for a number, and
+  also how to write a merge sort algorithm.
+---
+
 # Project: Fibs and sorting
 
 ## Introduction

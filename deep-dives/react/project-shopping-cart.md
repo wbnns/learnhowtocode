@@ -1,3 +1,7 @@
+---
+description: Learn how to build a shopping cart.
+---
+
 # Project: Shopping cart
 
 ## Introduction

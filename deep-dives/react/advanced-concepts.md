@@ -1,3 +1,7 @@
+---
+description: Learn more about advanced concepts in React.
+---
+
 # Advanced concepts
 
 ## Introduction

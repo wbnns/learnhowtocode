@@ -1,3 +1,7 @@
+---
+description: All applications are fundamentally based on input and output.
+---
+
 # Input and Output
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Loops repeat an action in code based on one or more conditions.
+---
+
 # Loops
 
 ## Introduction
