@@ -1,3 +1,9 @@
+---
+description: >-
+  Writing tests ensures that code that comes after has clearer design, purpose,
+  and quality.
+---
+
 # Testing
 
 ## Introduction

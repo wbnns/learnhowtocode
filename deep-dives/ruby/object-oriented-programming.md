@@ -1,3 +1,7 @@
+---
+description: Learn more about object oriented programming.
+---
+
 # Object oriented programming
 
 ## Introduction

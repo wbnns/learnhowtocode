@@ -1,3 +1,10 @@
+---
+description: >-
+  The Asset Pipeline isn't something that you often think about, especially when
+  just building little toy apps, but it becomes important to understand as soon
+  as you want to deploy your application.
+---
+
 # Asset pipeline
 
 ## Introduction

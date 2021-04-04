@@ -1,3 +1,7 @@
+---
+description: Learn how to build a tic tac toe game.
+---
+
 # Project: Tic Tac Toe
 
 ## Introduction

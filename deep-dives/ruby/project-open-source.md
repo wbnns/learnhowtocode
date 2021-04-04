@@ -1,3 +1,7 @@
+---
+description: Learn how to make a contribution to an open source project on GitHub.
+---
+
 # Project: Open Source
 
 ## Introduction

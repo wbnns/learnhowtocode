@@ -1,3 +1,9 @@
+---
+description: >-
+  Routing is handled by the router, which is responsible for matching web
+  requests with the appropriate controller actions to run them.
+---
+
 # Routing
 
 ## Introduction

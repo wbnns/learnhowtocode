@@ -1,3 +1,7 @@
+---
+description: Learn how to build a merge sort algorithm.
+---
+
 # Project: Merge Sort
 
 ## Practice

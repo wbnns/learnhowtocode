@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to build a simple command line Hangman game where one player plays
+  against the computer.
+---
+
 # Project: Hangman
 
 ## Introduction

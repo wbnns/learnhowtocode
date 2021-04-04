@@ -1,3 +1,9 @@
+---
+description: >-
+  The debugging process is all about confirming assumptions about your code
+  until you find something that goes against your assumptions.
+---
+
 # Debugging
 
 ## Introduction

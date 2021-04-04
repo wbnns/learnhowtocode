@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn everything you need to know in order to have a good grasp on the
+  fundamentals of Computer Science.
+---
+
 # Computer Science
 
 ## Getting started

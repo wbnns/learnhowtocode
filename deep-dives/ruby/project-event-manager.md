@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to build an event management app that pulls information from an
+  external API.
+---
+
 # Project: Event manager
 
 _This tutorial has been adapted from The Turing School's and Jump Start Lab's_ [_Event Manager_](http://tutorials.jumpstartlab.com/projects/eventmanager.html) _and updated to use Google's Civic Information API._

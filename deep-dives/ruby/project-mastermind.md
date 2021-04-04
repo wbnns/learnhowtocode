@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to build a Mastermind game from the command line where you have 12
+  turns to guess the secret code.
+---
+
 # Project: Mastermind
 
 ## Introduction

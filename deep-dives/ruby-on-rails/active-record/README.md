@@ -1,3 +1,9 @@
+---
+description: >-
+  Active Record is a powerful part of Rails and one of the trickiest to get the
+  hang of. But don't worry, this section will make it easier.
+---
+
 # Active Record
 
 ## Introduction

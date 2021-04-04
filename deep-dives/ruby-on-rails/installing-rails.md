@@ -1,3 +1,7 @@
+---
+description: 'In this project, we''re going to build a fully functional Rails application.'
+---
+
 # Installing Rails
 
 ## Introduction

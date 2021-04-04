@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn everything you need to know in order to start building and styling
+  content for the web.
+---
+
 # HTML / CSS
 
 ## Getting started

@@ -1,3 +1,9 @@
+---
+description: >-
+  Working with files gets you into the idea of serialization, which basically
+  just means converting your data into a storable format like a string.
+---
+
 # Serialization
 
 ## Introduction

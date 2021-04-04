@@ -1,7 +1,5 @@
 ---
-description: >-
-  Start with your network, even if it's small. Reach out to your Facebook
-  friends and friends-of-friends to see if anyone's hiring.
+description: Learn everything you need to know about applying and interviewing for a job.
 ---
 
 # Applying and interviewing

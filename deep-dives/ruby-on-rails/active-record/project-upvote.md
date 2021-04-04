@@ -1,3 +1,7 @@
+---
+description: Learn how to build a website that lets users upvote content.
+---
+
 # Project: Upvote
 
 ## Introduction

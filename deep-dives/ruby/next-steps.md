@@ -1,3 +1,10 @@
+---
+description: >-
+  If you know Ruby, the world is sort of opened up for you. Nervous about Rails?
+  Don't be. Rails is just Ruby that's been packaged up to do lots of stuff for
+  you.
+---
+
 # Next steps
 
 ## You know a lot about Ruby

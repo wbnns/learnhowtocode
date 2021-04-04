@@ -1,3 +1,7 @@
+---
+description: Learn how to build a bubble sort algorithm.
+---
+
 # Project: Bubble sort
 
 ## Introduction

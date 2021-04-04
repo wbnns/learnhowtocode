@@ -1,3 +1,9 @@
+---
+description: >-
+  A quick overview to get a better understanding of how the web works before
+  diving deeper into Rails.
+---
+
 # Basics
 
 ## Introduction

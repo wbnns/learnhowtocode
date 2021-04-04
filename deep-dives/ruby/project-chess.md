@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to build a command line Chess game where two players can play
+  against each other.
+---
+
 # Project: Chess
 
 ## Introduction

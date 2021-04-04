@@ -1,3 +1,10 @@
+---
+description: >-
+  RSpec and the "red-green-refactor" cycle will allow you to code with
+  confidence, knowing that your classes and their behaviors continue to meet
+  your specified expectations.
+---
+
 # RSpec
 
 ## Introduction
@@ -202,7 +209,7 @@ Finished in 0.0032 seconds (files took 0.14864 seconds to load)
 1 example, 0 failures
 ```
 
-At this point, refactoring isn't necessary. The `#add` method is essentially a one line method. As you progress in your Ruby learning, however, you might find your methods getting more complex, and you might find that you have to make extra efforts to abide by \[SOLID\]\([https://en.wikipedia.org/wiki/SOLID\_\(object-oriented\_design\)](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)\) principles. When that time comes, using RSpec and the "red-green-refactor" cycle will allow you to code with confidence, knowing that your classes and their behaviors continue to meet your specified expectations.
+At this point, refactoring isn't necessary. The `#add` method is essentially a one line method. As you progress in your Ruby learning, however, you might find your methods getting more complex, and you might find that you have to make extra efforts to abide by [SOLID principles](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29). When that time comes, using RSpec and the "red-green-refactor" cycle will allow you to code with confidence, knowing that your classes and their behaviors continue to meet your specified expectations.
 
 ## Assignment
 

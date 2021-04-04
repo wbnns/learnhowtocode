@@ -1,3 +1,7 @@
+---
+description: A straightforward setup for deploying web applications to the internet.
+---
+
 # Using Heroku
 
 ## Introduction

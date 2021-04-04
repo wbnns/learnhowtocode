@@ -1,3 +1,7 @@
+---
+description: Learn how to build a linked list.
+---
+
 # Project: Linked Lists
 
 ## Introduction

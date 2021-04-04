@@ -1,3 +1,9 @@
+---
+description: >-
+  This section should help you take the first steps towards expanding your Git
+  toolkit and understanding what's actually going on under the hood with Git.
+---
+
 # Git
 
 ## Introduction

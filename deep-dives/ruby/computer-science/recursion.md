@@ -1,3 +1,7 @@
+---
+description: Learn more about when and how to use recursion.
+---
+
 # Recursion
 
 ## Introduction

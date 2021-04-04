@@ -1,3 +1,9 @@
+---
+description: >-
+  In this project, you'll be building a private site where your members can
+  write anonymous posts.
+---
+
 # Project: Password
 
 ## Introduction

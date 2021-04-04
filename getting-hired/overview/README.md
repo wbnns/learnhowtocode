@@ -1,7 +1,5 @@
 ---
-description: >-
-  A structured path to follow which should help you avoid some of the pitfalls
-  of just diving into the process without a plan
+description: Learn everything you need to know about preparing to find a job.
 ---
 
 # Preparing to find a job

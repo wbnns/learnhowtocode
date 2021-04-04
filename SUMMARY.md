@@ -200,7 +200,6 @@
     * [Cookies, sessions, and authentication](deep-dives/ruby-on-rails/forms/cookies-sessions-and-authentication.md)
     * [Project: Password](deep-dives/ruby-on-rails/forms/project-password.md)
   * [Advanced forms and Active Record](deep-dives/ruby-on-rails/advanced-forms-and-active-record/README.md)
-    * [Queries](deep-dives/ruby-on-rails/advanced-forms-and-active-record/queries.md)
     * [Associations](deep-dives/ruby-on-rails/advanced-forms-and-active-record/associations.md)
     * [Project: Private Events](deep-dives/ruby-on-rails/advanced-forms-and-active-record/project-private-events.md)
     * [Callbacks](deep-dives/ruby-on-rails/advanced-forms-and-active-record/callbacks.md)

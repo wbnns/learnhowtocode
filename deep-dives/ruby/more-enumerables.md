@@ -1,3 +1,7 @@
+---
+description: Learn more about predicate enumerable methods.
+---
+
 # More enumerables
 
 ## Introduction

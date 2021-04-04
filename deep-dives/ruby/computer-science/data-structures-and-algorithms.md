@@ -1,3 +1,7 @@
+---
+description: Learn more about data structures and basic algortihms.
+---
+
 # Data structures and algorithms
 
 ## Introduction

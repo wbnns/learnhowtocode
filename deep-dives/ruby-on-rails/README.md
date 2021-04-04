@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn everything you need to know in order to start building web applications
+  with Ruby on Rails.
+---
+
 # Ruby on Rails
 
 ## Introduction

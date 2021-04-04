@@ -1,3 +1,7 @@
+---
+description: Views make up the user-facing side of your app.
+---
+
 # Views
 
 ## Introduction

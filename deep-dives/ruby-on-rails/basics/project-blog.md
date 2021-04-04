@@ -1,3 +1,7 @@
+---
+description: Learn how to build a blog with Rails.
+---
+
 # Project: Blog
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Learn more about some of the most frequently used enumerable methods.
+---
+
 # Enumerables
 
 ## Introduction

@@ -1,3 +1,10 @@
+---
+description: >-
+  Learn how to build a method called "knight_moves" that shows the simplest
+  possible way to get from one square to another by outputting all squares the
+  knight will stop on along the way.
+---
+
 # Project: Knight Travails
 
 ## Introduction

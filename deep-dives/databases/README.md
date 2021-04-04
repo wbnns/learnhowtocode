@@ -1,3 +1,7 @@
+---
+description: Learn everything you need to know in order to start working with databases.
+---
+
 # Databases
 
 ## What are databases?

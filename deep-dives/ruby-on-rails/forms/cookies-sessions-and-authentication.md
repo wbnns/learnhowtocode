@@ -1,3 +1,9 @@
+---
+description: >-
+  Authentication can appear to be a fairly complicated topic -- there are a lot
+  of moving parts. But this section will help you understand how it works.
+---
+
 # Cookies, sessions, and authentication
 
 ## Introduction

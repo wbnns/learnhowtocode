@@ -1,3 +1,7 @@
+---
+description: Controllers are the equivalent of a "middle-person" in your application
+---
+
 # Controllers
 
 ## Introduction
