@@ -1,6 +1,6 @@
 ---
 description: >-
-  Learn How to Code is a free resource based on The Odin Project's open
+  Learn how to code is a free resource based on The Odin Project's open
   curriculum for learning web development.
 ---
 
