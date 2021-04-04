@@ -182,6 +182,8 @@
   * [Project: Four in a row](deep-dives/ruby/project-four-in-a-row.md)
   * [Git](deep-dives/ruby/git.md)
   * [Project: Open Source](deep-dives/ruby/project-open-source.md)
+  * [Project: Chess](deep-dives/ruby/project-chess.md)
+  * [Next steps](deep-dives/ruby/next-steps.md)
 * [Ruby on Rails](deep-dives/ruby-on-rails/README.md)
   * [Using Heroku](deep-dives/ruby-on-rails/heroku.md)
   * [Installing Rails](deep-dives/ruby-on-rails/installing-rails.md)
