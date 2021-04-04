@@ -10,9 +10,9 @@ Before we start learning, we'll need to install Ruby first. This section is wher
 
 Before continuing, let's review a few best practices to keep in mind:
 
-* Copy and paste the commands to avoid typos.
-* Follow the directions closely, and don't skip over any sections.
-* **Do NOT use `sudo`.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances you might see a message in the terminal telling you to use sudo and install something with `apt` ignore that and follow _our_ instructions for now.
+- Copy and paste the commands to avoid typos.
+- Follow the directions closely, and don't skip over any sections.
+- **Do NOT use `sudo`.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances you might see a message in the terminal telling you to use sudo and install something with `apt` ignore that and follow _our_ instructions for now.
 
 Now, let's get started!
 
@@ -96,8 +96,6 @@ rbenv -v
 ```bash
 rbenv 1.1.2-2-g4e92322
 ```
-
-If you do not get a version number at all \(anything not starting with `rbenv 1...`\), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### **Step 2.2: Install Ruby**
 
@@ -213,7 +211,7 @@ eval "$(rbenv init -)"
 
 You'll do as it suggests by running either of the following commands in the terminal.
 
-If the previous message stated you should append to your bash\_profile then run:
+If the previous message stated you should append to your bash_profile then run:
 
 ```bash
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
@@ -259,4 +257,3 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 If you're using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC \(Ctrl+Shift+X\), search "Ruby", and click install on the first one. Congratulations, the extension is now installed \(you can also uninstall the extension from here\).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for \(your IDE here\)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages \(not just Ruby\).
-

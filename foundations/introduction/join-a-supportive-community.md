@@ -40,11 +40,11 @@ In addition, when you ask your questions, you should help the community help you
 
 When asking your question, please remember to include the context:
 
-* What do you think the problem is?
-* What exactly do you want to happen?
-* What is actually happening?
-* How did you get there?
-* What have you tried so far?
+- What do you think the problem is?
+- What exactly do you want to happen?
+- What is actually happening?
+- How did you get there?
+- What have you tried so far?
 
 If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
 
@@ -90,27 +90,24 @@ Your Colorful Code
 
 ### Chat features
 
-* Have fun with giphys: type `/giphy hi` to say hi to everyone.
-* Type `/help` for more information on chat commands.
-* Show your appreciation to those who help you with `@username ++`.
-* Don't forget to visit all the available rooms!
+- Have fun with giphys: type `/giphy hi` to say hi to everyone.
+- Type `/help` for more information on chat commands.
+- Show your appreciation to those who help you with `@username ++`.
+- Don't forget to visit all the available rooms!
 
 ## Assignment
 
 1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 2. In a moment we're going to ask you to join The Odin Project's Discord community, here are some guidelines before you dive in:
-   * **Ping \(@user\) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.    
-   * **Don't 'Bomb' Chats:** Don't send multiple messages in a row, type out your whole message, then push send.    
-   * **Don't Exclude Anyone:**    These are public chats, if someone joins in on a conversation, include them!        
-   * **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
-   * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
-   * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
-   * **Read the Rules:** Upon joining, you will find yourself in the "\#Rules" channel. Please read the rules!
+   - **Ping \(@user\) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.
+   - **Don't 'Bomb' Chats:** Don't send multiple messages in a row, type out your whole message, then push send.
+   - **Don't Exclude Anyone:** These are public chats, if someone joins in on a conversation, include them!
+   - **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
+   - **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all.
+   - **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
+   - **Read the Rules:** Upon joining, you will find yourself in the "\#Rules" channel. Please read the rules!
 3. Finally, sign in to The Odin Project's [Discord server](https://discord.gg/fbFCkYabZB). Say hello! They've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. They have chat rooms for many development topics and other things. Log into the chat and start exploring!
 
    **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
 
-   * Discord Settings &gt; Connections &gt; Click GitHub icon &gt; Allow Access &gt; Make sure "Display on profile" is toggled on.
-
-_The content on this page is based on The Odin Project's_ [_open curriculum_](https://github.com/TheOdinProject/curriculum) _for learning web development._
-
+   - Discord Settings &gt; Connections &gt; Click GitHub icon &gt; Allow Access &gt; Make sure "Display on profile" is toggled on.

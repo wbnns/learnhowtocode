@@ -15,11 +15,11 @@ In the previous lesson, we established the utility of [test driven development](
 
 _Look through these now and use them to guide your learning. By the end of this lesson, expect to:_
 
-* Know what RSpec is
-* Know how to install RSpec
-* Understand the basic RSpec syntax:
-  * `describe`
-  * `it`
+- Know what RSpec is
+- Know how to install RSpec
+- Understand the basic RSpec syntax:
+  - `describe`
+  - `it`
 
 ## RSpec
 
@@ -50,7 +50,7 @@ That's it. Within two steps, you're up and running with RSpec. That wasn't so ha
 
 ### **Basic syntax**
 
-How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby\_testing", change into it, and initiate RSpec.
+How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby_testing", change into it, and initiate RSpec.
 
 ```text
 $ mkdir ruby_testing && cd ruby_testing
@@ -80,8 +80,8 @@ Let's add our first test. Let's say we want to create a calculator with a few me
 #spec/calculator_spec.rb
 
 describe Calculator do
-  describe "#add" do
-    it "returns the sum of two numbers" do
+  describe '#add' do
+    it 'returns the sum of two numbers' do
       calculator = Calculator.new
       expect(calculator.add(5, 2)).to eql(7)
     end
@@ -104,7 +104,7 @@ end
 The `it` keyword defines an individual example \(aka, test\). `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of RSpec's equality [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), `eql`:
 
 ```ruby
-  expect(calculator.add(5, 2)).to eql(7)
+expect(calculator.add(5, 2)).to eql(7)
 ```
 
 Simple, isn't it? One more time, from the top:
@@ -146,8 +146,7 @@ So our first test returned an error. This is unsurprising. `NameError` is essent
 #lib/calculator.rb
 
 class Calculator
-  def add(a,b)
-  end
+  def add(a, b); end
 end
 ```
 
@@ -155,7 +154,7 @@ Finally, we must also tell the spec where the `Calculator` class is being define
 
 ```ruby
 #spec/calculator_spec.rb
-require './lib/calculator'  #=> add this
+require './lib/calculator' #=> add this
 
 describe Calculator do
   #...
@@ -194,8 +193,8 @@ Getting this method to "green" shouldn't be too difficult. RSpec clearly provide
 #lib/calculator.rb
 
 class Calculator
-  def add(a,b)
-    a + b         #=> add this
+  def add(a, b)
+    a + b #=> add this
   end
 end
 ```
@@ -221,13 +220,13 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
    #spec/calculator_spec.rb
 
    describe Calculator do
-     describe "#add" do
-       it "returns the sum of two numbers" do
+     describe '#add' do
+       it 'returns the sum of two numbers' do
          # removed for brevity
        end
 
        # add this
-       it "returns the sum of more than two numbers" do
+       it 'returns the sum of more than two numbers' do
          calculator = Calculator.new
          expect(calculator.add(2, 5, 7)).to eql(14)
        end
@@ -243,10 +242,9 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson
-* For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
-* Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
-* Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
-* The [RSpec Cheat Sheet](https://www.dropbox.com/s/mij3d0bhi29outc/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
-* Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from another Odin Project contributor.
-
+- [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson
+- For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
+- Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
+- Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
+- The [RSpec Cheat Sheet](https://www.dropbox.com/s/mij3d0bhi29outc/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
+- Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from an Odin Project contributor.

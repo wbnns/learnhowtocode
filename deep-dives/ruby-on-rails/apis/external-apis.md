@@ -15,26 +15,26 @@ Most popular services offer APIs so developers can interface with them \(they lo
 
 If you go to the documentation for an API, it can sometimes be a bit overwhelming because much of the material sort of assumes that you know what you're doing, but some are definitely better than others. There are also elements that are common across almost all of them. The more you work with APIs \(and get the hang of the authentication flow\), the easier they get. You'll be making mashups in no time.
 
-This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth. Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation. If you find great free learning resources that explain APIs, please let us know [\(make a pull request and add an additional resource at the bottom of this page\)](https://github.com/TheOdinProject/curriculum)!
+This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth. Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.
 
 ## Learning outcomes
 
 Look through these now and then use them to test yourself after doing the assignment.
 
-* What's the best way to locate an API's docs?
-* What are the steps you'll almost always have to go through when setting up your app to use an API?
-* What is an API key?
-* How is API use typically controlled?
-* How do you avoid including an API's secret token in your GitHub repo \(e.g. hard coding it\)?
-* Why is it important to know which API version you're using?
-* What is a RESTful API and why does that make your life easier?
-* What \(basically\) is OAuth?
-* Why would a user prefer to sign into your site using Facebook instead of giving you a new password?
-* How \(basically\) does this process work from the user's perspective?
-* How \(basically\) does this process work from your \(the application developer's\) perspective?
-* What are the basic rules of thumb for not abusing APIs?
-* What is OmniAuth and why does it save you tons of time/pain?
-* What is an SDK and why are they useful for working with APIs?
+- What's the best way to locate an API's docs?
+- What are the steps you'll almost always have to go through when setting up your app to use an API?
+- What is an API key?
+- How is API use typically controlled?
+- How do you avoid including an API's secret token in your GitHub repo \(e.g. hard coding it\)?
+- Why is it important to know which API version you're using?
+- What is a RESTful API and why does that make your life easier?
+- What \(basically\) is OAuth?
+- Why would a user prefer to sign into your site using Facebook instead of giving you a new password?
+- How \(basically\) does this process work from the user's perspective?
+- How \(basically\) does this process work from your \(the application developer's\) perspective?
+- What are the basic rules of thumb for not abusing APIs?
+- What is OmniAuth and why does it save you tons of time/pain?
+- What is an SDK and why are they useful for working with APIs?
 
 ## First steps
 
@@ -48,10 +48,10 @@ You'll typically also get a "secret key" or similarly named code. Whereas the AP
 
 Most APIs require a different type of "security clearance" for different requests:
 
-1. You can usually make innocuous requests like asking for Tweets \(with Twitter's API of course\) with straightforward and unauthenticated GET requests.  You can make these from any command line or a browser tool like [Chrome's Rest Client](http://getpostman.com). These types of API requests are usually severely rate limited to incentivize you to sign up.  
+1. You can usually make innocuous requests like asking for Tweets \(with Twitter's API of course\) with straightforward and unauthenticated GET requests. You can make these from any command line or a browser tool like [Chrome's Rest Client](http://getpostman.com). These types of API requests are usually severely rate limited to incentivize you to sign up.
 2. The next layer is making requests that include your API key. These are still usually fairly innocuous things \(like getting public data\) and limited by the API's pricing tiers.
-3. More sensitive requests like asking for specific user data or submitting/modifying/deleting data will likely require you to use an authentication process involving your secret token.  We'll cover the basics of this in the project.  Rates for these requests are subject to the API pricing tiers.
-4. Oftentimes, you actually want to make requests on behalf of a user.  For instance, showing a user a dashboard of all his tweets and Facebook posts together would require asking Twitter for that user's tweets and Facebook for that user's posts.  This can involve a LOT of requests over a large user base, but luckily you're actually able to make them on the user's behalf by asking for the user's permission.  We'll cover this as well later, but basically you send the user to the API provider's site to sign in, then the API provider will give you a user-specific token to use when making requests on their behalf in the future.  Rates for this are usually more advantageous because they are covered in a per-user bucket.  We typically use the OAuth protocol for this, as described below.
+3. More sensitive requests like asking for specific user data or submitting/modifying/deleting data will likely require you to use an authentication process involving your secret token. We'll cover the basics of this in the project. Rates for these requests are subject to the API pricing tiers.
+4. Oftentimes, you actually want to make requests on behalf of a user. For instance, showing a user a dashboard of all his tweets and Facebook posts together would require asking Twitter for that user's tweets and Facebook for that user's posts. This can involve a LOT of requests over a large user base, but luckily you're actually able to make them on the user's behalf by asking for the user's permission. We'll cover this as well later, but basically you send the user to the API provider's site to sign in, then the API provider will give you a user-specific token to use when making requests on their behalf in the future. Rates for this are usually more advantageous because they are covered in a per-user bucket. We typically use the OAuth protocol for this, as described below.
 
 ## Versions
 
@@ -95,9 +95,9 @@ Basically \(still using Facebook as an example\):
 
 1. User tries to access a page on your app and you ask the user to login
 2. User chooses the "Login With Facebook" option
-3. User is redirected to a Facebook page asking them to review the permissions you are asking for and telling them to sign in.  The URI will contain parameters that tell Facebook who your application is and possibly which URI they should submit their response to \(or maybe you specified this as a part of your API registration process with them\).
-4. User decides you seem like a fun application so he'll allow you to see his email address and post to his timeline.  He signs in to his Facebook account.  Facebook creates an authorization code and sends it back to your application's callback URI.
-5. The user waits while your application takes that authorization code and uses it to ask Facebook for the real good stuff.  Facebook makes sure your application is the same one the user authorized, then POSTs back to you a unique authentication token for the user \(which likely expires in 90 days\) and any data you asked for up front \(like email address\).
+3. User is redirected to a Facebook page asking them to review the permissions you are asking for and telling them to sign in. The URI will contain parameters that tell Facebook who your application is and possibly which URI they should submit their response to \(or maybe you specified this as a part of your API registration process with them\).
+4. User decides you seem like a fun application so he'll allow you to see his email address and post to his timeline. He signs in to his Facebook account. Facebook creates an authorization code and sends it back to your application's callback URI.
+5. The user waits while your application takes that authorization code and uses it to ask Facebook for the real good stuff. Facebook makes sure your application is the same one the user authorized, then POSTs back to you a unique authentication token for the user \(which likely expires in 90 days\) and any data you asked for up front \(like email address\).
 6. You store the user's unique token in your database and use it, along with your application key\(s\), to make any subsequent requests on the user's behalf.
 
 See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overview.html) for an overview. Then check out [this more substantive explanation from tutsplus.com](https://code.tutsplus.com/articles/oauth-20-the-good-the-bad-the-ugly--net-33216).
@@ -120,7 +120,7 @@ We won't cover SDKs explicitly in this course but they should be well within rea
 
 1. Watch [this Railscast on using Omniauth to allow Twitter Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
 2. Read through the [Omniauth documentation](https://github.com/intridea/omniauth)
-3. Pick an API that you really might like to interface with or a web product you use almost every day \(e.g. Google, Facebook, Instagram...\).  Google for its docs, e.g. with "instagram api documentation", and have a look at them.  Some docs are better than others, but they will be your source for understanding which methods you can call, what they will return, how to register your application to get an API key, and more useful tidbits.
+3. Pick an API that you really might like to interface with or a web product you use almost every day \(e.g. Google, Facebook, Instagram...\). Google for its docs, e.g. with "instagram api documentation", and have a look at them. Some docs are better than others, but they will be your source for understanding which methods you can call, what they will return, how to register your application to get an API key, and more useful tidbits.
 
 ## Conclusion
 
@@ -132,8 +132,7 @@ Working with external APIs can be incredibly rewarding because you're able to le
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
-* [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
-* Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over intergrating a third party API with Rails 5.
-* See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a simple rails app using the OMDB API, an open source movie database.
-
+- See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
+- [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
+- Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over intergrating a third party API with Rails 5.
+- See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a simple rails app using the OMDB API, an open source movie database.

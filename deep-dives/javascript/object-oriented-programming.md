@@ -10,9 +10,9 @@ This whole series of lessons has been about the "Object Oriented Programming" pa
 
 By the end of this lesson, you should be able to do the following:
 
-* Explain the "Single Responsibility Principle".
-* Briefly explain the additional SOLID principles.
-* Explain what "tightly coupled" objects are and why we want to avoid them.
+- Explain the "Single Responsibility Principle".
+- Briefly explain the additional SOLID principles.
+- Explain what "tightly coupled" objects are and why we want to avoid them.
 
 Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words.. these principles are not _rules_- they're helpful guidelines.
 
@@ -28,14 +28,13 @@ So instead of this:
 
 ```javascript
 function isGameOver() {
-
   // game over logic goes here!
 
-  if (gameOver){
-    const gameOverDiv = document.createElement('div')
-    gameOverDiv.classList.add('game-over')
-    gameOverDiv.textContent = `${this.winner} won the game!`
-    document.body.appendChild(gameOverDiv)
+  if (gameOver) {
+    const gameOverDiv = document.createElement("div");
+    gameOverDiv.classList.add("game-over");
+    gameOverDiv.textContent = `${this.winner} won the game!`;
+    document.body.appendChild(gameOverDiv);
   }
 }
 ```
@@ -44,11 +43,10 @@ You should extract all the DOM manipulation into its own module and use it like 
 
 ```javascript
 function isGameOver() {
-
   // game over logic goes here!
 
-  if (gameOver){
-    DOMStuff.gameOver(this.winner)
+  if (gameOver) {
+    DOMStuff.gameOver(this.winner);
   }
 }
 ```
@@ -68,13 +66,12 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 ## Assignment
 
 1. The following articles mention the acronym **SOLID** before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the five. Feel free to dig into the rest of the SOLID principles if you like.. but pay special attention to Single Responsibility.
-   * Read [SOLID JavaScript: The Single Responsibility Principle](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/). **NOTE:** This article does make use of JQuery, one of the earliest and most popular JavaScript libraries prior to the ES6 standard. While The Odin Project does not teach JQuery and you are not expected to understand the example, be sure to focus less on the code itself and more on the SOLID concepts being expressed. 
-   * [5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
-   * And read [S.O.L.I.D. The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa) for good measure.
+   - Read [SOLID JavaScript: The Single Responsibility Principle](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/). **NOTE:** This article does make use of JQuery, one of the earliest and most popular JavaScript libraries prior to the ES6 standard. While this site does not teach JQuery and you are not expected to understand the example, be sure to focus less on the code itself and more on the SOLID concepts being expressed.
+   - [5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
+   - And read [S.O.L.I.D. The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa) for good measure.
 2. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
 
 ## Additional resources
 
-* The best book we've ever read on the subject of loose coupling is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free.. and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic. Alternatively, [99 Bottles of OOP](https://sandimetz.com/products) is written in both JavaScript and Ruby. It is written by the same author and may be a better option if you are brand new to OOP \(it is not free either\).
-* A nice summary of [OOP's most common principles using JavaScript](https://medium.com/better-programming/object-oriented-programming-in-javascript-b3bda28d3e81)
-
+- The best book we've ever read on the subject of loose coupling is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free.. and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic. Alternatively, [99 Bottles of OOP](https://sandimetz.com/products) is written in both JavaScript and Ruby. It is written by the same author and may be a better option if you are brand new to OOP \(it is not free either\).
+- A nice summary of [OOP's most common principles using JavaScript](https://medium.com/better-programming/object-oriented-programming-in-javascript-b3bda28d3e81)

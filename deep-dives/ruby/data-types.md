@@ -14,12 +14,12 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 
 By the end of this lesson, you should be able to do the following:
 
-* List the basic arithmetic operators and what they do.
-* Describe the difference between an integer and a float and how to convert between the two.
-* Explain string interpolation and concatenation.
-* Describe what escape characters are, and list several examples.
-* Define what a symbol is and how it differs from a string.
-* Explain what the Booleans `true`, `false`, and `nil` represent.
+- List the basic arithmetic operators and what they do.
+- Describe the difference between an integer and a float and how to convert between the two.
+- Explain string interpolation and concatenation.
+- Describe what escape characters are, and list several examples.
+- Define what a symbol is and how it differs from a string.
+- Explain what the Booleans `true`, `false`, and `nil` represent.
 
 ## Numbers
 
@@ -27,24 +27,24 @@ You probably already know what numbers are, so there's no need to go into elabor
 
 ```ruby
 # Addition
-1 + 1   #=> 2
+1 + 1 #=> 2
 
 # Subtraction
-2 - 1   #=> 1
+2 - 1 #=> 1
 
 # Multiplication
-2 * 2   #=> 4
+2 * 2 #=> 4
 
 # Division
-10 / 5  #=> 2
+10 / 5 #=> 2
 
 # Exponent
-2 ** 2  #=> 4
-3 ** 4  #=> 81
+2**2 #=> 4
+3**4 #=> 81
 
 # Modulus (find the remainder of division)
-8 % 2   #=> 0  (8 / 2 = 4; no remainder)
-10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
+8 % 2 #=> 0  (8 / 2 = 4; no remainder)
+10 % 4 #=> 2  (10 / 4 = 2 with a remainder of 2)
 ```
 
 ## **Integers and floats**
@@ -54,13 +54,13 @@ There are two main types of numbers in Ruby. **Integers** are whole numbers, suc
 It's important to keep in mind that when doing arithmetic with two integers in Ruby, _the result will always be an integer_.
 
 ```ruby
-17 / 5    #=> 3, not 3.4
+17 / 5 #=> 3, not 3.4
 ```
 
 To obtain an accurate answer, just replace one of the integers in the expression with a float.
 
 ```ruby
-17 / 5.0  #=> 3.4
+17 / 5.0 #=> 3.4
 ```
 
 ### **Converting number types**
@@ -69,7 +69,7 @@ Ruby makes it very easy to convert floats to integers and vice versa.
 
 ```ruby
 # To convert an integer to a float:
-13.to_f   #=> 13.0
+13.to_f #=> 13.0
 
 # To convert a float to an integer:
 13.0.to_i #=> 13
@@ -112,13 +112,13 @@ In true Ruby style, there are plenty of ways to concatenate strings.
 
 ```ruby
 # With the plus operator:
-"Welcome " + "to " + "Odin!"    #=> "Welcome to Odin!"
+'I ' + 'am ' + 'a developer!' #=> "I am a developer!"
 
 # With the shovel operator:
-"Welcome " << "to " << "Odin!"  #=> "Welcome to Odin!"
+'I ' << 'am ' << 'a developer!' #=> "I am a developer!"
 
 # With the concat method:
-"Welcome ".concat("to ").concat("Odin!")  #=> "Welcome to Odin!"
+'I '.concat('am ').concat('a developer!') #=> "I am a developer!"
 ```
 
 Classic Ruby!
@@ -128,13 +128,13 @@ Classic Ruby!
 You can access strings inside strings inside strings. Stringception! It's super easy, too.
 
 ```ruby
-"hello"[0]      #=> "h"
+'hello'[0] #=> "h"
 
-"hello"[0..1]   #=> "he"
+'hello'[0..1] #=> "he"
 
-"hello"[0, 4]   #=> "hell"
+'hello'[0, 4] #=> "hell"
 
-"hello"[-1]     #=> "o"
+'hello'[-1] #=> "o"
 ```
 
 ### **Escape characters**
@@ -167,9 +167,9 @@ Hello
 String interpolation allows you to evaluate a string that contains placeholder variables. This is a very useful and common technique, so you will likely find yourself using this often. Be sure to use double quotes so that string interpolation will work!
 
 ```ruby
-name = "Odin"
+name = 'Satoshi'
 
-puts "Hello, #{name}" #=> "Hello, Odin"
+puts "Hello, #{name}" #=> "Hello, Satoshi"
 puts 'Hello, #{name}' #=> "Hello, #{name}"
 ```
 
@@ -184,75 +184,75 @@ Below is a quick recap of the more common string methods you might find yourself
 #### **capitalize**
 
 ```ruby
-"hello".capitalize #=> "Hello"
+'hello'.capitalize #=> "Hello"
 ```
 
 #### **include?**
 
 ```ruby
-"hello".include?("lo")  #=> true
+'hello'.include?('lo') #=> true
 
-"hello".include?("z")   #=> false
+'hello'.include?('z') #=> false
 ```
 
 #### **upcase**
 
 ```ruby
-"hello".upcase  #=> "HELLO"
+'hello'.upcase #=> "HELLO"
 ```
 
 #### **downcase**
 
 ```ruby
-"Hello".downcase  #=> "hello"
+'Hello'.downcase #=> "hello"
 ```
 
 #### **empty?**
 
 ```ruby
-"hello".empty?  #=> false
+'hello'.empty? #=> false
 
-"".empty?       #=> true
+''.empty? #=> true
 ```
 
 #### **length**
 
 ```ruby
-"hello".length  #=> 5
+'hello'.length #=> 5
 ```
 
 #### **reverse**
 
 ```ruby
-"hello".reverse  #=> "olleh"
+'hello'.reverse #=> "olleh"
 ```
 
 #### **split**
 
 ```ruby
-"hello world".split  #=> ["hello", "world"]
+'hello world'.split #=> ["hello", "world"]
 
-"hello".split("")    #=> ["h", "e", "l", "l", "o"]
+'hello'.split('') #=> ["h", "e", "l", "l", "o"]
 ```
 
 #### **strip**
 
 ```ruby
-" hello, world   ".strip  #=> "hello, world"
+' hello, world   '.strip #=> "hello, world"
 ```
 
 You'll read more about these methods and others in the assignment. The examples below are just to get your creative juices flowing with some of the awesome ways you can modify strings.
 
 ```ruby
-"he77o".sub("7", "l")           #=> "hel7o"
+'he77o'.sub('7', 'l') #=> "hel7o"
 
-"he77o".gsub("7", "l")          #=> "hello"
+'he77o'.gsub('7', 'l') #=> "hello"
 
-"hello".insert(-1, " dude")     #=> "hello dude"
+'hello'.insert(-1, ' dude') #=> "hello dude"
 
-"hello world".delete("l")       #=> "heo word"
+'hello world'.delete('l') #=> "heo word"
 
-"!".prepend("hello, ", "world") #=> "hello, world!"
+'!'.prepend('hello, ', 'world') #=> "hello, world!"
 ```
 
 The assignments will go much deeper, so go through them thoroughly and be sure to play around in a REPL as you read.
@@ -262,11 +262,11 @@ The assignments will go much deeper, so go through them thoroughly and be sure t
 Using the `to_s` method, you can convert pretty much anything to a string. Here are some examples:
 
 ```ruby
-5.to_s        #=> "5"
+5.to_s #=> "5"
 
-nil.to_s      #=> ""
+nil.to_s #=> ""
 
-:symbol.to_s  #=> "symbol"
+:symbol.to_s #=> "symbol"
 ```
 
 ## Symbols
@@ -292,11 +292,11 @@ To create a symbol, simply put a colon at the beginning of some text:
 To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.7.1/Object.html#method-i-object_id) returns an integer identifier for an object. \(And remember: in Ruby, _everything_ is an object!\)
 
 ```ruby
-"string" == "string"  #=> true
+'string' == 'string' #=> true
 
-"string".object_id == "string".object_id  #=> false
+'string'.object_id == 'string'.object_id #=> false
 
-:symbol.object_id == :symbol.object_id    #=> true
+:symbol.object_id == :symbol.object_id #=> true
 ```
 
 ## Booleans
@@ -316,47 +316,46 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's _Introduction to Programming With Ruby_ for a different explanation of Ruby's data types.
 2. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 3. Finally complete the basic data types exercises provided for this lesson:
-   * [Follow the instructions in the main README to set up the exercise repo](https://github.com/TheOdinProject/ruby-exercises)
-   * [Follow the instructions in the README here to complete the basic data types exercises](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics)
+   - [Follow the instructions in the main README to set up the exercise repo](https://github.com/TheOdinProject/ruby-exercises)
+   - [Follow the instructions in the README here to complete the basic data types exercises](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics)
 
 ## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* If you want to go deeper into Ruby's numbers and string data types, read these chapters from the _Bastards Book of Ruby_:
-  * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
-  * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
-* Read through these Ruby Monstas sections about data types:
-  * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-  * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-  * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-  * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
+- If you want to go deeper into Ruby's numbers and string data types, read these chapters from the _Bastards Book of Ruby_:
+  - [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
+  - [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+- Read through these Ruby Monstas sections about data types:
+  - [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+  - [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+  - [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+  - [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
 
 ## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* **Numbers**
-  * What are the basic arithmetic operators you can use on numbers?
-  * What's the difference between an integer and a float?
-  * What method would you use to convert a float to an integer?
-  * What method would you use to convert an integer to a float?
-* **Strings**
-  * What is a string?
-  * What are the differences between single and double quotes?
-  * What is string interpolation?
-  * How do you concatenate strings?
-  * What method would you use to change all the characters in your string to upper case?
-  * What method would you use to split up strings into arrays?
-  * What are escape characters?
-  * How do you access a specific character or substring?
-  * How do you convert other data types into strings?
-* **Symbols**
-  * What is a symbol?
-  * How do you create a symbol?
-  * What's the difference between a symbol and a string?
-* **Booleans**
-  * What does `true` represent?
-  * What does `false` represent?
-  * What does `nil` represent?
-
+- **Numbers**
+  - What are the basic arithmetic operators you can use on numbers?
+  - What's the difference between an integer and a float?
+  - What method would you use to convert a float to an integer?
+  - What method would you use to convert an integer to a float?
+- **Strings**
+  - What is a string?
+  - What are the differences between single and double quotes?
+  - What is string interpolation?
+  - How do you concatenate strings?
+  - What method would you use to change all the characters in your string to upper case?
+  - What method would you use to split up strings into arrays?
+  - What are escape characters?
+  - How do you access a specific character or substring?
+  - How do you convert other data types into strings?
+- **Symbols**
+  - What is a symbol?
+  - How do you create a symbol?
+  - What's the difference between a symbol and a string?
+- **Booleans**
+  - What does `true` represent?
+  - What does `false` represent?
+  - What does `nil` represent?
