@@ -4,18 +4,18 @@
 
 Unit Testing is important for many reasons that we probably don't need to cover right now. If you've already taken our basic JavaScript course you've already encountered Unit Testing, and the point of _this_ lesson is not to teach you the philosophy or mechanics of writing tests, but how they apply to our Express applications and APIs.
 
-If you haven't finished our [front-end javascript course](https://www.theodinproject.com/courses/javascript), go back and take a look at those lessons before progressing.
+If you haven't finished our [front-end javascript course](https://www.learnhowtocodebook.com/deep-dives/javascript), go back and take a look at those lessons before progressing.
 
 ## Learning outcomes
 
 By the end of this lesson, you should be able to do or answer the following:
 
-* Use the `supertest` module to test Express routes/controllers.
-* Describe how supertest handles our express application.
-* Explain the functionality `superagent` provides to supertest.
-* What is the purpose of `done`? What convenience does supertest provide concerning it?
-* Explain and have a firm understanding of `.expect()` method's functionality.
-* Have familiarity with `supertest`'s documentation and methods.
+- Use the `supertest` module to test Express routes/controllers.
+- Describe how supertest handles our express application.
+- Explain the functionality `superagent` provides to supertest.
+- What is the purpose of `done`? What convenience does supertest provide concerning it?
+- Explain and have a firm understanding of `.expect()` method's functionality.
+- Have familiarity with `supertest`'s documentation and methods.
 
 The most important, basic requirement for testing something in your code is that it be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
@@ -49,7 +49,7 @@ index.get("/test", (req, res) => res.json({ array }));
 
 index.post("/test", (req, res) => {
   array.push(req.body.item);
-  res.send('success!');
+  res.send("success!");
 });
 
 module.exports = index;
@@ -73,7 +73,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use("/", index);
 
-test("index route works", done => {
+test("index route works", (done) => {
   request(app)
     .get("/")
     .expect("Content-Type", /json/)
@@ -81,7 +81,7 @@ test("index route works", done => {
     .expect(200, done);
 });
 
-test("testing route works", done => {
+test("testing route works", (done) => {
   request(app)
     .post("/test")
     .type("form")
@@ -118,7 +118,7 @@ The tests themselves are relatively simple thanks to the Supertest library! Reme
 Notice the parameter `done` that is passed into the test callback. Most testing libraries use this to signal that the test is complete in the case of asynchronous operations. In this case, supertest allows us to pass it into the last `.expect` and calls it for us. Thanks, supertest!
 
 ```javascript
-test("index route works", done => {
+test("index route works", (done) => {
   request(app)
     .get("/")
     .expect("Content-Type", /json/)
@@ -130,7 +130,7 @@ test("index route works", done => {
 Our second test is very similar to the first one, but tests the `post` method. You can \(and should\) read about all the possible functions on the supertest readme, so I won't go into the details of every step here. The last bit however is important to us. By this point in your JavaScript career, you should be familiar with Promises, so the `.then()` syntax should be familiar. In this case we wait for the POST request to finish and then we call the GET request when that promise resolves to check if that item has been pushed into the array.
 
 ```javascript
-test("testing route works", done => {
+test("testing route works", (done) => {
   request(app)
     .post("/test")
     .type("form")
@@ -147,6 +147,5 @@ If we were using a real database here, then we would want to do something simila
 
 ## Assignment
 
-1. Make sure that you read through the [Supertest docs](https://github.com/visionmedia/supertest) 
-2. Supertest actually pulls from another related project called Superagent.  Any method that you can call in Superagent you can also call from supertest, so you'll need to take a look through the [SuperAgent docs](http://visionmedia.github.io/superagent/) as well.
-
+1. Make sure that you read through the [Supertest docs](https://github.com/visionmedia/supertest)
+2. Supertest actually pulls from another related project called Superagent. Any method that you can call in Superagent you can also call from supertest, so you'll need to take a look through the [SuperAgent docs](http://visionmedia.github.io/superagent/) as well.

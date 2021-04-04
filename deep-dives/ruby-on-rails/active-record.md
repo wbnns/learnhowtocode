@@ -14,10 +14,10 @@ Having a solid understanding of Active Record will make the rest of Rails seem s
 
 Look through these now and then use them to test yourself after doing the assignment.
 
-* What is an ORM?
-* Why is Active Record more useful than just using SQL?
-* What are the two steps required to make a new row in your database table with ActiveRecord?
-* What are "generators" in Rails?
+- What is an ORM?
+- Why is Active Record more useful than just using SQL?
+- What are the two steps required to make a new row in your database table with ActiveRecord?
+- What are "generators" in Rails?
 
 ## What is an ORM?
 
@@ -38,13 +38,13 @@ That's a step ahead of ourselves, though, because first it makes sense to think 
 Very briefly, Active Record lets you create a Ruby object that represents a row in one of your database tables, like a `User`. To create a new User is a two-step process: First, you'll need to do a `User.new` and might pass it a hash full of its attributes like
 
 ```bash
-u = User.new(name: "Sven", email: "sven@theodinproject.com")
+u = User.new(name: "Satoshi", email: "satoshi@vistomail.com")
 ```
 
-If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`. The second step is to actually save that model instance into the database. Until now, it's just been sitting in memory and evaporates if you don't do anything with it. To save, simply call `u.save`. You can run both steps at once using the `#create` method:
+If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Satoshi"`. The second step is to actually save that model instance into the database. Until now, it's just been sitting in memory and evaporates if you don't do anything with it. To save, simply call `u.save`. You can run both steps at once using the `#create` method:
 
 ```bash
-u = User.create(name: "Sven", email: "sven@theodinproject.com")
+u = User.create(name: "Satoshi", email: "satoshi@vistomail.com")
 ```
 
 This saves you time, but, as you'll see later, you'll sometimes want to separate them in your application.
@@ -56,7 +56,7 @@ Imagine you're staring at a blank computer screen and you need to start your new
 Figure out the data models that you'll need to use for the first iteration of your site and start getting them set up. For our purposes, we'll just assume all you need is the ubiquitous User model to keep track of all the dozens of users who will be on your site someday \(just kidding, you'll hit it big\). After you've actually created the database in the first place \(using `$ rails db:create`\), to create that model you'll need to do two steps:
 
 1. Create a model file in `app/models` which is set up like you just learned above.
-2. Create a database table called "users" that has the appropriate columns.  This is done using a migration file and then running the migration.
+2. Create a database table called "users" that has the appropriate columns. This is done using a migration file and then running the migration.
 
 The best part is that Rails knows that you want to do this and has given you a handy shortcut for doing so: the `$ rails generate model YourModelNameHere` command. When you type it in, you will see in the Terminal output which files are being created. Don't worry about any specs or test files that also get created, the important ones are the model file and the migration file. Rails has lots of these handy generators which don't do much except create new files in the right spots of your application for you. The output looks something like:
 
@@ -120,7 +120,7 @@ Step one with understanding this stuff is just to think about which different ty
 
 The `has_many` / `belongs_to`, or a "one-to-many", relationship is pretty common, and usually easiest to think of in terms of actual objects... a Child can have many Marble objects, each of which belongs to that Child. But it also applies in slightly less intuitive cases, like where a single object `belongs_to` multiple other objects. An example would be a FranchiseLocation for a McDonalds, which `belongs_to` the Corporation McDonalds but might also `belongs_to` the City San Francisco.
 
-It's clear that it should belong to its corporate parent, but why does it belong to a City too? It's often easier to think of it from the opposite perspective -- a City can certainly have many FranchiseLocation objects. As long as a FranchiseLocation can only be in a single city, it effectively "belongs\_to" that city in the way that Rails describes it.
+It's clear that it should belong to its corporate parent, but why does it belong to a City too? It's often easier to think of it from the opposite perspective -- a City can certainly have many FranchiseLocation objects. As long as a FranchiseLocation can only be in a single city, it effectively "belongs_to" that city in the way that Rails describes it.
 
 Another common relationship is the many-to-many relationship, which can also be called `has_and_belongs_to_many` in Rails terms. This often comes up in actual relationships -- a Human can have many favorite Dog objects, and each Dog object can have many favorite Human objects. In this case, how would you specify which Dog objects are your favorites? It actually requires you to create another table \(a join table, or "through" table\) that specifically keeps track of all those relationships. It's a bit wonky to understand when you're learning but it becomes second nature once you've been at it for a short while.
 
@@ -136,27 +136,27 @@ That was really just a teaser about what Active Record can do. In the reading be
 
 ### **Basic Active Record**
 
-* Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.
+- Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.
   1. We'll go more into Migrations and Validations in the next section and in the lesson on Callbacks later in the course.
-  2. Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database \(but singular\), and that class inherits from ApplicationRecord to get its super powers.
+  2. Model files in Rails live in the `app/models` folder and are just normal .rb files. The key points are that the file and the class name is named after the table in your database \(but singular\), and that class inherits from ApplicationRecord to get its super powers.
 
 ### **Migrations**
 
-* Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
+- Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
   1. Don't worry about 3.6-3.8.
   2. Just skim section 7.
-  3. Seeds \(section 8\) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
+  3. Seeds \(section 8\) are useful and you'll be using them later. It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
 
 ### **Validations**
 
-* Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
+- Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
   1. Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
   2. You can skim section 6 about custom validators
   3. Section 8 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
 
 ### **Associations**
 
-* Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7.  Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
+- Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7. Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
 
 ## Conclusion
 
@@ -170,5 +170,4 @@ It's all about practice, so the projects from here on out will ask you to think 
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).
-
+- [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).

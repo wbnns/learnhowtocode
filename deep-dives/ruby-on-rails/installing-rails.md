@@ -1,21 +1,21 @@
 ---
-description: 'In this project, we''re going to build a fully functional Rails application.'
+description: "In this project, we're going to build a fully functional Rails application."
 ---
 
 # Installing Rails
 
 ## Introduction
 
-If you went through the [Ruby course](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) you will have already installed Ruby. But if you haven't done that, then now is the time to [install it](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) as you will need Ruby installed before we tackle installing Rails.
+If you went through the [Ruby course](https://www.learnhowtocodebook.com/deep-dives/ruby) you will have already installed Ruby. But if you haven't done that, then now is the time to [install it](https://www.learnhowtocodebook.com/deep-dives/ruby/installation) as you will need Ruby installed before we tackle installing Rails.
 
 With Ruby installed, you're all set to install Rails and create our first Rails app to ensure everything went smoothly.
 
 Before continuing, let's review a few best practices to keep in mind:
 
-* Follow the directions closely, and don't skip over any sections.
-* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this advice can cause _a lot_ of headaches. In some instances, you might see a message in the terminal telling you to use `sudo` and/or to install something with `apt`. **Ignore what the terminal says** and follow the instructions below.
-* Copy and paste the commands to avoid typos.
-* If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
+- Follow the directions closely, and don't skip over any sections.
+- **Do NOT use `sudo`.** Failing to follow this advice can cause _a lot_ of headaches. In some instances, you might see a message in the terminal telling you to use `sudo` and/or to install something with `apt`. **Ignore what the terminal says** and follow the instructions below.
+- Copy and paste the commands to avoid typos.
+- If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
 
 In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do _not_ worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely.
 
@@ -29,7 +29,7 @@ Those are terminal commands and you'll need to enter them on the terminal in you
 
 ## Step 1: Create your first Ruby on Rails web application
 
-Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
+Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in the curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
 ### **Step 1.1: Install Rails**
 
@@ -72,13 +72,13 @@ You won't need to use Yarn for this tutorial but you do need it installed for Ra
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
 
 ```bash
-mkdir odin_on_rails
+mkdir im_on_rails
 ```
 
 Then, move into the new directory:
 
 ```bash
-cd odin_on_rails
+cd im_on_rails
 ```
 
 ### **Step 1.4: Create the application**
@@ -148,7 +148,7 @@ Verify you're in the `my_first_rails_app` directory by using the `pwd` \(print w
 
 ```bash
 $ pwd
-/home/you/odin_on_rails/my_first_rails_app
+/home/you/im_on_rails/my_first_rails_app
 ```
 
 Then, initialize the Git repo \(short for "repository"\):
@@ -198,13 +198,13 @@ A message from GitHub stating, "The authenticity of host 'github.com'..." may ap
 
 After the terminal finishes its magic, return to your GitHub repository and refresh the page. You should see a lot of files, starting with a folder called "app".
 
-This marks the start of your Odin journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
+This marks the start of your journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
 ## Step 3: Deploy your Rails application
 
 Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
 
-Recall, in the [previous lesson](https://www.theodinproject.com/courses/ruby-on-rails/lessons/preparing-for-deployment) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson.
+Recall, in the [previous lesson](https://www.learnhowtocodebook.com/deep-dives/ruby-on-rails/heroku) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson.
 
 ### **Step 3.1: Create a Heroku application**
 
@@ -246,7 +246,7 @@ Replace the line you just deleted with the following:
 
 ```ruby
 group :development, :test do
- gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :production do
@@ -273,10 +273,13 @@ The next thing we need to edit is the `routes.rb` file to set our root route. We
 Go back to VSCode and expand the `config` folder in the file list at the left-hand side of the screen. One of the files inside the folder will be named `routes.rb`. Open `routes.rb` and make it match the example below:
 
 ```ruby
-Rails.application.routes.draw do
-  root 'cars#index'
-  resources :cars
-end
+Rails
+  .application
+  .routes
+  .draw do
+    root 'cars#index'
+    resources :cars
+  end
 ```
 
 Save the file. You can close VSCode now; the rest of the steps take place in the terminal.
@@ -364,4 +367,3 @@ heroku open
 ```
 
 Now go and play around with it!
-

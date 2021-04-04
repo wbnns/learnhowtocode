@@ -30,23 +30,23 @@ For now, let's learn what Git is and why it's so powerful!
 
 By the end of this lesson, you should be able to do the following:
 
-* Explain what Git and GitHub are and the differences between the two.
-* Describe the differences between Git and a text editor in terms of what they save and their record keeping.
-* Describe why Git is useful for an individual developer and a team of developers.
+- Explain what Git and GitHub are and the differences between the two.
+- Describe the differences between Git and a text editor in terms of what they save and their record keeping.
+- Describe why Git is useful for an individual developer and a team of developers.
 
 ## Assignment
 
 1. Read Chapter 1.1 through 1.4 in [this book about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
 2. Watch [this video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how Git can improve the workflow of both an individual and a team of developers.
 3. Watch [this video](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) for some history on Git and GitHub, and make sure you know the difference between the two. Git is a technology used in the command line while GitHub is a [website](https://github.com/) you can visit.
-4. If you haven't yet installed Git, visit the [Setting Up Git](https://www.theodinproject.com/courses/foundations/lessons/setting-up-git) lesson.
-5. Take a look at The Odin Project's [GitHub repository](https://github.com/TheOdinProject/curriculum) for it's open curriculum for learning, that this GitBook is based on. While you're there, look at all our [contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
+4. [Set up Git](https://www.learnhowtocodebook.com/foundations/requirements/setting-up-git) if you haven't already done so.
+5. Take a look at The Odin Project's [GitHub repository](https://github.com/TheOdinProject/curriculum) open curriculum for learning, that this GitBook is based on. While you're there, look at all the [contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 
 ## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
+- [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 
 ## Knowledge check
 
@@ -54,26 +54,25 @@ This section contains questions for you to check your understanding of this less
 
 **What kind of program is Git?**
 
-* Git is a version control program.
+- Git is a version control program.
 
 **What are the differences between Git and a text editor in terms of what they save and their record keeping?**
 
-* A text editor can only make and save changes to a file.
-* Git tracks changes to the files and their contents over time.
+- A text editor can only make and save changes to a file.
+- Git tracks changes to the files and their contents over time.
 
 **Does Git work at a local or remote level?**
 
-* Git works on a local level. Any changes you make are saved locally with Git.
+- Git works on a local level. Any changes you make are saved locally with Git.
 
 **Does GitHub work at a local or remote level?**
 
-* GitHub works on a remote level. You must push your local changes \(using Git\) to GitHub.
+- GitHub works on a remote level. You must push your local changes \(using Git\) to GitHub.
 
 **Why is Git useful for an individual developer?**
 
-* Git is useful for creating snapshots of your work. If you realize halfway through that you've messed up, it's much easier to reset.
+- Git is useful for creating snapshots of your work. If you realize halfway through that you've messed up, it's much easier to reset.
 
 **Why are Git and GitHub useful for a team of developers?**
 
-* Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.
-
+- Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.

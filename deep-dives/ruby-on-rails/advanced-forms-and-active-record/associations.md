@@ -14,18 +14,18 @@ You've already had some familiarity with associations, especially the basic `has
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-* How does Rails normally know which table and foreign key to use when you have an association \(e.g. `User.first.posts`\)?
-* When would you need to specify the `:class_name` option in an association?
-* What about the `:foreign_key`?
-* What about the `:source`?
-* What is a polymorphic association and when would you use one?
-* What are two ways to use the association to create a new object instead of just calling `YourObject.new`?  Why is this useful? Which method is preferred?
-* How do you automatically destroy all a User's Post objects if that user is deleted?
-* How do you set up a self-association, like with Users following Users?
+- How does Rails normally know which table and foreign key to use when you have an association \(e.g. `User.first.posts`\)?
+- When would you need to specify the `:class_name` option in an association?
+- What about the `:foreign_key`?
+- What about the `:source`?
+- What is a polymorphic association and when would you use one?
+- What are two ways to use the association to create a new object instead of just calling `YourObject.new`? Why is this useful? Which method is preferred?
+- How do you automatically destroy all a User's Post objects if that user is deleted?
+- How do you set up a self-association, like with Users following Users?
 
 ## Basics
 
-If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-basics-ruby-on-rails) first. This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
+If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.learnhowtocodebook.com/deep-dives/ruby-on-rails/active-record) first. This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
 ### **Foreign keys and class names**
 
@@ -34,17 +34,17 @@ When you create an association, Rails makes two major assumptions -- first, that
 A very simple case would be a User who can create many Posts for a blog:
 
 ```ruby
-  # app/models/user.rb
-  class User < ActiveRecord::Base
-    has_many :posts
-  end
+# app/models/user.rb
+class User < ActiveRecord::Base
+  has_many :posts
+end
 ```
 
 ```ruby
-  # app/models/post.rb
-  class Post < ActiveRecord::Base
-    belongs_to :user
-  end
+# app/models/post.rb
+class Post < ActiveRecord::Base
+  belongs_to :user
+end
 ```
 
 So you could ask the first user for all her posts with `User.first.posts` or the first post for its author user with `Post.first.user`. Rails knows to look for a foreign key called `user_id` in the Posts table. If you ask for `Post.first.user`, Rails will look in the Users table for the User with the ID corresponding to the `user_id` column in the Posts table. All is well in the world when your association names correspond directly to the names of your models and tables.
@@ -52,11 +52,11 @@ So you could ask the first user for all her posts with `User.first.posts` or the
 But what if you want to have two types of users that the post belongs to -- the "author" and the "editor"? In this case, you'll need two separate foreign keys in your Posts table, presumably one called `author_id` and another called `editor_id`. How do you tell Rails that each of these foreign keys actually point to a User \(so it knows to look in the Users table for them\)? Just specify the class your association should point to using the aptly named `:class_name` option:
 
 ```ruby
-  # app/models/post.rb
-  class Post < ActiveRecord::Base
-    belongs_to :author, class_name: "User"
-    belongs_to :editor, class_name: "User"
-  end
+# app/models/post.rb
+class Post < ActiveRecord::Base
+  belongs_to :author, class_name: 'User'
+  belongs_to :editor, class_name: 'User'
+end
 ```
 
 In this case, Rails will automatically look for the foreign key named after the association, e.g. `author_id` or `editor_id`, in the Posts table.
@@ -66,11 +66,11 @@ If you called the association something which didn't correspond exactly to what 
 But now Rails doesn't have the foggiest idea where to look and what to look for. By default, if you ask for `User.first.authored_posts` it will go looking in the `authored_posts` table for a foreign key called `user_id` \(neither of which exist\). To get it pointing at the right table, we again need to specify the `:class_name` and to get it using the correct foreign key, we need to specify the right `:foreign_key`. For instance:
 
 ```ruby
-  # app/models/user.rb
-  class User < ActiveRecord::Base
-    has_many :authored_posts, foreign_key: "author_id", class_name: "Post"
-    has_many :edited_posts, foreign_key: "editor_id", class_name: "Post"
-  end
+# app/models/user.rb
+class User < ActiveRecord::Base
+  has_many :authored_posts, foreign_key: 'author_id', class_name: 'Post'
+  has_many :edited_posts, foreign_key: 'editor_id', class_name: 'Post'
+end
 ```
 
 The basic gist of this is simple -- assume that Rails is looking for the foreign key named after the association in the table also named after the association. If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify. This is quite common to make your associations more legible.
@@ -82,52 +82,52 @@ Now that it's clear you need to let Rails know when you've creatively named your
 For example, perhaps we change the example above so a Post actually can have multiple Authors \(but still only one editor\). We'll need to create a new table, which we'll call `post_authorings`. `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`. You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just simply `post_id` and `user_id` but it will require us to inform Rails of the change. Our models look like:
 
 ```ruby
-  # app/models/post.rb
-  class Post < ActiveRecord::Base
-    has_many :post_authorings, foreign_key: :authored_post_id
-    has_many :authors, through: :post_authorings, source: :post_author
-    belongs_to :editor, class_name: "User"
-  end
+# app/models/post.rb
+class Post < ActiveRecord::Base
+  has_many :post_authorings, foreign_key: :authored_post_id
+  has_many :authors, through: :post_authorings, source: :post_author
+  belongs_to :editor, class_name: 'User'
+end
 ```
 
 ```ruby
-  # app/models/user.rb
-  class User < ActiveRecord::Base
-    has_many :post_authorings, foreign_key: :post_author_id
-    has_many :authored_posts, through: :post_authorings
-    has_many :edited_posts, foreign_key: :editor_id, class_name: "Post"
-  end
+# app/models/user.rb
+class User < ActiveRecord::Base
+  has_many :post_authorings, foreign_key: :post_author_id
+  has_many :authored_posts, through: :post_authorings
+  has_many :edited_posts, foreign_key: :editor_id, class_name: 'Post'
+end
 ```
 
 ```ruby
-  # app/models/post_authoring.rb
-  class PostAuthoring < ActiveRecord::Base
-    belongs_to :post_author, class_name: "User"
-    belongs_to :authored_post, class_name: "Post"
-  end
+# app/models/post_authoring.rb
+class PostAuthoring < ActiveRecord::Base
+  belongs_to :post_author, class_name: 'User'
+  belongs_to :authored_post, class_name: 'Post'
+end
 ```
 
 And our data model looks like:
 
-| **users** |  |
-| :--- | :--- |
-| name | _string_ |
-| created\_at | _datetime_ |
-| updated\_at | _datetime_ |
+| **users**  |            |
+| :--------- | :--------- |
+| name       | _string_   |
+| created_at | _datetime_ |
+| updated_at | _datetime_ |
 
-| **posts** |  |
-| :--- | :--- |
-| content | _text_ |
-| editor\_id | _integer_ |
-| created\_at | _datetime_ |
-| updated\_at | _datetime_ |
+| **posts**  |            |
+| :--------- | :--------- |
+| content    | _text_     |
+| editor_id  | _integer_  |
+| created_at | _datetime_ |
+| updated_at | _datetime_ |
 
-| **post\_authorings** |  |
-| :--- | :--- |
-| authored\_post\_id | _integer_ |
-| post\_author\_id | _integer_ |
-| created\_at | _datetime_ |
-| updated\_at | _datetime_ |
+| **post_authorings** |            |
+| :------------------ | :--------- |
+| authored_post_id    | _integer_  |
+| post_author_id      | _integer_  |
+| created_at          | _datetime_ |
+| updated_at          | _datetime_ |
 
 The major thing to note here is that with has-many-through associations, Rails uses _the name of the association in the through table_ to determine which foreign key and table name to reach out to. If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go. You can think of `:source` as being just like `:class_name` but for the associations in the "through table".
 
@@ -135,7 +135,7 @@ It may be helpful to illustrate what Rails is doing. In the example above, if yo
 
 1. You just called for the "authors" association on the Post model
 2. To get "authors", we first need to go through the `post_authorings` association to get there.
-3. Once we're at the `PostAuthoring` model, to get to the `author`, we'll need to use the `:belongs_to` association and it'll be called `post_author`. We know this because we used the `:source` option.  If we hadn't used the `:source` option in the original has-many-through association, we would have been looking for `belongs_to :author` instead.
+3. Once we're at the `PostAuthoring` model, to get to the `author`, we'll need to use the `:belongs_to` association and it'll be called `post_author`. We know this because we used the `:source` option. If we hadn't used the `:source` option in the original has-many-through association, we would have been looking for `belongs_to :author` instead.
 4. Now we've got all the information we need to structure our SQL joins and grab the list of authors for the post.
 
 It sounds a bit wonky but it's just the same logic as before -- if Rails can't tell based on its assumptions which associations or class names or foreign keys you're supposed to use, you need to specify them yourself using `:source` or `:foreign_key` or `:class_name`. It takes some practice but you'll get it. Usually you know something's up if you get error messages of the flavor `ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column`.
@@ -155,40 +155,40 @@ We solve this by storing not just the foreign key **id**, but also a reference t
 We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`. A convention is to come up with an abstract term for what type of action you're doing and use that to name the association. So in this case we're commenting on things and can thus call the foreign key `"commentable"`. You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
 
 ```ruby
-  class CreateComments < ActiveRecord::Migration
-    def change
-      create_table :comments do |t|
-        t.string :title
-        t.text :content
-        t.integer :commentable_id
-        t.string :commentable_type
-        t.timestamps
-      end
+class CreateComments < ActiveRecord::Migration
+  def change
+    create_table :comments do |t|
+      t.string :title
+      t.text :content
+      t.integer :commentable_id
+      t.string :commentable_type
+      t.timestamps
     end
   end
+end
 ```
 
 "Commentable" will be used to refer to the associations as well. You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it. This is done simply:
 
 ```ruby
-  # app/models/comments.rb
-  class Comment < ActiveRecord::Base
-    belongs_to :commentable, polymorphic: true
-  end
+# app/models/comments.rb
+class Comment < ActiveRecord::Base
+  belongs_to :commentable, polymorphic: true
+end
 ```
 
 On the other side of the association, you just treat your comment like any other association \(which happens to have a nonstandard name\). You just need to specify the association on every model that `has_many` of it. The only wrinkle is that, because it's using the "commentable" name, you need to specify it in an alias just like you would if any other association had a nonstandard name:
 
 ```ruby
-  # app/models/post.rb
-  class Post < ActiveRecord::Base
-    has_many :comments, as: :commentable
-  end
+# app/models/post.rb
+class Post < ActiveRecord::Base
+  has_many :comments, as: :commentable
+end
 
-  # app/models/picture.rb
-  class Picture < ActiveRecord::Base
-    has_many :comments, as: :commentable
-  end
+# app/models/picture.rb
+class Picture < ActiveRecord::Base
+  has_many :comments, as: :commentable
+end
 ```
 
 Rails does the rest of the work for you. Any time you ask a Picture for all its comments \(`Picture.first.comments`\), Rails will return just the comments that belong to that picture without you having to worry about anything else.
@@ -198,12 +198,11 @@ Rails does the rest of the work for you. Any time you ask a Picture for all its 
 Often times you have relationships between the same type of model, for instance users who can follow other users. In this case, you need to specify both associations in your User model but name them differently. You will need to specify in your `has_many` association what the name of the `foreign_key` will be:
 
 ```ruby
-  class Employee < ActiveRecord::Base
-    has_many :subordinates, class_name: "Employee",
-                            foreign_key: "manager_id"
+class Employee < ActiveRecord::Base
+  has_many :subordinates, class_name: 'Employee', foreign_key: 'manager_id'
 
-    belongs_to :manager, class_name: "Employee"
-  end
+  belongs_to :manager, class_name: 'Employee'
+end
 ```
 
 ## Handy methods
@@ -253,19 +252,19 @@ If you really want to, you can actually replace the entire association with a ne
 If your user has created a bunch of posts and then decides to delete her account, how do you delete all the associated posts? Specify the `dependent: :destroy` option when first declaring the association:
 
 ```ruby
-  # app/models/user.rb
-  class User < ActiveRecord::Base
-    has_many :posts, dependent: :destroy
-  end
+# app/models/user.rb
+class User < ActiveRecord::Base
+  has_many :posts, dependent: :destroy
+end
 ```
 
 This is just the most common among several options to specify for `:dependent`. It will run the `destroy` method on all objects that belong to that user when the user is destroyed.
 
 ## Assignment
 
-1. Read the [Rails Guide on Associations](http://guides.rubyonrails.org/association_basics.html).  Start by skimming sections 1 to 2.7 \(which you should have already done\).
+1. Read the [Rails Guide on Associations](http://guides.rubyonrails.org/association_basics.html). Start by skimming sections 1 to 2.7 \(which you should have already done\).
 2. Read from 2.8 to the end of chapter 3.
-3. Skim chapter 4.  It contains all the methods that you gain by using various associations.  You certainly don't need to memorize the whole list, but poke through it.  You'll end up using most of them.
+3. Skim chapter 4. It contains all the methods that you gain by using various associations. You certainly don't need to memorize the whole list, but poke through it. You'll end up using most of them.
 
 ## Conclusion
 
@@ -275,10 +274,9 @@ In this lesson we covered some of the more advanced associations material. Assoc
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
-* [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
-* [Understanding Polymorphic Associations in Rails](https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
-* [RailsCasts \#154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
-* [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
-* [RailsCasts Pro \#394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
-
+- [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
+- [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
+- [Understanding Polymorphic Associations in Rails](https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
+- [RailsCasts \#154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
+- [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
+- [RailsCasts Pro \#394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
