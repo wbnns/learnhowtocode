@@ -178,6 +178,7 @@
     * [Project: Binary Search Trees](deep-dives/ruby/computer-science/project-binary-search-trees.md)
     * [Project: Knight Travails](deep-dives/ruby/computer-science/project-knight-travails.md)
   * [Testing](deep-dives/ruby/testing.md)
+  * [RSpec](deep-dives/ruby/rspec.md)
 * [Ruby on Rails](deep-dives/ruby-on-rails/README.md)
   * [Using Heroku](deep-dives/ruby-on-rails/heroku.md)
   * [Installing Rails](deep-dives/ruby-on-rails/installing-rails.md)
