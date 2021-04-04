@@ -156,6 +156,7 @@
   * [Loops](deep-dives/ruby/loops.md)
   * [Arrays](deep-dives/ruby/arrays.md)
   * [Hashes](deep-dives/ruby/hashes.md)
+  * [Methods](deep-dives/ruby/methods.md)
 * [Ruby on Rails](deep-dives/ruby-on-rails/README.md)
   * [Using Heroku](deep-dives/ruby-on-rails/heroku.md)
   * [Installing Rails](deep-dives/ruby-on-rails/installing-rails.md)
