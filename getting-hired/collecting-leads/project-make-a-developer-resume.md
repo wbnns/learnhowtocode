@@ -1,3 +1,10 @@
+---
+description: >-
+  A developer's resume is an interesting thing because so much of your value is
+  demonstrated from your projects, which live in your GitHub (and are hopefully
+  also deployed somewhere online).
+---
+
 # Project: Make your resume
 
 ## Make it interesting

@@ -1,3 +1,9 @@
+---
+description: >-
+  In general, it's best to keep your site simple and clean. Let your portfolio
+  of work speak for itself.
+---
+
 # Project: Make your website
 
 ## A point of reference about yourself

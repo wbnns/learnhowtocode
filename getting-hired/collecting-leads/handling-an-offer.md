@@ -1,3 +1,9 @@
+---
+description: >-
+  Do not accept right away. This is doubly true if you don't think it's a good
+  offer.
+---
+
 # Handling an offer
 
 ## Negotiating

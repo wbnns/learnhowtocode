@@ -1,3 +1,10 @@
+---
+description: >-
+  You've got to have a plan or you'll find yourself spamming your resume out to
+  every job post on every job board and wondering why you haven't had any
+  success.
+---
+
 # Plan a strategy
 
 ## Getting started

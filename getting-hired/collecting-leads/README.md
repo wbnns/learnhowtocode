@@ -1,3 +1,9 @@
+---
+description: >-
+  Start with your network, even if it's small. Reach out to your Facebook
+  friends and friends-of-friends to see if anyone's hiring.
+---
+
 # Applying and interviewing
 
 ## Time to find opportunities

@@ -1,3 +1,10 @@
+---
+description: >-
+  Start with companies that you're on the fence about. Once you feel comfortable
+  with your application-sending and hopefully interviewing abilities, start
+  tackling your top choices.
+---
+
 # Applying for jobs
 
 ## Time to apply

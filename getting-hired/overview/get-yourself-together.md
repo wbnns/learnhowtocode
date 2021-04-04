@@ -1,3 +1,10 @@
+---
+description: >-
+  You should have at least an informal list of the things that matter to you.
+  Now ruthlessly rank them. What are your non-negotiables and what are your
+  nice-to-haves?
+---
+
 # Get yourself together
 
 ## It's all about you
@@ -35,7 +42,7 @@ You should have at least an informal list of the things that matter to you. Now 
 
 Make sure you know every one of your "must-haves" and your top 5 priorities for "nice-to-haves" in a job.
 
-## What Are Your assets and liabilities?
+## What are your assets and liabilities?
 
 It's time to be honest with yourself... what do you bring to the table? If you're early in your career \(which you probably are\), you'll have to work hard to distinguish yourself from the flood of unqualified candidates out there. You need to strike the line between being honest with yourself and not selling yourself short. Everyone, especially those just starting out, feels unqualified. That's natural, so don't worry about it. This is about figuring out your strengths and weaknesses so you can tailor your story to play to your strengths and honestly address your weaknesses.
 

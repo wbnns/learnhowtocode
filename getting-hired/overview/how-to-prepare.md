@@ -1,3 +1,9 @@
+---
+description: >-
+  You may be uncomfortable "selling yourself" but that's exactly what you'll
+  have to do.
+---
+
 # How to prepare
 
 ## A structured approach

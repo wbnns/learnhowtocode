@@ -1,3 +1,10 @@
+---
+description: >-
+  Part of the reason for qualifying the leads is to make sure you don't get
+  sucked into a process and waste a bunch of time applying to jobs that you
+  wouldn't actually take anyway.
+---
+
 # Qualifying leads
 
 ## Evaluate each lead

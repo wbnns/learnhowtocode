@@ -1,3 +1,10 @@
+---
+description: >-
+  You'll want to figure out the questions you might expect to be asked (and the
+  general responses you'll have for each which demonstrate your brilliance) and
+  you'll want to research the company too.
+---
+
 # Preparing for an interview
 
 ## Be prepared

@@ -1,3 +1,9 @@
+---
+description: >-
+  Companies are looking for someone who can add value as soon as possible and
+  who will be able to grow with the organization.
+---
+
 # What companies want
 
 ## Understanding their perspective
