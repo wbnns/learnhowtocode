@@ -1,5 +1,5 @@
 ---
-description: "In this project, we're going to build a fully functional Rails application."
+description: 'In this project, we''re going to build a fully functional Rails application.'
 ---
 
 # Installing Rails
@@ -12,10 +12,10 @@ With Ruby installed, you're all set to install Rails and create our first Rails 
 
 Before continuing, let's review a few best practices to keep in mind:
 
-- Follow the directions closely, and don't skip over any sections.
-- **Do NOT use `sudo`.** Failing to follow this advice can cause _a lot_ of headaches. In some instances, you might see a message in the terminal telling you to use `sudo` and/or to install something with `apt`. **Ignore what the terminal says** and follow the instructions below.
-- Copy and paste the commands to avoid typos.
-- If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
+* Follow the directions closely, and don't skip over any sections.
+* **Do NOT use `sudo`.** Failing to follow this advice can cause _a lot_ of headaches. In some instances, you might see a message in the terminal telling you to use `sudo` and/or to install something with `apt`. **Ignore what the terminal says** and follow the instructions below.
+* Copy and paste the commands to avoid typos.
+* If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
 
 In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do _not_ worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely.
 
@@ -367,3 +367,4 @@ heroku open
 ```
 
 Now go and play around with it!
+

@@ -1,3 +1,7 @@
+---
+description: Build a social network with NodeJS.
+---
+
 # Project: Social network
 
 ## Introduction

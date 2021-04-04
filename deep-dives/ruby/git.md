@@ -22,18 +22,18 @@ We'll begin by reading some things that are probably review from [Foundations](h
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-- How do you amend a commit message that you just messed up?
-- How do you view the history of your most recent commits?
-- What are two different uses for `$ git checkout`?
-- How do you undo a recent commit?
-- What are branches?
-- How do you create a new branch to work on?
-- How do you push that \(non-master\) branch up to GitHub?
-- How do you merge the changes from your new branch into the master branch again?
-- Why is working with feature branches useful?
-- What is the difference between using `$ git merge` and `$ git rebase`? \(hint: history\)
-- What is the difference between a "remote" and your local repo?
-- How do you add your GitHub repo as the remote?
+* How do you amend a commit message that you just messed up?
+* How do you view the history of your most recent commits?
+* What are two different uses for `$ git checkout`?
+* How do you undo a recent commit?
+* What are branches?
+* How do you create a new branch to work on?
+* How do you push that \(non-master\) branch up to GitHub?
+* How do you merge the changes from your new branch into the master branch again?
+* Why is working with feature branches useful?
+* What is the difference between using `$ git merge` and `$ git rebase`? \(hint: history\)
+* What is the difference between a "remote" and your local repo?
+* How do you add your GitHub repo as the remote?
 
 ## Assignment
 
@@ -46,6 +46,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.
-- Read [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
-- Watch [Using Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example on how to use both rebase and merge.
+* Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.
+* Read [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
+* Watch [Using Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example on how to use both rebase and merge.
+

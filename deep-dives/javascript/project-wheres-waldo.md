@@ -30,4 +30,5 @@ Keep track of how long it takes between when the photo is first loaded and when 
 
 ### Extra credit
 
-- Load many images into your database and allow your use to select from among them before starting the game.
+* Load many images into your database and allow your use to select from among them before starting the game.
+

@@ -20,10 +20,10 @@ Having a solid understanding of Active Record will make the rest of Rails seem s
 
 Look through these now and then use them to test yourself after doing the assignment.
 
-- What is an ORM?
-- Why is Active Record more useful than just using SQL?
-- What are the two steps required to make a new row in your database table with ActiveRecord?
-- What are "generators" in Rails?
+* What is an ORM?
+* Why is Active Record more useful than just using SQL?
+* What are the two steps required to make a new row in your database table with ActiveRecord?
+* What are "generators" in Rails?
 
 ## What is an ORM?
 
@@ -100,7 +100,7 @@ A final note, you never want to rollback migrations unless you've screwed someth
 
 Migrations don't involve writing SQL, but you do need to understand enough about databases to know how you want yours structured! Which columns do you want? Which ones should be indexed \(and why\)? Should you set a default value? What data type will be stored in your column... a string or text?
 
-These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers. If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [Databases course](/courses/databases).
+These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers. If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [Databases course](https://github.com/wbnns/learnhowtocode/tree/af8a9f1f207c0f8d8314178bf5d98e3968f9c756/courses/databases/README.md).
 
 ## Basic Validations
 
@@ -126,7 +126,7 @@ Step one with understanding this stuff is just to think about which different ty
 
 The `has_many` / `belongs_to`, or a "one-to-many", relationship is pretty common, and usually easiest to think of in terms of actual objects... a Child can have many Marble objects, each of which belongs to that Child. But it also applies in slightly less intuitive cases, like where a single object `belongs_to` multiple other objects. An example would be a FranchiseLocation for a McDonalds, which `belongs_to` the Corporation McDonalds but might also `belongs_to` the City San Francisco.
 
-It's clear that it should belong to its corporate parent, but why does it belong to a City too? It's often easier to think of it from the opposite perspective -- a City can certainly have many FranchiseLocation objects. As long as a FranchiseLocation can only be in a single city, it effectively "belongs_to" that city in the way that Rails describes it.
+It's clear that it should belong to its corporate parent, but why does it belong to a City too? It's often easier to think of it from the opposite perspective -- a City can certainly have many FranchiseLocation objects. As long as a FranchiseLocation can only be in a single city, it effectively "belongs\_to" that city in the way that Rails describes it.
 
 Another common relationship is the many-to-many relationship, which can also be called `has_and_belongs_to_many` in Rails terms. This often comes up in actual relationships -- a Human can have many favorite Dog objects, and each Dog object can have many favorite Human objects. In this case, how would you specify which Dog objects are your favorites? It actually requires you to create another table \(a join table, or "through" table\) that specifically keeps track of all those relationships. It's a bit wonky to understand when you're learning but it becomes second nature once you've been at it for a short while.
 
@@ -142,27 +142,27 @@ That was really just a teaser about what Active Record can do. In the reading be
 
 ### **Basic Active Record**
 
-- Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.
+* Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.
   1. We'll go more into Migrations and Validations in the next section and in the lesson on Callbacks later in the course.
   2. Model files in Rails live in the `app/models` folder and are just normal .rb files. The key points are that the file and the class name is named after the table in your database \(but singular\), and that class inherits from ApplicationRecord to get its super powers.
 
 ### **Migrations**
 
-- Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
+* Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
   1. Don't worry about 3.6-3.8.
   2. Just skim section 7.
   3. Seeds \(section 8\) are useful and you'll be using them later. It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
 
 ### **Validations**
 
-- Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
+* Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
   1. Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
   2. You can skim section 6 about custom validators
   3. Section 8 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
 
 ### **Associations**
 
-- Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7. Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
+* Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7. Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
 
 ## Conclusion
 
@@ -176,4 +176,5 @@ It's all about practice, so the projects from here on out will ask you to think 
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).
+* [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).
+
