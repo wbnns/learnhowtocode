@@ -168,6 +168,7 @@
   * [Project: Tic Tac Toe](deep-dives/ruby/project-tic-tac-toe.md)
   * [Project: Mastermind](deep-dives/ruby/project-mastermind.md)
   * [Serialization](deep-dives/ruby/serialization.md)
+  * [Project: Event manager](deep-dives/ruby/project-event-manager.md)
 * [Ruby on Rails](deep-dives/ruby-on-rails/README.md)
   * [Using Heroku](deep-dives/ruby-on-rails/heroku.md)
   * [Installing Rails](deep-dives/ruby-on-rails/installing-rails.md)
