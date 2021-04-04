@@ -1,45 +1,51 @@
+---
+description: >-
+  Before you can understand how to program the web, you need a more rigorous
+  understanding of the web itself than you likely have now.
+---
+
 # How does the web work?
 
 ## The minute details
 
-Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.
+These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.
 
 ## Learning outcomes
 
 At the end of this lesson, you should be able to do the following:
 
-Describe what the internet is.
+**Describe what the internet is.**
 
 * The internet is a worldwide network of linked computers. Each of these computers can communicate with each other in a specific format.
 
-Describe what packets are and how they are used to transfer data.
+**Describe what packets are and how they are used to transfer data.**
 
 * Packets are the information of the internet. Packets are sent from the sender to the receiver in a specific format that contains all the information needed to communicate.
 
-Understand the differences between a web page, web server, web browser and search engine.
+**Understand the differences between a web page, web server, web browser and search engine.**
 
 * A web page is the page you look at in your browser.
 * A web server is the computer that has the code for how the webpage should look and act.
 * A web browser is a program on a computer that displays web pages.
 * A search engine is a web server that searches all other web servers for information. A user can then pull up the web page on their web browser and search for a site.
 
-Briefly explain what a client is.
+**Briefly explain what a client is.**
 
 * A client is a computer or internet device that requests information from a server.
 
-Briefly explain what a server is.
+**Briefly explain what a server is.**
 
 * A server is a computer that receives requests \(as packets\) from the client and responds with the appropriate data.
 
-Explain what IP addresses are
+**Explain what IP addresses are.**
 
 * IP addresses are numerical identifications that specify a destination in a network.
 
-Explain what DNS servers are.
+**Explain what DNS servers are.**
 
 * DNS Servers are the "phone book" of the internet. They translate domain names into IP addresses.
 
-In your own words, explain what happens when you run a search on google.com.
+**In your own words, explain what happens when you run a search on google.com.**
 
 * User sends request by clicking search button. Google receives the request, looks for the contents of the request in their databases, and sends back the result as a response.
 
@@ -61,6 +67,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * Consider buying the book [Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
 * If you're in for a bit more reading, you can check out the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. This book also touches on some topics covered later in the curriculum, such as developer tools and security. Additionally, you can learn about HTTP tools, which you may find helpful in the future.
 * Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!  
-
-_The content on this page is based on The Odin Project's_ [_open curriculum_](https://github.com/TheOdinProject/curriculum) _for learning web development._
 

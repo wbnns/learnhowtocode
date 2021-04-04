@@ -1,3 +1,9 @@
+---
+description: >-
+  Web development could be a good profession for you if you like solving logical
+  problems, building useful things, and experimenting with new technologies.
+---
+
 # Becoming a web developer
 
 ## What do web developers do?

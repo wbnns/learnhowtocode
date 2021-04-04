@@ -1,3 +1,9 @@
+---
+description: >-
+  Learning web development will be a long and arduous journey, but you can make
+  the marathon a lot more fun by pairing up with others.
+---
+
 # Join a supportive community
 
 ## Connecting with others

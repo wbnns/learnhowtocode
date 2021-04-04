@@ -1,3 +1,9 @@
+---
+description: >-
+  In this course, "Foundations" you'll take a journey through the entire
+  spectrum of topics that you will eventually need to know.
+---
+
 # Motivation and mindset
 
 ## Time to build
