@@ -144,7 +144,7 @@ It should also be noted that `Big O` is theoretical. Again, it should mostly hol
 
 ## Assignment
 
-1. Have another look at the algorithms mentioned in [our previous lesson](http://localhost:3000/courses/computer-science/lessons/a-general-view-on-algorithms) What are their Big O notations? What do these notations mean?
+1. Have another look at the algorithms mentioned in [our previous lesson](https://www.learnhowtocodebook.com/deep-dives/computer-science/recursion-and-algorithms/more-on-algorithms). What are their Big O notations? What do these notations mean?
 2. The above functions aren't the only examples of Big O complexity. Find other examples of complexity; and play around with the numbers. Which are more efficient?
 3. What other means of quantifying asymptotic performance are there? [Khan Academy discusses Asymptotic notation is more maths-y detail](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation).
 
