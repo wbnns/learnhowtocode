@@ -1,5 +1,7 @@
 ---
-description: Build a basic web page using applying what you've learned about HTML and CSS.
+description: >-
+  Build a basic web page to learn how elements get placed on the page, and how
+  they get styled and aligned.
 ---
 
 # Project: Create a web page

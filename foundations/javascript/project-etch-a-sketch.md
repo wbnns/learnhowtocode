@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to make a basic version of the classic "Etch-A-Sketch" toy, with
-  JavaScript.
+description: Make a basic version of the classic "Etch-A-Sketch" toy with JavaScript.
 ---
 
 # Project: Etch-A-Sketch

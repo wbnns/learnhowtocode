@@ -1,5 +1,5 @@
 ---
-description: Learn how to make a calculator with JavaScript.
+description: Make a calculator with JavaScript.
 ---
 
 # Project: Calculator
