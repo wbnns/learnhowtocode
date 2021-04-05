@@ -28,10 +28,11 @@ You have been through a _ton_ of content, and it would not be surprising if you 
 
 At this point you just need a little more practice! Go back to the [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises) that were introduced in Arrays and Loops and complete the following:
 
-- calculator
-- palindromes
-- fibonacci
-- getTheTitles
-- findTheOldest
+* calculator
+* palindromes
+* fibonacci
+* getTheTitles
+* findTheOldest
 
 Solutions for the exercises can be found in the 'solutions' branch of the repo.
+

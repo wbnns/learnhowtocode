@@ -14,14 +14,14 @@ NodeJS \(or just 'Node'\) has been steadily gaining popularity since its creatio
 
 By the end of this lesson, you should be able to do the following:
 
-- Describe the purpose of a server.
-- Describe the differences between static and dynamic sites.
-- Explain why you might need a back-end for your project.
-- Explain when you wouldn't need a back-end for a project.
-- Explain the event loop.
-- Understand the origin of the Node.js runtime.
-- Write a simple "hello world" application and run it in the console of your machine.
-- Understand what Node.js really is.
+* Describe the purpose of a server.
+* Describe the differences between static and dynamic sites.
+* Explain why you might need a back-end for your project.
+* Explain when you wouldn't need a back-end for a project.
+* Explain the event loop.
+* Understand the origin of the Node.js runtime.
+* Write a simple "hello world" application and run it in the console of your machine.
+* Understand what Node.js really is.
 
 ## What is Node?
 
@@ -87,7 +87,7 @@ While you may have learned React \(or any other frontend framework\) before, eit
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
+* Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
 
 ## Knowledge check
 
@@ -95,4 +95,5 @@ This section contains questions for you to check your understanding of this less
 
 **What is Node?**
 
-- Node.js is an open-source, cross-platform JavaScript runtime environment built to be run outside of the browser.
+* Node.js is an open-source, cross-platform JavaScript runtime environment built to be run outside of the browser.
+

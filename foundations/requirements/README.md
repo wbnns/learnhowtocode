@@ -67,11 +67,5 @@ Still not convinced? Here are a few great reasons to install Linux:
 * **Work Like The Pros** - Many developers use a Unix-based operating system.
 * **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and will occupy less hard drive space.
 
-Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
-
-Before we can continue, we must first stress one detail of importance:
-
-**We can only support what is provided within the scope of our curriculum. We do not support native Windows or any version of Windows Subsystem for Linux \(WSL\) as a development environment.** Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
-
-With that out of the way, we need to set up an appropriate development environment!
+Now let's set up an appropriate development environment!
 
