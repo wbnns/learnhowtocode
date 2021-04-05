@@ -18,8 +18,8 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 
 Open a terminal on your computer.
 
-* **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
-* **MacOS**: Open your Applications &gt; Utilities folder and find "Terminal".
+- **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
+- **MacOS**: Open your Applications &gt; Utilities folder and find "Terminal".
 
 Before we do anything, take a look at the following text:
 
@@ -39,12 +39,12 @@ You will be making heavy use of the command line throughout this curriculum, and
 
 By the end of this lesson, you should be able to do the following:
 
-* Describe what the command line is.
-* Open the command line on your computer.
-* Use the command line to navigate directories and display directory contents.
-* Use the command line to create a new directory and a new file.
-* Use the command line to rename or destroy a directory and a file.
-* Use the command line to open a file or folder in a program.
+- Describe what the command line is.
+- Open the command line on your computer.
+- Use the command line to navigate directories and display directory contents.
+- Use the command line to create a new directory and a new file.
+- Use the command line to rename or destroy a directory and a file.
+- Use the command line to open a file or folder in a program.
 
 ## Assignment
 
@@ -96,58 +96,57 @@ That's it--you're done with command line basics! If you commit to doing most thi
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
 
-* The online book [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapter 1 is free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to purchase and read the rest of the book if you like.
-* [ExplainShell.com](http://explainshell.com/) is a great resource for if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
-* [Unix/Linux Command Cheat Sheet](https://files.fosswire.com/2007/08/fwunixref.pdf) contains a list of important commands that you can refer to regularly as you become familiar with using Linux. You can print it out so you can have a physical copy with you when you're not at your computer.
-* [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
-* [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, are detailed enough to get started and light your inner curiosity.
+- The online book [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapter 1 is free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to purchase and read the rest of the book if you like.
+- [ExplainShell.com](http://explainshell.com/) is a great resource for if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
+- [Unix/Linux Command Cheat Sheet](https://files.fosswire.com/2007/08/fwunixref.pdf) contains a list of important commands that you can refer to regularly as you become familiar with using Linux. You can print it out so you can have a physical copy with you when you're not at your computer.
+- [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
+- [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, are detailed enough to get started and light your inner curiosity.
 
 ## Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson.
 
 What is the command line?
 
-* The command line is a way to interact with the computer using specific words called "commands".
+- The command line is a way to interact with the computer using specific words called "commands".
 
 How do you open the command line on your computer?
 
-* On Linux: Open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL` + `ALT` + `T`.
-* On Mac: Open your applications folder and find "Terminal".
+- On Linux: Open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL` + `ALT` + `T`.
+- On Mac: Open your applications folder and find "Terminal".
 
 How can you navigate to a particular directory?
 
-* You can use the `cd` command to change directories.
+- You can use the `cd` command to change directories.
 
 Where will `cd` on its own navigate you to?
 
-* On Linux and Mac, it will navigate you home.
+- On Linux and Mac, it will navigate you home.
 
 Where will `cd ..` navigate you to?
 
-* It will navigate you "up" one folder, that is, into the parent of the current directory.
+- It will navigate you "up" one folder, that is, into the parent of the current directory.
 
 How do you display the name of the directory you are currently in?
 
-* On Linux and Mac, use the `pwd` \(print working directory\) command.
+- On Linux and Mac, use the `pwd` \(print working directory\) command.
 
 How do you display the contents of the directory you are currently in?
 
-* On Linux and Mac, use the `ls` command. Use `ls -l` to display the files in a list.
+- On Linux and Mac, use the `ls` command. Use `ls -l` to display the files in a list.
 
 How do you create a new directory?
 
-* You can do this using the `mkdir` command.
+- You can do this using the `mkdir` command.
 
 How do you create a new file?
 
-* On Linux and Mac, use the `touch` command, e.g., `touch new-file.txt`.
+- On Linux and Mac, use the `touch` command, e.g., `touch new-file.txt`.
 
 How do you destroy a directory or file?
 
-* On Linux and Mac, use the `rm` command. To destroy folders, use `rm -r` or `rmdir`.
+- On Linux and Mac, use the `rm` command. To destroy folders, use `rm -r` or `rmdir`.
 
 How do you rename a directory or file?
 
-* On Linux and Mac, use the `mv` command, e.g., `mv folder/old-file.txt folder/new-file.txt`.
-
+- On Linux and Mac, use the `mv` command, e.g., `mv folder/old-file.txt folder/new-file.txt`.

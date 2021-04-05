@@ -14,14 +14,14 @@ NodeJS \(or just 'Node'\) has been steadily gaining popularity since its creatio
 
 By the end of this lesson, you should be able to do the following:
 
-* Describe the purpose of a server.
-* Describe the differences between static and dynamic sites.
-* Explain why you might need a back-end for your project.
-* Explain when you wouldn't need a back-end for a project.
-* Explain the event loop.
-* Understand the origin of the Node.js runtime.
-* Write a simple "hello world" application and run it in the console of your machine.
-* Understand what Node.js really is.
+- Describe the purpose of a server.
+- Describe the differences between static and dynamic sites.
+- Explain why you might need a back-end for your project.
+- Explain when you wouldn't need a back-end for a project.
+- Explain the event loop.
+- Understand the origin of the Node.js runtime.
+- Write a simple "hello world" application and run it in the console of your machine.
+- Understand what Node.js really is.
 
 ## What is Node?
 
@@ -62,10 +62,12 @@ This process is almost exactly like the way that you would use `addEventListener
 Let's look at a quick real-world example:
 
 ```javascript
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello World!');
-}).listen(8080);
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+    res.end("Hello World!");
+  })
+  .listen(8080);
 ```
 
 This snippet is from the very first lesson in a tutorial that you'll be following very soon. Basically this code is creating a server and saying, "any time we get a network request, run this callback function". This function happens to respond with the text 'Hello World!'. So if you go to a browser and navigate to the correct address and port, you would see that text on your screen.
@@ -78,20 +80,19 @@ While you may have learned React \(or any other frontend framework\) before, eit
 
 1. [This short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
 2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5). There's a long, but _really_ fantastic video linked in that article, don't skip it!
-3. Take a minute or two to browse through the main [Node.js website](https://nodejs.org/en/).  The getting-started article is a little _too_ basic for our needs, and at this point the API documentation is probably a little too complicated for us to make use of just yet. But it will be very useful to become familiar with this resource as we progress.
+3. Take a minute or two to browse through the main [Node.js website](https://nodejs.org/en/). The getting-started article is a little _too_ basic for our needs, and at this point the API documentation is probably a little too complicated for us to make use of just yet. But it will be very useful to become familiar with this resource as we progress.
 4. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 ## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
+- Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
 
 ## Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson.
 
 **What is Node?**
 
-* Node.js is an open-source, cross-platform JavaScript runtime environment built to be run outside of the browser.
-
+- Node.js is an open-source, cross-platform JavaScript runtime environment built to be run outside of the browser.

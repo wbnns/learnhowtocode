@@ -30,9 +30,9 @@ For now, let's learn what Git is and why it's so powerful!
 
 By the end of this lesson, you should be able to do the following:
 
-* Explain what Git and GitHub are and the differences between the two.
-* Describe the differences between Git and a text editor in terms of what they save and their record keeping.
-* Describe why Git is useful for an individual developer and a team of developers.
+- Explain what Git and GitHub are and the differences between the two.
+- Describe the differences between Git and a text editor in terms of what they save and their record keeping.
+- Describe why Git is useful for an individual developer and a team of developers.
 
 ## Assignment
 
@@ -46,34 +46,33 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
+- [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 
 ## Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson.
 
 **What kind of program is Git?**
 
-* Git is a version control program.
+- Git is a version control program.
 
 **What are the differences between Git and a text editor in terms of what they save and their record keeping?**
 
-* A text editor can only make and save changes to a file.
-* Git tracks changes to the files and their contents over time.
+- A text editor can only make and save changes to a file.
+- Git tracks changes to the files and their contents over time.
 
 **Does Git work at a local or remote level?**
 
-* Git works on a local level. Any changes you make are saved locally with Git.
+- Git works on a local level. Any changes you make are saved locally with Git.
 
 **Does GitHub work at a local or remote level?**
 
-* GitHub works on a remote level. You must push your local changes \(using Git\) to GitHub.
+- GitHub works on a remote level. You must push your local changes \(using Git\) to GitHub.
 
 **Why is Git useful for an individual developer?**
 
-* Git is useful for creating snapshots of your work. If you realize halfway through that you've messed up, it's much easier to reset.
+- Git is useful for creating snapshots of your work. If you realize halfway through that you've messed up, it's much easier to reset.
 
 **Why are Git and GitHub useful for a team of developers?**
 
-* Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.
-
+- Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.
