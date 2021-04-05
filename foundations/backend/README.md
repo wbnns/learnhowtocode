@@ -16,10 +16,11 @@ As we covered back in the [Requirements Overview](https://www.learnhowtocodebook
 
 ## Learning outcomes
 
-- What is the difference between front-end and back-end development ?
-- Why are we required to install back-end languages to our computer \(besides to run them\)?
+* What is the difference between front-end and back-end development ?
+* Why are we required to install back-end languages to our computer \(besides to run them\)?
 
 ## Assignment
 
 1. Check out [this blog post on back end vs front end programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
 2. Read over [this quick interview with Matt Jording](https://www.bizjournals.com/washington/inno/stories/news/2014/03/31/what-is-back-end-web-development.html) about what back end web development is.
+

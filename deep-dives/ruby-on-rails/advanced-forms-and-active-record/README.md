@@ -22,16 +22,16 @@ There's a lot of material to read and cover, but it basically follows the idea "
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-- What is an `ActiveRecord::Relation`?
-- What does Lazy Evaluation mean?
-- How do you make a relation evaluate into an array?
-- How do you check whether a database already contains a record?
-- Why is `#find_by` useful and how is it used?
-- What's the difference between what's returned using a `#where` query and a `#find` query?
-- How do you join tables together in Rails?
-- When can you use symbols / hashes and when do you need to use explicit strings for query parameters?
-- What are Scopes and why are they useful?
-- What needs to happen for a class method to act like a scope?
+* What is an `ActiveRecord::Relation`?
+* What does Lazy Evaluation mean?
+* How do you make a relation evaluate into an array?
+* How do you check whether a database already contains a record?
+* Why is `#find_by` useful and how is it used?
+* What's the difference between what's returned using a `#where` query and a `#find` query?
+* How do you join tables together in Rails?
+* When can you use symbols / hashes and when do you need to use explicit strings for query parameters?
+* What are Scopes and why are they useful?
+* What needs to happen for a class method to act like a scope?
 
 ## Relations and lazy evaluation
 
@@ -241,10 +241,11 @@ This was a lot of material, but you should have a healthy appreciation for the b
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
-- [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
-- [RailsCasts \#22 Eager Loading](http://railscasts.com/episodes/22-eager-loading-revised)
-- [Introduction to the N+1 Problem](https://www.youtube.com/watch?v=Xr3hZdIwuSw)
-- [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
-- [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
-- [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
+* [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
+* [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
+* [RailsCasts \#22 Eager Loading](http://railscasts.com/episodes/22-eager-loading-revised)
+* [Introduction to the N+1 Problem](https://www.youtube.com/watch?v=Xr3hZdIwuSw)
+* [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
+* [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
+* [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
+

@@ -10,14 +10,14 @@ Let's take a look at how you can use nested arrays and nested hashes to store mo
 
 By the end of this lesson, you should be able to do the following:
 
-- Describe a nested array and hash.
-- Explain what data is useful to store in a nested array and hash.
-- Explain how to access data in a nested array and hash.
-- Explain why the `#dig` method is useful.
-- Explain how to add data to a nested array and hash.
-- Explain how to delete data in a nested array and hash.
-- Explain how to create a new nested array that is not mutable.
-- Explain how to iterate over a nested array and hash.
+* Describe a nested array and hash.
+* Explain what data is useful to store in a nested array and hash.
+* Explain how to access data in a nested array and hash.
+* Explain why the `#dig` method is useful.
+* Explain how to add data to a nested array and hash.
+* Explain how to delete data in a nested array and hash.
+* Explain how to create a new nested array that is not mutable.
+* Explain how to iterate over a nested array and hash.
 
 ## Nested arrays
 
@@ -140,7 +140,7 @@ test_scores
 
 ### Iterating over a nested array
 
-Let's break down how to iterate over a nested array using the `#each_with_index` method. We find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher_mailboxes example, each element will be one row.
+Let's break down how to iterate over a nested array using the `#each_with_index` method. We find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher\_mailboxes example, each element will be one row.
 
 ```ruby
 teacher_mailboxes.each_with_index do |row, row_index|
@@ -351,11 +351,12 @@ Amazing! We have found a great solution to returning an array that only contains
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- **What is a nested array and hash?**
-- **What data is useful to store in a nested array and hash?**
-- **How do you access data in a nested array and hash?**
-- **Why the `#dig` method is useful?**
-- **How do you add data to a nested array and hash?**
-- **How do you delete data in a nested array and hash?**
-- **How do you create a new nested array that is not mutable?**
-- **How do you iterate over a nested array and hash?**
+* **What is a nested array and hash?**
+* **What data is useful to store in a nested array and hash?**
+* **How do you access data in a nested array and hash?**
+* **Why the `#dig` method is useful?**
+* **How do you add data to a nested array and hash?**
+* **How do you delete data in a nested array and hash?**
+* **How do you create a new nested array that is not mutable?**
+* **How do you iterate over a nested array and hash?**
+

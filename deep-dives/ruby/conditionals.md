@@ -22,13 +22,13 @@ You'll write a lot of conditional statements on your road to programmer stardom.
 
 By the end of this lesson, you should be able to do the following:
 
-- Describe and list falsy values.
-- Explain how to use `if`, `elsif`, and `else`.
-- Explain the difference between `if` and `unless`.
-- Describe what `||`, `&&`, and `!` do.
-- Explain what short circuit evaluation is.
-- Describe what the ternary operator is and how to use it.
-- Explain what a `case` statement is and how it works.
+* Describe and list falsy values.
+* Explain how to use `if`, `elsif`, and `else`.
+* Explain the difference between `if` and `unless`.
+* Describe what `||`, `&&`, and `!` do.
+* Explain what short circuit evaluation is.
+* Describe what the ternary operator is and how to use it.
+* Explain what a `case` statement is and how it works.
 
 ## Truthy and Falsy
 
@@ -164,9 +164,9 @@ In addition to the above operators, Ruby has a special operator that is affectio
 
 `<=>` \(spaceship operator\) returns the following:
 
-- `-1` if the value on the left is less than the value on the right;
-- `0` if the value on the left is equal to the value on the right; and
-- `1` if the value on the left is greater than the value on the right.
+* `-1` if the value on the left is less than the value on the right;
+* `0` if the value on the left is equal to the value on the right; and
+* `1` if the value on the left is greater than the value on the right.
 
 ```ruby
 5 <=> 10 #=> -1
@@ -326,21 +326,22 @@ However, if your conditional statements are complicated, then using an `if...els
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
-- For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
-- If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.
+* For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
+* For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
+* If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.
 
 ## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- **What is a Boolean?**
-- **What are "truthy" values?**
-- **Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?**
-- **When do you use `elsif`?**
-- **When do you use `unless`?**
-- **What do `||` and `&&` and `!` do?**
-- **What is short circuit evaluation?**
-- **What is returned by `puts("woah") || true`?**
-- **What is the ternary operator?**
-- **When should you use a case statement?**
+* **What is a Boolean?**
+* **What are "truthy" values?**
+* **Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?**
+* **When do you use `elsif`?**
+* **When do you use `unless`?**
+* **What do `||` and `&&` and `!` do?**
+* **What is short circuit evaluation?**
+* **What is returned by `puts("woah") || true`?**
+* **What is the ternary operator?**
+* **When should you use a case statement?**
+

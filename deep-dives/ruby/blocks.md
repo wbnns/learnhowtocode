@@ -18,18 +18,18 @@ Although you are familiar with how to write blocks, you need to know how to writ
 
 ## Learning outcomes
 
-- What is a block?
-- How is a block like a method?
-- What are the two ways to declare a block?
-- Why would you use a block instead of just creating a method?
-- What does `yield` do?
-- How do you pass arguments to a block from within a method?
-- How do you check whether a block was actually passed in?
-- What is a proc?
-- What is a lambda?
-- What's the difference between a proc and a block?
-- When would you use a proc instead of a block?
-- What's different between a lambda and a proc?
+* What is a block?
+* How is a block like a method?
+* What are the two ways to declare a block?
+* Why would you use a block instead of just creating a method?
+* What does `yield` do?
+* How do you pass arguments to a block from within a method?
+* How do you check whether a block was actually passed in?
+* What is a proc?
+* What is a lambda?
+* What's the difference between a proc and a block?
+* When would you use a proc instead of a block?
+* What's different between a lambda and a proc?
 
 ## Yield
 
@@ -360,7 +360,7 @@ Capturing a block with `&` is known as an explicit block, when you don't name it
 
 One other thing to note is that even when you do capture a block using an `&` you can still use yield rather than `call` to yield to the block. Although it would make the method somewhat unclear so we wouldn't recommend it.
 
-So how does this work? Well, actually the `&` capturing syntax doesn't only have to be used on blocks. What happens is that ruby calls a method called `to_proc` on whatever is assigned to that variable. In the case above using `&` assigns the block to my_block and then calls `to_proc` on it, which creates a Proc object. That is why you can use `call` on it.
+So how does this work? Well, actually the `&` capturing syntax doesn't only have to be used on blocks. What happens is that ruby calls a method called `to_proc` on whatever is assigned to that variable. In the case above using `&` assigns the block to my\_block and then calls `to_proc` on it, which creates a Proc object. That is why you can use `call` on it.
 
 Maybe you've seen or used code like the following
 
@@ -417,21 +417,22 @@ After getting to grips with the information in this lesson you'll be a block, pr
 
 ## Knowledge check
 
-- **What is a block?**
-- **How is a block like a method?**
-- **How is a block different from a method?**
-- **What are the two ways to declare a block?**
-- **How do you return data from a block?**
-- **How can your methods collect the return data from a block?**
-- **What happens if you include a `return` statement in a block?**
-- **Why would you use a block instead of just creating a method?**
-- **What does `yield` do?**
-- **How do you pass arguments to a block from within a method?**
-- **How do you check whether a block was actually passed in?**
-- **What is a proc?**
-- **What is a lambda?**
-- **What's the difference between a proc and a block?**
-- **When would you use a proc instead of a block?**
-- **What's different between a lambda and a proc?**
-- **How do you convert a proc to a block?**
-- **How do you convert a block to a proc?**
+* **What is a block?**
+* **How is a block like a method?**
+* **How is a block different from a method?**
+* **What are the two ways to declare a block?**
+* **How do you return data from a block?**
+* **How can your methods collect the return data from a block?**
+* **What happens if you include a `return` statement in a block?**
+* **Why would you use a block instead of just creating a method?**
+* **What does `yield` do?**
+* **How do you pass arguments to a block from within a method?**
+* **How do you check whether a block was actually passed in?**
+* **What is a proc?**
+* **What is a lambda?**
+* **What's the difference between a proc and a block?**
+* **When would you use a proc instead of a block?**
+* **What's different between a lambda and a proc?**
+* **How do you convert a proc to a block?**
+* **How do you convert a block to a proc?**
+

@@ -15,10 +15,10 @@ You've learned about Models, Views, and Controllers. That's the nuts and bolts, 
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-- What is the "Asset Pipeline"?
-- What are "Manifest Files"?
-- Why would you namespace your stylesheets?
-- What does it mean to "Escape" HTML?
+* What is the "Asset Pipeline"?
+* What are "Manifest Files"?
+* Why would you namespace your stylesheets?
+* What does it mean to "Escape" HTML?
 
 ## The Asset Pipeline
 
@@ -61,7 +61,7 @@ Rails needs to know which files to include in that giant blob, so it uses so-cal
 
 The `require_tree` helper method just grabs everything in the current directory.
 
-jquery also isn't now included out of the box. Rails now uses the rails_ujs instead so if you do end up using the asset pipeline exclusively \(which you still can for Rails 6 applications\) you're javascript manifest may look a little different.
+jquery also isn't now included out of the box. Rails now uses the rails\_ujs instead so if you do end up using the asset pipeline exclusively \(which you still can for Rails 6 applications\) you're javascript manifest may look a little different.
 
 Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css`:
 
@@ -165,7 +165,7 @@ CGI.escapeHTML('usage: foo "bar" <baz>')
 
 Some necessary and straightforward reading on the Asset Pipeline:
 
-- Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
+* Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
 
 ## Conclusion
 
@@ -175,6 +175,7 @@ The Asset Pipeline isn't something that you often think about, especially when j
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
-- [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
-- [Stack Overflow on Escaping HTML in Rails](http://stackoverflow.com/questions/692921/rails-how-to-html-encode-escape-a-string-is-there-a-built-in)
+* [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
+* [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
+* [Stack Overflow on Escaping HTML in Rails](http://stackoverflow.com/questions/692921/rails-how-to-html-encode-escape-a-string-is-there-a-built-in)
+

@@ -1,8 +1,8 @@
 ---
 description: >-
   This section intentionally covers a very broad range of topics. It's silly to
-  go diving straight into server-side programming without having a context for
-  what it is and why it's useful.
+  go diving straight into programming without having a context for what it is
+  and why it's useful.
 ---
 
 # Introduction

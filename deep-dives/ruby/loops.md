@@ -18,13 +18,13 @@ For all of the examples in this lesson, you should code along in irb or [repl.it
 
 By the end of this lesson, you should be able to do the following:
 
-- Explain what a loop is and why it's useful.
-- Explain what a `loop` loop is and how to use it.
-- Explain what a `while` loop is and how to use it.
-- Explain what a `for` loop is and how to use it.
-- Explain what a `#times` loop is and how to use it.
-- Explain what an `until` loop is and how to use it.
-- Explain what `#upto` and `#downto` loops are and how to use them.
+* Explain what a loop is and why it's useful.
+* Explain what a `loop` loop is and how to use it.
+* Explain what a `while` loop is and how to use it.
+* Explain what a `for` loop is and how to use it.
+* Explain what a `#times` loop is and how to use it.
+* Explain what an `until` loop is and how to use it.
+* Explain what `#upto` and `#downto` loops are and how to use them.
 
 ## Loop
 
@@ -150,17 +150,18 @@ If you need to step through a series of numbers \(or even letters\) within a spe
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. \(Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!\)
-- If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). \(Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.\)
+* If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. \(Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!\)
+* If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). \(Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.\)
 
 ## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- **What is a loop and why it is useful?**
-- **What is a `loop` loop, and how would you use it?**
-- **What is a `while` loop, and how would you use it?**
-- **What is a `for` loop, and how would you use it?**
-- **What is a `times` loop, and how would you use it?**
-- **What is an `until` loop, and how would you use it?**
-- **What are the `upto` and `downto` loops, and how would you use them?**
+* **What is a loop and why it is useful?**
+* **What is a `loop` loop, and how would you use it?**
+* **What is a `while` loop, and how would you use it?**
+* **What is a `for` loop, and how would you use it?**
+* **What is a `times` loop, and how would you use it?**
+* **What is an `until` loop, and how would you use it?**
+* **What are the `upto` and `downto` loops, and how would you use them?**
+

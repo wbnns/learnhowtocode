@@ -10,12 +10,12 @@ If you haven't finished our [front-end javascript course](https://www.learnhowto
 
 By the end of this lesson, you should be able to do or answer the following:
 
-- Use the `supertest` module to test Express routes/controllers.
-- Describe how supertest handles our express application.
-- Explain the functionality `superagent` provides to supertest.
-- What is the purpose of `done`? What convenience does supertest provide concerning it?
-- Explain and have a firm understanding of `.expect()` method's functionality.
-- Have familiarity with `supertest`'s documentation and methods.
+* Use the `supertest` module to test Express routes/controllers.
+* Describe how supertest handles our express application.
+* Explain the functionality `superagent` provides to supertest.
+* What is the purpose of `done`? What convenience does supertest provide concerning it?
+* Explain and have a firm understanding of `.expect()` method's functionality.
+* Have familiarity with `supertest`'s documentation and methods.
 
 The most important, basic requirement for testing something in your code is that it be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
@@ -149,3 +149,4 @@ If we were using a real database here, then we would want to do something simila
 
 1. Make sure that you read through the [Supertest docs](https://github.com/visionmedia/supertest)
 2. Supertest actually pulls from another related project called Superagent. Any method that you can call in Superagent you can also call from supertest, so you'll need to take a look through the [SuperAgent docs](http://visionmedia.github.io/superagent/) as well.
+

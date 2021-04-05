@@ -22,13 +22,13 @@ Lots of training courses and tutorials kind of gloss over routes, and they seem 
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-- What is the "Root" route?
-- What are the seven RESTful routes for a resource?
-- Which RESTful routes share the same URL but use different verbs?
-- How do you specify an ID or other variable in a route?
-- How can you easily write all seven RESTful routes in Rails?
-- How can you easily list out all the routes in your router?
-- What is the Rails helper method that creates the HTML for links?
+* What is the "Root" route?
+* What are the seven RESTful routes for a resource?
+* Which RESTful routes share the same URL but use different verbs?
+* How do you specify an ID or other variable in a route?
+* How can you easily write all seven RESTful routes in Rails?
+* How can you easily list out all the routes in your router?
+* What is the Rails helper method that creates the HTML for links?
 
 ## Root
 
@@ -200,5 +200,6 @@ You should have a good sense of what's going on in the routes file by now but pr
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [CodeSchool's Surviving APIs with Rails](https://www.youtube.com/watch?v=99nZVo9amAQ) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
-- [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest
+* [CodeSchool's Surviving APIs with Rails](https://www.youtube.com/watch?v=99nZVo9amAQ) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
+* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest
+
