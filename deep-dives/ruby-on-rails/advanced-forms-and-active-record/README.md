@@ -213,7 +213,7 @@ You might be thinking, Why use a scope when you can write a class method to do t
   ...
 ```
 
-See the Additional Resources section for links to some posts that dig a bit deeper into the use cases for these two.
+See the additional resources section at the bottom of this page for links to some posts that dig a bit deeper into the use cases for these two.
 
 How much do you need to understand or care about scopes? In the early going, you probably won't run into them or see why to use them. Keep them in the back of your mind for when you start working on some slightly more complicated projects that might need them.
 

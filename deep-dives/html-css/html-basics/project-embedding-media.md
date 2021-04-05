@@ -28,7 +28,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.  Ignore the icons \(many of them are produced using sprites or more advanced techniques so you won't be able to just grab them by copying them\).
 11. Push your solution up to GitHub.
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

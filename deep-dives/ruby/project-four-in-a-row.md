@@ -36,7 +36,7 @@ Only write exactly enough code to make your test pass. Oftentimes, you'll end up
 
 * Build it! Be sure to adhere to a process of TDD.
 
-## Additional Resources
+## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

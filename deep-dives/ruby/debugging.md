@@ -184,7 +184,7 @@ It stops after evaluating the next line. `name` now returns `BOB`. Calling `next
 
 As you can see, using Pry-byebug for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry-byebug will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry-byebug will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
-There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
+There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the assignments and additional resources sections of this page to find out where you can learn more about this useful gem.
 
 ## How to start debugging
 
