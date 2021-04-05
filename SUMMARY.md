@@ -217,19 +217,19 @@
 
 ## Getting hired
 
-* [Preparing to find a job](getting-hired/overview/README.md)
-  * [Plan a strategy](getting-hired/overview/plan-a-strategy.md)
-  * [What companies want](getting-hired/overview/what-companies-want.md)
-  * [Get yourself together](getting-hired/overview/get-yourself-together.md)
-  * [How to prepare](getting-hired/overview/how-to-prepare.md)
-  * [Project: Make your website](getting-hired/overview/project-build-a-personal-website.md)
-* [Applying and interviewing](getting-hired/collecting-leads/README.md)
-  * [Qualifying leads](getting-hired/collecting-leads/qualifying-leads.md)
-  * [Project: Make your resume](getting-hired/collecting-leads/project-make-a-developer-resume.md)
-  * [Applying for jobs](getting-hired/collecting-leads/applying-for-jobs.md)
-  * [Preparing for an interview](getting-hired/collecting-leads/preparing-for-an-interview.md)
-  * [Handling an offer](getting-hired/collecting-leads/handling-an-offer.md)
-  * [Final words](getting-hired/collecting-leads/final-words.md)
+* [Preparing to find a job](getting-hired/preparing-to-find-a-job/README.md)
+  * [Plan a strategy](getting-hired/preparing-to-find-a-job/plan-a-strategy.md)
+  * [What companies want](getting-hired/preparing-to-find-a-job/what-companies-want.md)
+  * [Get yourself together](getting-hired/preparing-to-find-a-job/get-yourself-together.md)
+  * [How to prepare](getting-hired/preparing-to-find-a-job/how-to-prepare.md)
+  * [Project: Make your website](getting-hired/preparing-to-find-a-job/project-build-a-personal-website.md)
+* [Applying and interviewing](getting-hired/applying-and-interviewing-for-a-job/README.md)
+  * [Qualifying leads](getting-hired/applying-and-interviewing-for-a-job/qualifying-leads.md)
+  * [Project: Make your resume](getting-hired/applying-and-interviewing-for-a-job/project-make-a-developer-resume.md)
+  * [Applying for jobs](getting-hired/applying-and-interviewing-for-a-job/applying-for-jobs.md)
+  * [Preparing for an interview](getting-hired/applying-and-interviewing-for-a-job/preparing-for-an-interview.md)
+  * [Handling an offer](getting-hired/applying-and-interviewing-for-a-job/handling-an-offer.md)
+  * [Final words](getting-hired/applying-and-interviewing-for-a-job/final-words.md)
 
 ## License
 
