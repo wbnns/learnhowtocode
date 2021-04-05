@@ -211,7 +211,8 @@
     * [Project: Photo widget](deep-dives/ruby-on-rails/apis/project-photo-widget.md)
   * [Mailers](deep-dives/ruby-on-rails/mailers/README.md)
     * [Project: Confirmation](deep-dives/ruby-on-rails/mailers/project-confirmation.md)
-  * [Advanced topics](deep-dives/ruby-on-rails/advanced-topics.md)
+  * [Advanced topics](deep-dives/ruby-on-rails/advanced-topics/README.md)
+    * [Action Cable](deep-dives/ruby-on-rails/advanced-topics/action-cable.md)
   * [Project: Social network](deep-dives/ruby-on-rails/project-social-network.md)
   * [Next steps](deep-dives/ruby-on-rails/next-steps.md)
 
