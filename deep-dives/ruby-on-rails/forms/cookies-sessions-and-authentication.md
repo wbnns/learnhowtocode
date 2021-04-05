@@ -16,18 +16,18 @@ In this lesson you'll learn about sessions, browser cookies, and how authenticat
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-* What is a cookie?
-* What is a session?
-* How is the `session` "hash" different from the `cookies` "hash"?
-* What is the `flash` "hash" used for?
-* When would you need to use `flash.now` instead of `flash`?
-* What are controller filters and why are they useful?
-* How do you run a controller filter for just a specific few actions?
-* What's the difference between authentication and authorization?
-* Why is `#has_secure_password` a handy method?
-* What is the basic overview of how to authenticate a user with that method?
-* What additional steps \(on a high level\) are needed to actually "remember" a user after they've closed the browser?
-* What is the Devise gem and why is it useful?
+- What is a cookie?
+- What is a session?
+- How is the `session` "hash" different from the `cookies` "hash"?
+- What is the `flash` "hash" used for?
+- When would you need to use `flash.now` instead of `flash`?
+- What are controller filters and why are they useful?
+- How do you run a controller filter for just a specific few actions?
+- What's the difference between authentication and authorization?
+- Why is `#has_secure_password` a handy method?
+- What is the basic overview of how to authenticate a user with that method?
+- What additional steps \(on a high level\) are needed to actually "remember" a user after they've closed the browser?
+- What is the Devise gem and why is it useful?
 
 ## Cookies, Sessions, and Flashes
 
@@ -74,8 +74,8 @@ So cookies and sessions are sort of like temporary free database tables for you 
 
 ### **Additional notes on sessions and cookies**
 
-* `session` and `cookies` aren't really hashes, Rails just pretends they are so it's easy for you to work with them.  You can still consider them as hashes just because they act very similarly to hashes.
-* You are size-limited in terms of how much you can store inside a session hash or browser cookie \(~4kb\).  It is sufficient for any "normal" usage, but don't go pretending either of these are actually substitutes for a database.
+- `session` and `cookies` aren't really hashes, Rails just pretends they are so it's easy for you to work with them. You can still consider them as hashes just because they act very similarly to hashes.
+- You are size-limited in terms of how much you can store inside a session hash or browser cookie \(~4kb\). It is sufficient for any "normal" usage, but don't go pretending either of these are actually substitutes for a database.
 
 ## Flashes
 
@@ -104,14 +104,13 @@ Before we talk about authentication, we need to cover controller filters. The id
 We do this through the use of a "before filter", which takes the name of the method we want to run:
 
 ```ruby
-  # app/controllers/users_controller
-  before_action :require_login
-  ...
-  private
+# app/controllers/users_controller
+before_action :require_login
+...private
 
-  def require_login
-    # do stuff to check if user is logged in
-  end
+def require_login
+  # do stuff to check if user is logged in
+end
 ```
 
 The `before_action` method takes the symbol of the method to run before anything else gets run in the controller. If it returns `false` or `nil`, the request will not succeed.
@@ -164,8 +163,8 @@ A generic step-by-step overview:
 2. When the user signs up, turn the password they submitted into digest form and then store THAT in the new database column by adding the `has_secure_password` method to your User model.
 3. Don't forget any necessary validations for password and password confirmation length.
 4. Build a sessions controller \(and corresponding routes\) and use the `#authenticate` method to sign in the user when the user has submitted the proper credentials using the signin form.
-5. Allow the user to be remembered by creating a `remember_token` column in the Users table and saving that token as a permanent cookie in the user's browser.  Reset on each new signin.
-6. On each page load that requires authentication \(and using a `#before_action` in the appropriate controller\(s\)\), first check the user's cookie `remember_token` against the database to see if he's already signed in.  If not, redirect to the signin page.
+5. Allow the user to be remembered by creating a `remember_token` column in the Users table and saving that token as a permanent cookie in the user's browser. Reset on each new signin.
+6. On each page load that requires authentication \(and using a `#before_action` in the appropriate controller\(s\)\), first check the user's cookie `remember_token` against the database to see if he's already signed in. If not, redirect to the signin page.
 7. Make helper methods as necessary to let you do things like easily determine if a user is signed in or compare another user to the currently signed in user.
 8. Profit.
 
@@ -181,10 +180,10 @@ Configuration will be dependent on your use case. Do you want to make the user c
 
 1. Read [this article about how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
 2. Watch [this video to dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
-3. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
+3. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session). Don't worry too much about the details of `session_store` configurations in 5.1 right now.
 4. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
 5. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
-6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it with upcoming projects.
+6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do. You'll be using it with upcoming projects.
 
 ## Conclusion
 
@@ -196,6 +195,5 @@ This lesson should have given you some appreciation for how complicated login sy
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
-* [All About Cookies \(.org\)](http://www.allaboutcookies.org/)
-
+- Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
+- [All About Cookies \(.org\)](http://www.allaboutcookies.org/)

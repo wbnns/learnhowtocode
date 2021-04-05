@@ -96,7 +96,7 @@ Post.first.categories.many?
 
 ### **Arguments**
 
-There are multiple ways to submit arguments for most Rails query methods. You can typically use either symbols or strings or both. I prefer to stick with symbols and hashes wherever possible. You can also use `?` parameters like in normal SQL. When it's not ambiguous \(e.g. if you aren't working with multiple tables\) you can also choose to specify the table name or not \(see \#5 below\). All of the following are the same:
+There are multiple ways to submit arguments for most Rails query methods. You can typically use either symbols or strings or both. We prefer to stick with symbols and hashes wherever possible. You can also use `?` parameters like in normal SQL. When it's not ambiguous \(e.g. if you aren't working with multiple tables\) you can also choose to specify the table name or not \(see \#5 below\). All of the following are the same:
 
 1. `User.where(email: "foo@bar.com")`
 2. `User.where("email" => "foo@bar.com")`
@@ -118,7 +118,7 @@ The key thing to note is that `#find` returns the actual record while `#where` r
 
 ## Aggregations
 
-Just like with SQL, you often want to group fields together \(or "roll up" the values under one header\). For example, grouping blog posts written on a certain date. This is most useful when you also apply mathematical operations to them like `#count` or `#max`. An example \(a bit more complex because it involves joining two tables\) is if I want to get a count of all the blog posts categorized by each tag. I might write something like:
+Just like with SQL, you often want to group fields together \(or "roll up" the values under one header\). For example, grouping blog posts written on a certain date. This is most useful when you also apply mathematical operations to them like `#count` or `#max`. An example \(a bit more complex because it involves joining two tables\) is if we want to get a count of all the blog posts categorized by each tag. I might write something like:
 
 ```bash
   Post.joins(:tags).group("tags.name").count

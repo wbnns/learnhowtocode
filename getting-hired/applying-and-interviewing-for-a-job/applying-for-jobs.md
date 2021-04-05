@@ -19,11 +19,11 @@ Over time, you will work your way through your excel list. It's usually good to 
 
 Where do you start? Do two things at once -- send applications to a few companies towards the bottom of your list to practice but also look at the top companies on your list and build a strategy. Remember, the best way to get in is to NOT use their online resume drop but to instead identify a real human being at the company and connect with that person somehow. Even better is to be so publicly brilliant that they come to you but... we can't have it all.
 
-So there are probably a few companies that you'd _really_ like to work for. You'll want to spend a lot more time on them than you would for the ones at the bottom \(which are hopefully good for interview practice\). Not only should you try to find a real human being at the company, but you can also potentially get noticed by tailoring your project work to them. You'll be building projects \(I hope\) to stay in practice anyway, so make one of those a clone of the top company's website with a new feature you'd like to see, then use that to display your interest.
+So there are probably a few companies that you'd _really_ like to work for. You'll want to spend a lot more time on them than you would for the ones at the bottom \(which are hopefully good for interview practice\). Not only should you try to find a real human being at the company, but you can also potentially get noticed by tailoring your project work to them. You'll be building projects \(we hope\) to stay in practice anyway, so make one of those a clone of the top company's website with a new feature you'd like to see, then use that to display your interest.
 
 Get to know the company and its needs and see if you can reach out to address them somehow. Do they have local events you can visit? What do they sponsor? This stuff takes creativity. You need to walk the line where you're not a stalker but you do care enough to push hard. If you're wrong, they may say no. It happens, you'll live and move on. But you'd better try! You'll probably figure things out that will help you with other companies anyway.
 
-* [Getting noticed by a startup you want to work for](http://www.thedailymuse.com/job-search/want-to-work-for-a-start-up-heres-how-to-get-noticed/)
+- [Getting noticed by a startup you want to work for](http://www.thedailymuse.com/job-search/want-to-work-for-a-start-up-heres-how-to-get-noticed/)
 
 ## Be perseverant
 
@@ -60,4 +60,3 @@ Track every application you send out in your spreadsheet by the date you sent it
 Follow up on all applications you care about. Follow up once in the first few days and again after a week or two if you haven't heard anything. This obviously works best if you've identified an individual at the company before, but the point is that perseverance matters and it can help you display the kind of drive you're trying to show in your resume anyway.
 
 This actually applies to the whole process, not just applications. Follow up your interviews \(with a thank you to your interviewer on day 1 too\). Follow up your tech screens. The goal here isn't to be naggy and annoying/desperate, and it's certainly not to be a robot sending auto-generated emails all the time. Just be human and honest and simple in your language.
-

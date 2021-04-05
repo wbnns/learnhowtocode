@@ -126,7 +126,7 @@ Now this container and all the code inside of it is also within the `.user` clas
 
 This is good because we're now specifically targeting containers used by User pages.
 
-The same principle applies to javascript, though I won't cover it here because that's material for a later course.
+The same principle applies to javascript, though we won't cover it here because that's material for a later course.
 
 So anytime you want to make only a portion of your stylesheets or javascript code available to a specific set of views, try namespacing it.
 

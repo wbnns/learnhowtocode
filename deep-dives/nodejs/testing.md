@@ -10,12 +10,12 @@ If you haven't finished our [front-end javascript course](https://www.learnhowto
 
 By the end of this lesson, you should be able to do or answer the following:
 
-* Use the `supertest` module to test Express routes/controllers.
-* Describe how supertest handles our express application.
-* Explain the functionality `superagent` provides to supertest.
-* What is the purpose of `done`? What convenience does supertest provide concerning it?
-* Explain and have a firm understanding of `.expect()` method's functionality.
-* Have familiarity with `supertest`'s documentation and methods.
+- Use the `supertest` module to test Express routes/controllers.
+- Describe how supertest handles our express application.
+- Explain the functionality `superagent` provides to supertest.
+- What is the purpose of `done`? What convenience does supertest provide concerning it?
+- Explain and have a firm understanding of `.expect()` method's functionality.
+- Have familiarity with `supertest`'s documentation and methods.
 
 The most important, basic requirement for testing something in your code is that it be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
@@ -127,7 +127,7 @@ test("index route works", (done) => {
 });
 ```
 
-Our second test is very similar to the first one, but tests the `post` method. You can \(and should\) read about all the possible functions on the supertest readme, so I won't go into the details of every step here. The last bit however is important to us. By this point in your JavaScript career, you should be familiar with Promises, so the `.then()` syntax should be familiar. In this case we wait for the POST request to finish and then we call the GET request when that promise resolves to check if that item has been pushed into the array.
+Our second test is very similar to the first one, but tests the `post` method. You can \(and should\) read about all the possible functions on the supertest readme, so we won't go into the details of every step here. The last bit however is important to us. By this point in your JavaScript career, you should be familiar with Promises, so the `.then()` syntax should be familiar. In this case we wait for the POST request to finish and then we call the GET request when that promise resolves to check if that item has been pushed into the array.
 
 ```javascript
 test("testing route works", (done) => {
@@ -149,4 +149,3 @@ If we were using a real database here, then we would want to do something simila
 
 1. Make sure that you read through the [Supertest docs](https://github.com/visionmedia/supertest)
 2. Supertest actually pulls from another related project called Superagent. Any method that you can call in Superagent you can also call from supertest, so you'll need to take a look through the [SuperAgent docs](http://visionmedia.github.io/superagent/) as well.
-

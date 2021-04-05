@@ -14,14 +14,14 @@ You've already had some familiarity with associations, especially the basic `has
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-* How does Rails normally know which table and foreign key to use when you have an association \(e.g. `User.first.posts`\)?
-* When would you need to specify the `:class_name` option in an association?
-* What about the `:foreign_key`?
-* What about the `:source`?
-* What is a polymorphic association and when would you use one?
-* What are two ways to use the association to create a new object instead of just calling `YourObject.new`? Why is this useful? Which method is preferred?
-* How do you automatically destroy all a User's Post objects if that user is deleted?
-* How do you set up a self-association, like with Users following Users?
+- How does Rails normally know which table and foreign key to use when you have an association \(e.g. `User.first.posts`\)?
+- When would you need to specify the `:class_name` option in an association?
+- What about the `:foreign_key`?
+- What about the `:source`?
+- What is a polymorphic association and when would you use one?
+- What are two ways to use the association to create a new object instead of just calling `YourObject.new`? Why is this useful? Which method is preferred?
+- How do you automatically destroy all a User's Post objects if that user is deleted?
+- How do you set up a self-association, like with Users following Users?
 
 ## Basics
 
@@ -77,7 +77,7 @@ The basic gist of this is simple -- assume that Rails is looking for the foreign
 
 ### **Source**
 
-Now that it's clear you need to let Rails know when you've creatively named your associations or foreign keys, I should point out that there's one additional step required if you're using a creatively named `has_many :through` association. Recall that has-many-through associations are where you create a "through table" to act as a go-between for two models that have a many-to-many relationship.
+Now that it's clear you need to let Rails know when you've creatively named your associations or foreign keys, we should point out that there's one additional step required if you're using a creatively named `has_many :through` association. Recall that has-many-through associations are where you create a "through table" to act as a go-between for two models that have a many-to-many relationship.
 
 For example, perhaps we change the example above so a Post actually can have multiple Authors \(but still only one editor\). We'll need to create a new table, which we'll call `post_authorings`. `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`. You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just simply `post_id` and `user_id` but it will require us to inform Rails of the change. Our models look like:
 
@@ -109,25 +109,25 @@ end
 
 And our data model looks like:
 
-| **users** |  |
-| :--- | :--- |
-| name | _string_ |
-| created\_at | _datetime_ |
-| updated\_at | _datetime_ |
+| **users**  |            |
+| :--------- | :--------- |
+| name       | _string_   |
+| created_at | _datetime_ |
+| updated_at | _datetime_ |
 
-| **posts** |  |
-| :--- | :--- |
-| content | _text_ |
-| editor\_id | _integer_ |
-| created\_at | _datetime_ |
-| updated\_at | _datetime_ |
+| **posts**  |            |
+| :--------- | :--------- |
+| content    | _text_     |
+| editor_id  | _integer_  |
+| created_at | _datetime_ |
+| updated_at | _datetime_ |
 
-| **post\_authorings** |  |
-| :--- | :--- |
-| authored\_post\_id | _integer_ |
-| post\_author\_id | _integer_ |
-| created\_at | _datetime_ |
-| updated\_at | _datetime_ |
+| **post_authorings** |            |
+| :------------------ | :--------- |
+| authored_post_id    | _integer_  |
+| post_author_id      | _integer_  |
+| created_at          | _datetime_ |
+| updated_at          | _datetime_ |
 
 The major thing to note here is that with has-many-through associations, Rails uses _the name of the association in the through table_ to determine which foreign key and table name to reach out to. If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go. You can think of `:source` as being just like `:class_name` but for the associations in the "through table".
 
@@ -274,10 +274,9 @@ In this lesson we covered some of the more advanced associations material. Assoc
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
-* [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
-* [Understanding Polymorphic Associations in Rails](https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
-* [RailsCasts \#154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
-* [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
-* [RailsCasts Pro \#394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
-
+- [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
+- [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
+- [Understanding Polymorphic Associations in Rails](https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
+- [RailsCasts \#154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
+- [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
+- [RailsCasts Pro \#394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)

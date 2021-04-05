@@ -45,7 +45,7 @@ logger { puts 'hello from the block' }
 logger { p [1, 2, 3] }
 ```
 
-The example isn't that useful but hopefully you should see how blocks allow huge flexibility in how methods act upon data. Let's see if we can make it more interesting, but still not that useful. You now get given a new requirement that users want a method that allows them to write whatever they want, and it gets printed twice to the terminal. How might you handle this requirement? Well if I told you that you can call yield as many times as you want and each time it yields to the block in the same way you'd probably have a good idea.
+The example isn't that useful but hopefully you should see how blocks allow huge flexibility in how methods act upon data. Let's see if we can make it more interesting, but still not that useful. You now get given a new requirement that users want a method that allows them to write whatever they want, and it gets printed twice to the terminal. How might you handle this requirement? Well if we told you that you can call yield as many times as you want and each time it yields to the block in the same way you'd probably have a good idea.
 
 ```ruby
 def double_vision
@@ -402,7 +402,7 @@ cool_method(&a_proc) # Converting the proc object to a block
 # => ERROR
 ```
 
-As I said, using `&` on a proc when calling a method converts it to a block and attached it to the method as a regular block, it is no longer a named argument to the method.
+As we said, using `&` on a proc when calling a method converts it to a block and attached it to the method as a regular block, it is no longer a named argument to the method.
 
 ## Wrapping up
 
@@ -413,7 +413,7 @@ After getting to grips with the information in this lesson you'll be a block, pr
 ## Assignment
 
 1. [This article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
-2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. I really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 
 ## Knowledge check
 

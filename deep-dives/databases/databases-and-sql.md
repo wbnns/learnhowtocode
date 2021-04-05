@@ -8,7 +8,7 @@ In more straightforward cases, you might want to display all users who signed up
 
 All of those examples involve you engaging with your database. Luckily, many databases \(the ones we'll be focusing on\) speak SQL and luckily SQL really only has a dozen or so words that you'll consistently use out of a few dozen total. So it's not a large language, it's much more about the concepts behind it.
 
-You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it. Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important. I actually think of Excel tables moving in my head and combining with each other and reshuffling as necessary. To each their own.
+You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it. Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important. We actually think of Excel tables moving in my head and combining with each other and reshuffling as necessary. To each their own.
 
 We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
@@ -26,51 +26,51 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### **Important concepts:**
 
-* What is the Primary Key?
-* What are Foreign Keys?
-* What is a Schema?
+- What is the Primary Key?
+- What are Foreign Keys?
+- What is a Schema?
 
 ### **Statements:**
 
-* `SELECT`
-* `CREATE TABLE`
-* `DROP TABLE`
-* `CREATE INDEX`
-* `DROP INDEX`
-* `UPDATE`
-* `DELETE`
-* `INSERT INTO`
-* `CREATE DATABASE`
-* `DROP DATABASE`
-* `COMMIT` \(concept\)
-* `ROLLBACK` \(concept\)
+- `SELECT`
+- `CREATE TABLE`
+- `DROP TABLE`
+- `CREATE INDEX`
+- `DROP INDEX`
+- `UPDATE`
+- `DELETE`
+- `INSERT INTO`
+- `CREATE DATABASE`
+- `DROP DATABASE`
+- `COMMIT` \(concept\)
+- `ROLLBACK` \(concept\)
 
 ### **Clauses:**
 
-* `DISTINCT`
-* `WHERE`
-* `IN`
-* `AND`
-* `OR`
-* `BETWEEN`
-* `LIKE`
-* `ORDER BY`
-* `COUNT`
+- `DISTINCT`
+- `WHERE`
+- `IN`
+- `AND`
+- `OR`
+- `BETWEEN`
+- `LIKE`
+- `ORDER BY`
+- `COUNT`
 
 ### **Functions**
 
-* `GROUP BY`
-* `HAVING`
-* `AVG`
-* `COUNT`
-* `MIN`
-* `MAX`
-* `SUM`
+- `GROUP BY`
+- `HAVING`
+- `AVG`
+- `COUNT`
+- `MIN`
+- `MAX`
+- `SUM`
 
 ### **Other stuff**
 
-* What are Indexes good for?
-* What's the difference between `WHERE` and `HAVING`?
+- What are Indexes good for?
+- What's the difference between `WHERE` and `HAVING`?
 
 ## The world's fastest semi-complete explanation of SQL
 
@@ -78,7 +78,7 @@ This is a very brief soup-to-nuts explanation of SQL. It won't do a particularly
 
 SQL is the language used to talk to many relational databases. These databases use lots of tables to store different types of data \(e.g. "users" and "posts" tables\). Tables are long lists like spreadsheets where each row is a different record \(or object, e.g. a single user\) and each column is one of that record's attributes \(like name, email, etc\). The one column that all tables include is an "ID" column, which gives the unique row numbers, and is called the record's "primary key".
 
-You can "link" tables together by making one of the columns in one table point to the ID of another table, for instance a row in the "posts" table might include the author's ID under the column called "user\_id". Because the "posts" table has the ID of another table in it, that column is called a "foreign key".
+You can "link" tables together by making one of the columns in one table point to the ID of another table, for instance a row in the "posts" table might include the author's ID under the column called "user_id". Because the "posts" table has the ID of another table in it, that column is called a "foreign key".
 
 ### **Setting stuff up**
 
@@ -144,7 +144,7 @@ Now we're getting into the fun stuff. Aggregate functions like `COUNT` which ret
 
 See [w3 schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window \(try deleting the `GROUP BY` line\) for an interactive visual.
 
-The last nifty trick is if you want to only display a subset of your data. In a normal situation, you'd use a `WHERE` clause to narrow it down. But if you've used an aggregate function like `COUNT` \(say to get the count of posts written for each user in the example above\), `WHERE` won't work anymore. So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates. So say I only want to display users who have written more than 10 posts:
+The last nifty trick is if you want to only display a subset of your data. In a normal situation, you'd use a `WHERE` clause to narrow it down. But if you've used an aggregate function like `COUNT` \(say to get the count of posts written for each user in the example above\), `WHERE` won't work anymore. So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates. So say we only want to display users who have written more than 10 posts:
 
 ```sql
   SELECT users.id, users.name, COUNT(posts.*) AS posts_written
@@ -182,9 +182,8 @@ The next step, once you've had a chance to practice this all in the project, is 
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Hunter D's [GitHub Book on SQL](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which you should totally check out if you want a decent resource.
-* [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
-* [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
-* [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
-* If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/) .
-
+- Hunter D's [GitHub Book on SQL](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which you should totally check out if you want a decent resource.
+- [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
+- [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
+- [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
+- If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/) .

@@ -140,7 +140,7 @@ test_scores
 
 ### Iterating over a nested array
 
-Let's break down how to iterate over a nested array using the `#each_with_index` method. I find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher_mailboxes example, each element will be one row.
+Let's break down how to iterate over a nested array using the `#each_with_index` method. We find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher_mailboxes example, each element will be one row.
 
 ```ruby
 teacher_mailboxes.each_with_index do |row, row_index|

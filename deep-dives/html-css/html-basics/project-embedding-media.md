@@ -4,7 +4,7 @@
 
 Back in the Foundations course you built Google's homepage. People consistently report that to be a fun project but they also say that it's more difficult than it looks. In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
 
-Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) \(the example video is one where I describe making contributions to open source\).
+Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) \(the example video is one describing making contributions to open source\).
 
 The goal here isn't to produce an exact replica of the YouTube video page, but to focus on making the media elements show up. That means two things -- embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
 
@@ -20,15 +20,14 @@ Also, don't worry about making the comment form work properly... your goal is to
 2. Create a blank HTML document.
 3. Come up with a plan -- which sections of the page should be grouped together \(e.g. the navigation bar vs the video vs the sidebar etc\)?
 4. Create empty semantic HTML elements to enclose those sections.
-5. Use basic CSS to size and position them appropriately on the page.  It may be helpful to make their backgrounds different colors so you can see the different sections.  Don't forget to use your browser's developer tools \(right click on the page, click "inspect element"\)!
+5. Use basic CSS to size and position them appropriately on the page. It may be helpful to make their backgrounds different colors so you can see the different sections. Don't forget to use your browser's developer tools \(right click on the page, click "inspect element"\)!
 6. Now let's start filling in those divs with content by creating the navbar.
 7. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=lJIrF4YjHfQ&feature=emb_title).
 8. Embed a YouTube video of your choice into your page.
-9. Next, build the sidebar section where previews of suggested videos show up.  Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
-10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.  Ignore the icons \(many of them are produced using sprites or more advanced techniques so you won't be able to just grab them by copying them\).
+9. Next, build the sidebar section where previews of suggested videos show up. Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
+10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views. Ignore the icons \(many of them are produced using sprites or more advanced techniques so you won't be able to just grab them by copying them\).
 11. Push your solution up to GitHub.
 
 ## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
