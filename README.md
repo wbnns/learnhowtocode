@@ -1,7 +1,7 @@
 ---
 description: >-
-  A free website that helps you learn everything you need to know in order to
-  start or level up your career as a web developer.
+  A free ebook with everything you need to get started or level up as a web
+  developer.
 ---
 
 # Welcome
