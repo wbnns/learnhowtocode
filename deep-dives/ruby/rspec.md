@@ -15,17 +15,17 @@ In the previous lesson, we established the utility of [test driven development](
 
 _Look through these now and use them to guide your learning. By the end of this lesson, expect to:_
 
-* Know what RSpec is
-* Know how to install RSpec
-* Understand the basic RSpec syntax:
-  * `describe`
-  * `it`
+- Know what RSpec is
+- Know how to install RSpec
+- Understand the basic RSpec syntax:
+  - `describe`
+  - `it`
 
 ## RSpec
 
 At the most basic level, RSpec is a Domain Specific Language written in Ruby, or, for the rest of us, a language specialized for a particular task. In this case, the task is testing Ruby code. The `rspec` gem comes packaged with all you need to get started, including five gems: `rspec`, `rspec-core`, `rspec-expectations`, `rspec-mocks`, and `rspec-support`.
 
-At this point, you may be wondering, _Why RSpec? Surely, there are other frameworks out there_, and you'd be right. There are. In fact, at one point, Ruby came bundled with [Test::Unit](https://github.com/test-unit/test-unit) and later [Minitest](https://github.com/seattlerb/minitest) as part of its standard library, the latter of which lives on in Rails. If you tend to be pessimistic \(I'm sorry, I meant _realistic_\), then the [Wrong](https://github.com/sconover/wrong) testing framework might be your cup of tea. Or perhaps you're hungry and in the mood for something more substantial, in which case a side of [Bacon](https://github.com/chneukirchen/bacon) might be what you need. At the end of the day, it doesn't matter which framework you choose as long as you cultivate your testing skills. RSpec's wider adoption, especially in the Rails community, is certainly reason enough to warrant familiarity with it, but implementing tests should be the end-all and be-all, rather than choosing a particular framework.
+At this point, you may be wondering, _Why RSpec? Surely, there are other frameworks out there_, and you'd be right. There are. In fact, at one point, Ruby came bundled with [Test::Unit](https://github.com/test-unit/test-unit) and later [Minitest](https://github.com/seattlerb/minitest) as part of its standard library, the latter of which lives on in Rails. If you tend to be pessimistic \(we're sorry, we meant _realistic_\), then the [Wrong](https://github.com/sconover/wrong) testing framework might be your cup of tea. Or perhaps you're hungry and in the mood for something more substantial, in which case a side of [Bacon](https://github.com/chneukirchen/bacon) might be what you need. At the end of the day, it doesn't matter which framework you choose as long as you cultivate your testing skills. RSpec's wider adoption, especially in the Rails community, is certainly reason enough to warrant familiarity with it, but implementing tests should be the end-all and be-all, rather than choosing a particular framework.
 
 But enough [proselytizing](https://www.dictionary.com/browse/proselytizing). Strap your helmet and buckle up; we're going to jump right in.
 
@@ -50,7 +50,7 @@ That's it. Within two steps, you're up and running with RSpec. That wasn't so ha
 
 ### **Basic syntax**
 
-How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby\_testing", change into it, and initiate RSpec.
+How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby_testing", change into it, and initiate RSpec.
 
 ```text
 $ mkdir ruby_testing && cd ruby_testing
@@ -242,10 +242,9 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson
-* For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
-* Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
-* Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
-* The [RSpec Cheat Sheet](https://www.dropbox.com/s/mij3d0bhi29outc/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
-* Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from an Odin Project contributor.
-
+- [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson
+- For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
+- Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
+- Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
+- The [RSpec Cheat Sheet](https://www.dropbox.com/s/mij3d0bhi29outc/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
+- Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from an Odin Project contributor.

@@ -22,23 +22,23 @@ There's a lot of material to read and cover, but it basically follows the idea "
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-* What is an `ActiveRecord::Relation`?
-* What does Lazy Evaluation mean?
-* How do you make a relation evaluate into an array?
-* How do you check whether a database already contains a record?
-* Why is `#find_by` useful and how is it used?
-* What's the difference between what's returned using a `#where` query and a `#find` query?
-* How do you join tables together in Rails?
-* When can you use symbols / hashes and when do you need to use explicit strings for query parameters?
-* What are Scopes and why are they useful?
-* What needs to happen for a class method to act like a scope?
+- What is an `ActiveRecord::Relation`?
+- What does Lazy Evaluation mean?
+- How do you make a relation evaluate into an array?
+- How do you check whether a database already contains a record?
+- Why is `#find_by` useful and how is it used?
+- What's the difference between what's returned using a `#where` query and a `#find` query?
+- How do you join tables together in Rails?
+- When can you use symbols / hashes and when do you need to use explicit strings for query parameters?
+- What are Scopes and why are they useful?
+- What needs to happen for a class method to act like a scope?
 
 ## Relations and lazy evaluation
 
 Using `User.find(1)` will return an unambiguous object -- it's going to find the user with ID = 1 and give it to you as a Ruby object. But this behavior is actually unusual. Most queries don't actually return a Ruby object, they just fake it. For example:
 
 ```ruby
-  User.where(id: 1)
+User.where(id: 1)
 ```
 
 Might look like it returns an array that contains a serialized User object, like:
@@ -80,18 +80,18 @@ The simplest new concept is how to check whether an object actually exists yet o
 `#exists?` will return true/false. `#any?` will be true if any records match the specified criteria and `#many?` will be true if multiple records match the specified criteria. You can run each of these either on a model directly, a Relation, an association, or a scope \(which we'll cover later\). Basically, anywhere you might think of using them, they're likely to work:
 
 ```ruby
-  # From the Guide:
-  # via a model
-  Post.any?
-  Post.many?
+# From the Guide:
+# via a model
+Post.any?
+Post.many?
 
-  # via a relation
-  Post.where(published: true).any?
-  Post.where(published: true).many?
+# via a relation
+Post.where(published: true).any?
+Post.where(published: true).many?
 
-  # via an association
-  Post.first.categories.any?
-  Post.first.categories.many?
+# via an association
+Post.first.categories.any?
+Post.first.categories.many?
 ```
 
 ### **Arguments**
@@ -147,9 +147,7 @@ It's okay to grab the SAME information multiple times... Rails caches the first 
 The N + 1 query problem is the classic case of this -- you grab all the records for your users \(`User.all`\) then loop through each user and call an association it has, like the city the user lives in \(`user.city`\). For this example we're assuming an association exists between User and City, where User `belongs_to` a City. This might look like:
 
 ```ruby
-  User.all.each do |user|
-    puts user.city
-  end
+User.all.each { |user| puts user.city }
 ```
 
 This is going to result in one query to get all the users, then another query for each user to find its city through the association... so N additional queries, where N is the total number of users. Hence "N+1" problems. Note that it's totally fine to just grab a regular attribute of User like `user.name`... it's because you're reaching through the association with City that we've got to run another full query.
@@ -159,20 +157,18 @@ If the best way to make an application run faster is to reduce database calls, w
 Rails is well aware of your distress and has provided a simple solution -- "eager loading". When you first grab the list of all users, you can tell Rails to also grab the cities at the same time \(with just one additional query\) and store them in memory until you'd like to call upon them. Then `user.city` gets treated the same way as `user.name`... it doesn't run another query. The trick is the `#includes` method.
 
 ```ruby
-  User.all.includes(:city).each do |user|
-    puts user.city
-  end
+User.all.includes(:city).each { |user| puts user.city }
 ```
 
 `#includes` basically takes the name of one or more associations that you'd like to load at the same time as your original object and brings them into memory. You can chain it onto other methods like `#where` or `#order` clauses.
 
-Note: One thing which can be a bit annoying from a development standpoint is that I haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server. So don't be alarmed if they don't show up in the server output.
+Note: One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server. So don't be alarmed if they don't show up in the server output.
 
 Almost as useful is the `#pluck` method, which is covered in the Rails Guide. `#pluck` lets you skip several steps in the process of pulling up a bunch of records, storing them in memory, then grabbing a specific column and placing it into an array. `#pluck` just gives you the resulting array right away:
 
 ```ruby
-  User.pluck(:name)
-  # => ["Foo", "Bar", "Baz", "Jimmy-Bob"]
+User.pluck(:name)
+# => ["Foo", "Bar", "Baz", "Jimmy-Bob"]
 ```
 
 This is another way to help speed up your application if you've found pain points. Start by getting rid of N+1 queries, though.
@@ -228,7 +224,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to. In that ca
 1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
 2. Read section 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?`, `any?` and `many?`.
 3. Read sections 7, 8 and 22 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
-4. Skim sections 9-12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).  
+4. Skim sections 9-12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).
 5. Read section 13 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
 6. Read section 19 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object) for a quick look at the helpful `find_or_create_by` methods.
 
@@ -245,11 +241,10 @@ This was a lot of material, but you should have a healthy appreciation for the b
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
-* [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
-* [RailsCasts \#22 Eager Loading](http://railscasts.com/episodes/22-eager-loading-revised)
-* [Introduction to the N+1 Problem](https://www.youtube.com/watch?v=Xr3hZdIwuSw)
-* [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
-* [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
-* [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
-
+- [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
+- [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
+- [RailsCasts \#22 Eager Loading](http://railscasts.com/episodes/22-eager-loading-revised)
+- [Introduction to the N+1 Problem](https://www.youtube.com/watch?v=Xr3hZdIwuSw)
+- [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
+- [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
+- [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)

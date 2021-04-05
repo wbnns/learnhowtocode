@@ -9,29 +9,27 @@ A very quick recap of the basics that you should already be familiar with...
 A block can be declared as a single-line or multi-line block and Ruby convention is to use `{}` for single-line and `do..end` for multi-line blocks. Parameters can be defined within a block inside pipes `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
 
 ```ruby
-[1,2,3].each { |num| puts num }
+[1, 2, 3].each { |num| puts num }
 
-[1,2,3].each do |num|
-  puts num
-end
+[1, 2, 3].each { |num| puts num }
 ```
 
 Although you are familiar with how to write blocks, you need to know how to write your own methods that accept blocks and that is what we are aiming to cover here.
 
 ## Learning outcomes
 
-* What is a block?
-* How is a block like a method?
-* What are the two ways to declare a block?
-* Why would you use a block instead of just creating a method?
-* What does `yield` do?
-* How do you pass arguments to a block from within a method?
-* How do you check whether a block was actually passed in?
-* What is a proc?
-* What is a lambda?
-* What's the difference between a proc and a block?
-* When would you use a proc instead of a block?
-* What's different between a lambda and a proc?
+- What is a block?
+- How is a block like a method?
+- What are the two ways to declare a block?
+- Why would you use a block instead of just creating a method?
+- What does `yield` do?
+- How do you pass arguments to a block from within a method?
+- How do you check whether a block was actually passed in?
+- What is a proc?
+- What is a lambda?
+- What's the difference between a proc and a block?
+- When would you use a proc instead of a block?
+- What's different between a lambda and a proc?
 
 ## Yield
 
@@ -44,9 +42,7 @@ end
 
 logger { puts 'hello from the block' }
 
-logger do
-  p [1,2,3]
-end
+logger { p [1, 2, 3] }
 ```
 
 The example isn't that useful but hopefully you should see how blocks allow huge flexibility in how methods act upon data. Let's see if we can make it more interesting, but still not that useful. You now get given a new requirement that users want a method that allows them to write whatever they want, and it gets printed twice to the terminal. How might you handle this requirement? Well if I told you that you can call yield as many times as you want and each time it yields to the block in the same way you'd probably have a good idea.
@@ -57,7 +53,7 @@ def double_vision
   yield
 end
 
-double_vision { puts "How many fingers am I holding up?" }
+double_vision { puts 'How many fingers am I holding up?' }
 ```
 
 Millennial avocados Batman. That's cool.
@@ -76,7 +72,7 @@ def transaction_statement
 end
 
 transaction_statement do |transaction|
-  puts "%0.2f" % transaction # The person who calls the method can define how it is handled.
+  puts '%0.2f' % transaction # The person who calls the method can define how it is handled.
 end
 ```
 
@@ -88,14 +84,10 @@ What if instead you didn't want the caller to define how the transaction is outp
 @transactions = [10, -15, 25, 30, -24, -70, 999]
 
 def transaction_statement
-  @transactions.each do |transaction|
-    puts yield transaction
-  end
+  @transactions.each { |transaction| puts yield transaction }
 end
 
-transaction_statement do |transaction|
-  "%0.2f" % transaction
-end
+transaction_statement { |transaction| '%0.2f' % transaction }
 ```
 
 If you want to gather the value returned from the block, you can just assign it to a variable or collect it in a data structure.
@@ -112,9 +104,7 @@ def transaction_statement
   formatted_transactions
 end
 
-transaction_statement do |transaction|
-  "%0.2f" % transaction
-end
+transaction_statement { |transaction| '%0.2f' % transaction }
 ```
 
 You can also write explicit return statements from a block and it will return whatever value is after that. This works the same way as an explicit return from a method. This might be useful if you need some kind of [guard clause](https://blog.techatpower.com/never-let-your-guard-down-533605891528).
@@ -127,11 +117,9 @@ If you're working with hashes you might need to yield the key and value, just ma
 
 ```ruby
 def awesome_method
-  hash = {a: 'apple', b: 'banana', c: 'cookie'}
+  hash = { a: 'apple', b: 'banana', c: 'cookie' }
 
-  hash.each do |key, value|
-    yield key, value
-  end
+  hash.each { |key, value| yield key, value }
 end
 
 awesome_method { |key, value| puts "#{key}: #{value}" }
@@ -161,10 +149,8 @@ You can use this method as a conditional check inside your own method to see if 
 
 ```ruby
 def maybe_block
-  if block_given?
-    puts "block party"
-  end
-  puts "executed regardless"
+  puts 'block party' if block_given?
+  puts 'executed regardless'
 end
 
 maybe_block
@@ -186,15 +172,15 @@ A lambda is a way to write a block and save it to a variable. This can be useful
 There are two ways to create a lambda. One is to use the `lambda` keyword `lambda { "inside the lambda" }`The other way to declare a lambda is `-> {}`. This looks a little funky but you get used to it. The second way is more commonly used so that's what I'll be using for the other examples.
 
 ```ruby
-my_lambda = lambda { puts "my lambda" }
+my_lambda = lambda { puts 'my lambda' }
 
-my_other_lambda = -> { puts "hello from the other side" }
+my_other_lambda = -> { puts 'hello from the other side' }
 ```
 
 To call a lambda you just call the `call` method.
 
 ```ruby
-my_lambda = -> { puts "high five" }
+my_lambda = -> { puts 'high five' }
 my_lambda.call
 
 # => high five
@@ -207,8 +193,7 @@ my_name = ->(name) { puts "hello #{name}" }
 
 my_age = lambda { |age| puts "I am #{age} years old" }
 
-
-my_name.call("tim")
+my_name.call('tim')
 my_age.call(78)
 ```
 
@@ -217,10 +202,10 @@ One weird thing to note about lambdas is that there are numerous ways you can ca
 ```ruby
 my_name = ->(name) { puts "hello #{name}" }
 
-my_name.call("tim")
-my_name.("tim")
-my_name["tim"]
-my_name.=== "tim"
+my_name.call('tim')
+my_name.('tim')
+my_name['tim']
+my_name.=== 'tim'
 ```
 
 I'd recommend sticking to using `call`.
@@ -232,7 +217,7 @@ A Proc is just an object that you can use to create blocks to be passed around. 
 You declare a new Proc in the same way you instantiate any object in Ruby, using `new`
 
 ```ruby
-a_proc = Proc.new { puts "this is a proc" }
+a_proc = Proc.new { puts 'this is a proc' }
 
 a_proc.call
 ```
@@ -242,7 +227,7 @@ Arguments are declared inside `||`
 ```ruby
 a_proc = Proc.new { |name, age| puts "name: #{name} --- age: #{age}" }
 
-a_proc.call("tim", 80)
+a_proc.call('tim', 80)
 ```
 
 There isn't much more in creating Procs that you haven't seen with Lambdas. So why use one over the other? Well there are some important differences between them which we'll cover next.
@@ -258,7 +243,7 @@ A Proc behaves much like a block with regards to arguments. A proc doesn't care 
 ```ruby
 a_proc = Proc.new { |a, b| puts "a: #{a} --- b: #{b}" }
 
-a_proc.call("apple")
+a_proc.call('apple')
 
 # => a: apple --- b:
 ```
@@ -268,11 +253,11 @@ A lambda, on the other hand, does care and will raise an error if you don't hono
 ```ruby
 a_proc = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
 
-a_proc.call("apple")
+a_proc.call('apple')
 
 # => wrong number of Arguments (given 1, expected 2) (ArgumentError)
 
-a_proc.call("apple", "banana", "cake")
+a_proc.call('apple', 'banana', 'cake')
 
 # => wrong number of Arguments (given 3, expected 2) (ArgumentError)
 ```
@@ -306,7 +291,7 @@ If you return from a proc inside a method, the method is the context in which it
 def my_method
   a_proc = Proc.new { return }
   a_proc.call
-  puts "this line is never reached"
+  puts 'this line is never reached'
 end
 
 my_method
@@ -321,13 +306,13 @@ Although we've covered some big differences between procs and lambdas there are 
 Both procs and lambdas support default arguments in the same way Ruby methods do
 
 ```ruby
-my_proc = Proc.new { |name="bob"| puts name }
+my_proc = Proc.new { |name = 'bob'| puts name }
 
 my_proc.call
 
 # => bob
 
-my_lambda = ->(name="r2d2") { puts name }
+my_lambda = ->(name = 'r2d2') { puts name }
 
 my_lambda.call
 
@@ -343,8 +328,8 @@ def my_method(useful_arg)
   useful_arg.call
 end
 
-my_lambda = -> { puts "lambda" }
-my_proc = Proc.new { puts "proc" }
+my_lambda = -> { puts 'lambda' }
+my_proc = Proc.new { puts 'proc' }
 
 my_method(my_lambda)
 
@@ -366,21 +351,21 @@ def cool_method(&my_block)
   my_block.call
 end
 
-cool_method { puts "cool" }
+cool_method { puts 'cool' }
 ```
 
 If your method names some other parameters then the block capturing one should always go last.
 
 Capturing a block with `&` is known as an explicit block, when you don't name it in your parameter list then it's known as an implicit block.
 
-One other thing to note is that even when you do capture a block using an `&` you can still use yield rather than `call` to yield to the block. Although it would make the method somewhat unclear so I wouldn't recommend it.
+One other thing to note is that even when you do capture a block using an `&` you can still use yield rather than `call` to yield to the block. Although it would make the method somewhat unclear so we wouldn't recommend it.
 
-So how does this work? Well, actually the `&` capturing syntax doesn't only have to be used on blocks. What happens is that ruby calls a method called `to_proc` on whatever is assigned to that variable. In the case above using `&` assigns the block to my\_block and then calls `to_proc` on it, which creates a Proc object. That is why you can use `call` on it.
+So how does this work? Well, actually the `&` capturing syntax doesn't only have to be used on blocks. What happens is that ruby calls a method called `to_proc` on whatever is assigned to that variable. In the case above using `&` assigns the block to my_block and then calls `to_proc` on it, which creates a Proc object. That is why you can use `call` on it.
 
 Maybe you've seen or used code like the following
 
 ```ruby
-arr = ["1", "2", "3"]
+arr = %w[1 2 3]
 
 arr.map(&:to_i)
 
@@ -396,7 +381,7 @@ def cool_method
   yield
 end
 
-my_proc = Proc.new { puts "proc party" }
+my_proc = Proc.new { puts 'proc party' }
 
 cool_method(&my_proc)
 
@@ -410,7 +395,7 @@ def cool_method(an_arg)
   an_arg.call
 end
 
-a_proc = Proc.new { puts "procodile hunter" }
+a_proc = Proc.new { puts 'procodile hunter' }
 
 cool_method(&a_proc) # Converting the proc object to a block
 
@@ -432,22 +417,21 @@ After getting to grips with the information in this lesson you'll be a block, pr
 
 ## Knowledge check
 
-* **What is a block?**
-* **How is a block like a method?**
-* **How is a block different from a method?**
-* **What are the two ways to declare a block?**
-* **How do you return data from a block?**
-* **How can your methods collect the return data from a block?**
-* **What happens if you include a `return` statement in a block?**
-* **Why would you use a block instead of just creating a method?**
-* **What does `yield` do?**
-* **How do you pass arguments to a block from within a method?**
-* **How do you check whether a block was actually passed in?**
-* **What is a proc?**
-* **What is a lambda?**
-* **What's the difference between a proc and a block?**
-* **When would you use a proc instead of a block?**
-* **What's different between a lambda and a proc?**
-* **How do you convert a proc to a block?**
-* **How do you convert a block to a proc?**
-
+- **What is a block?**
+- **How is a block like a method?**
+- **How is a block different from a method?**
+- **What are the two ways to declare a block?**
+- **How do you return data from a block?**
+- **How can your methods collect the return data from a block?**
+- **What happens if you include a `return` statement in a block?**
+- **Why would you use a block instead of just creating a method?**
+- **What does `yield` do?**
+- **How do you pass arguments to a block from within a method?**
+- **How do you check whether a block was actually passed in?**
+- **What is a proc?**
+- **What is a lambda?**
+- **What's the difference between a proc and a block?**
+- **When would you use a proc instead of a block?**
+- **What's different between a lambda and a proc?**
+- **How do you convert a proc to a block?**
+- **How do you convert a block to a proc?**

@@ -10,14 +10,14 @@ Let's take a look at how you can use nested arrays and nested hashes to store mo
 
 By the end of this lesson, you should be able to do the following:
 
-* Describe a nested array and hash.
-* Explain what data is useful to store in a nested array and hash.
-* Explain how to access data in a nested array and hash.
-* Explain why the `#dig` method is useful.
-* Explain how to add data to a nested array and hash.
-* Explain how to delete data in a nested array and hash.
-* Explain how to create a new nested array that is not mutable.
-* Explain how to iterate over a nested array and hash.
+- Describe a nested array and hash.
+- Explain what data is useful to store in a nested array and hash.
+- Explain how to access data in a nested array and hash.
+- Explain why the `#dig` method is useful.
+- Explain how to add data to a nested array and hash.
+- Explain how to delete data in a nested array and hash.
+- Explain how to create a new nested array that is not mutable.
+- Explain how to iterate over a nested array and hash.
 
 ## Nested arrays
 
@@ -30,13 +30,13 @@ test_scores = [
   [97, 76, 79, 93],
   [79, 84, 76, 79],
   [88, 67, 64, 76],
-  [94, 55, 67, 81]
+  [94, 55, 67, 81],
 ]
 
 teacher_mailboxes = [
-  ["Adams", "Baker", "Clark", "Davis"],
-  ["Jones", "Lewis", "Lopez", "Moore"],
-  ["Perez", "Scott", "Smith", "Young"]
+  %w[Adams Baker Clark Davis],
+  %w[Jones Lewis Lopez Moore],
+  %w[Perez Scott Smith Young],
 ]
 ```
 
@@ -140,7 +140,7 @@ test_scores
 
 ### Iterating over a nested array
 
-Let's break down how to iterate over a nested array using the `#each_with_index` method. I find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher\_mailboxes example, each element will be one row.
+Let's break down how to iterate over a nested array using the `#each_with_index` method. I find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher_mailboxes example, each element will be one row.
 
 ```ruby
 teacher_mailboxes.each_with_index do |row, row_index|
@@ -178,9 +178,7 @@ end
 Although these examples are a bit contrived, it is important to note that if we only need each teacher's name it would be beneficial to use `#flatten` before iterating.
 
 ```ruby
-teacher_mailboxes.flatten.each do |teacher|
-  puts "#{teacher} is amazing!"
-end
+teacher_mailboxes.flatten.each { |teacher| puts "#{teacher} is amazing!" }
 #=> Adams is amazing!
 #=> Baker is amazing!
 #=> Clark is amazing!
@@ -199,21 +197,22 @@ end
 Now let's take a look at a more complicated example of nesting two predicate enumerables together. Using the above nested array of test scores, let's determine if any student scored higher than 80 on everything.
 
 ```ruby
-test_scores = [[97, 76, 79, 93], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81]]
+test_scores = [
+  [97, 76, 79, 93],
+  [79, 84, 76, 79],
+  [88, 67, 64, 76],
+  [94, 55, 67, 81],
+]
 #=> [[97, 76, 79, 93], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81]]
 
-test_scores.any? do |scores|
-  scores.all? { |score| score > 80 }
-end
+test_scores.any? { |scores| scores.all? { |score| score > 80 } }
 #=> false
 ```
 
 This seems pretty straight-forward. It returns false, because none of the nested arrays have scores that are all over 80. What do you think will happen if we switch `#any?` and `#all?`? Do you think we will get the same results?
 
 ```ruby
-test_scores.all? do |scores|
-  scores.any? { |score| score > 80 }
-end
+test_scores.all? { |scores| scores.any? { |score| score > 80 } }
 #=> true
 ```
 
@@ -225,9 +224,21 @@ The hashes that you've seen so far have single key/value pairs. However, just li
 
 ```ruby
 vehicles = {
-  alice: {year: 2019, make: "Toyota", model: "Corolla"},
-  blake: {year: 2020, make: "Volkswagen", model: "Beetle"},
-  caleb: {year: 2020, make: "Honda", model: "Accord"}
+  alice: {
+    year: 2019,
+    make: 'Toyota',
+    model: 'Corolla',
+  },
+  blake: {
+    year: 2020,
+    make: 'Volkswagen',
+    model: 'Beetle',
+  },
+  caleb: {
+    year: 2020,
+    make: 'Honda',
+    model: 'Accord',
+  },
 }
 ```
 
@@ -262,7 +273,7 @@ vehicles.dig(:alice, :color)
 You can add more nested hashes, just like a regular hash. Let's say Dave just bought a new vehicle and we want to add it to the list.
 
 ```ruby
-vehicles[:dave] = {year: 2021, make: "Ford", model: "Escape"}
+vehicles[:dave] = { year: 2021, make: 'Ford', model: 'Escape' }
 #=> {:year=>2021, :make=>"Ford", :model=>"Escape"}
 vehicles
 #=> {:alice=>{:year=>2019, :make=>"Toyota", :model=>"Corolla"}, :blake=>{:year=>2020, :make=>"Volkswagen", :model=>"Beetle"}, :caleb=>{:year=>2020, :make=>"Honda", :model=>"Accord"}, :dave=>{:year=>2021, :make=>"Ford", :model=>"Escape"}}
@@ -271,7 +282,7 @@ vehicles
 You can also add an element to one of the nested hashes. Let's say that Dave really loves his new Escape and thinks we should keep track of the color of the vehicles. To add a new key/value pair to a nested hash, specify the key of the nested hash right before naming the new key.
 
 ```ruby
-vehicles[:dave][:color] = "red"
+vehicles[:dave][:color] = 'red'
 #=> "red"
 vehicles
 #=> {:alice=>{:year=>2019, :make=>"Toyota", :model=>"Corolla"}, :blake=>{:year=>2020, :make=>"Volkswagen", :model=>"Beetle"}, :caleb=>{:year=>2020, :make=>"Honda", :model=>"Accord"}, :dave=>{:year=>2021, :make=>"Ford", :model=>"Escape", :color=>"red"}}
@@ -297,7 +308,7 @@ vehicles
 
 ### Methods
 
-There are many helpful methods to use with nested hashes. Once you know what data you need from a nested hash, I have found that browsing through the documentation and experimenting with them in IRB is the best way for me to understand how they work.
+There are many helpful methods to use with nested hashes. Once you know what data you need from a nested hash, we have found that browsing through the documentation and experimenting with them in IRB is the best way for me to understand how they work.
 
 Let's look at an example using the vehicles nested hash. Let's say that we want to know who owns vehicles that are from 2020 or newer. At first glance in the documentation, it looks like `#select` would be a great method to use.
 
@@ -329,7 +340,7 @@ vehicles.filter_map { |name, data| name if data[:year] >= 2020 }
 #=> [:caleb, :dave]
 ```
 
-Amazing! We have found a great solution to returning an array that only contains the names of the owners of vehicles from 2020 or newer! Plus, we got experience using other methods that you will probably use in the future. I have found some really useful methods by exploring the documentation when I have a specific use case in mind.
+Amazing! We have found a great solution to returning an array that only contains the names of the owners of vehicles from 2020 or newer! Plus, we got experience using other methods that you will probably use in the future. We have found some really useful methods by exploring the documentation when we have a specific use case in mind.
 
 ## Assignment
 
@@ -340,12 +351,11 @@ Amazing! We have found a great solution to returning an array that only contains
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* **What is a nested array and hash?**
-* **What data is useful to store in a nested array and hash?**
-* **How do you access data in a nested array and hash?**
-* **Why the `#dig` method is useful?**
-* **How do you add data to a nested array and hash?**
-* **How do you delete data in a nested array and hash?**
-* **How do you create a new nested array that is not mutable?**
-* **How do you iterate over a nested array and hash?**
-
+- **What is a nested array and hash?**
+- **What data is useful to store in a nested array and hash?**
+- **How do you access data in a nested array and hash?**
+- **Why the `#dig` method is useful?**
+- **How do you add data to a nested array and hash?**
+- **How do you delete data in a nested array and hash?**
+- **How do you create a new nested array that is not mutable?**
+- **How do you iterate over a nested array and hash?**

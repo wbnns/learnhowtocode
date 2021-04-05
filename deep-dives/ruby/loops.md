@@ -18,13 +18,13 @@ For all of the examples in this lesson, you should code along in irb or [repl.it
 
 By the end of this lesson, you should be able to do the following:
 
-* Explain what a loop is and why it's useful.
-* Explain what a `loop` loop is and how to use it.
-* Explain what a `while` loop is and how to use it.
-* Explain what a `for` loop is and how to use it.
-* Explain what a `#times` loop is and how to use it.
-* Explain what an `until` loop is and how to use it.
-* Explain what `#upto` and `#downto` loops are and how to use them.
+- Explain what a loop is and why it's useful.
+- Explain what a `loop` loop is and how to use it.
+- Explain what a `while` loop is and how to use it.
+- Explain what a `for` loop is and how to use it.
+- Explain what a `#times` loop is and how to use it.
+- Explain what an `until` loop is and how to use it.
+- Explain what `#upto` and `#downto` loops are and how to use them.
 
 ## Loop
 
@@ -47,9 +47,9 @@ A `while` loop is similar to the `loop` loop except that you declare the conditi
 
 ```ruby
 i = 0
-while i < 10 do
- puts "i is #{i}"
- i += 1
+while i < 10
+  puts "i is #{i}"
+  i += 1
 end
 ```
 
@@ -58,9 +58,7 @@ This is an example of using a `while` loop with a count. Because you declare the
 You can also use `while` loops to repeatedly ask a question of the user until they give the desired response:
 
 ```ruby
-while gets.chomp != "yes" do
-  puts "Will you go to prom with me?"
-end
+puts 'Will you go to prom with me?' while gets.chomp != 'yes'
 ```
 
 This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
@@ -75,9 +73,9 @@ We can re-write our `while` loop examples using `until`.
 
 ```ruby
 i = 0
-until i >= 10 do
- puts "i is #{i}"
- i += 1
+until i >= 10
+  puts "i is #{i}"
+  i += 1
 end
 ```
 
@@ -86,9 +84,7 @@ You can see here that using `until` means that the loop will continue running un
 The next example shows how you can use `until` to avoid the negation `!` that the above `while` loop had to use.
 
 ```ruby
-until gets.chomp == "yes" do
-  puts "Will you go to prom with me?"
-end
+puts 'Will you go to prom with me?' until gets.chomp == 'yes'
 ```
 
 Much more readable! This code is guaranteed to get you a "yes".
@@ -98,11 +94,11 @@ Much more readable! This code is guaranteed to get you a "yes".
 What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://ruby-doc.org/core-2.7.1/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive.
 
 ```ruby
-(1..5)      # inclusive range: 1, 2, 3, 4, 5
-(1...5)     # exclusive range: 1, 2, 3, 4
+(1..5) # inclusive range: 1, 2, 3, 4, 5
+(1...5) # exclusive range: 1, 2, 3, 4
 
 # We can make ranges of letters, too!
-('a'..'d')  # a, b, c, d
+('a'..'d') # a, b, c, d
 ```
 
 ## For loop
@@ -122,17 +118,13 @@ That's really all there is to it.
 If you need to run a loop for a specified number of times, then look no further than the trusty `#times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
 
 ```ruby
-5.times do
-  puts "Hello, world!"
-end
+5.times { puts 'Hello, world!' }
 ```
 
-I'm sure you can guess what that code does. Ruby is easily readable that way!
+We're sure you can guess what that code does. Ruby is easily readable that way!
 
 ```ruby
-5.times do |number|
-  puts "Alternative fact number #{number}"
-end
+5.times { |number| puts "Alternative fact number #{number}" }
 ```
 
 Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`.
@@ -142,34 +134,33 @@ Remember, loops will start counting from a zero index unless specified otherwise
 The Ruby methods `#upto` and `#downto` do exactly what you'd think they do from their names. You can use these methods to iterate from a starting number either up to or down to another number, respectively.
 
 ```ruby
-5.upto(10) {|num| print "#{num} " }     #=> 5 6 7 8 9 10
+5.upto(10) { |num| print "#{num} " } #=> 5 6 7 8 9 10
 
-10.downto(5) {|num| print "#{num} " }   #=> 10 9 8 7 6 5
+10.downto(5) { |num| print "#{num} " } #=> 10 9 8 7 6 5
 ```
 
 If you need to step through a series of numbers \(or even letters\) within a specific range, then these are the loops for you.
 
 ## Assignment
 
-1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's _Introduction to Programming With Ruby_. 
+1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's _Introduction to Programming With Ruby_.
 2. Try re-writing the above examples using alternative loop methods to achieve the same results.
 
 ## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. \(Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!\)
-* If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). \(Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.\)
+- If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. \(Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!\)
+- If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). \(Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.\)
 
 ## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* **What is a loop and why it is useful?**
-* **What is a `loop` loop, and how would you use it?**
-* **What is a `while` loop, and how would you use it?**
-* **What is a `for` loop, and how would you use it?**
-* **What is a `times` loop, and how would you use it?**
-* **What is an `until` loop, and how would you use it?**
-* **What are the `upto` and `downto` loops, and how would you use them?**
-
+- **What is a loop and why it is useful?**
+- **What is a `loop` loop, and how would you use it?**
+- **What is a `while` loop, and how would you use it?**
+- **What is a `for` loop, and how would you use it?**
+- **What is a `times` loop, and how would you use it?**
+- **What is an `until` loop, and how would you use it?**
+- **What are the `upto` and `downto` loops, and how would you use them?**

@@ -46,9 +46,9 @@ Another great feature of Heroku is add-ons. These are third party applications w
 
 Some of the most useful ones to you will be:
 
-1. [New Relic](https://devcenter.heroku.com/articles/newrelic) -- It is an application monitoring and analytics service, so you know when your application has gone down or where your bottlenecks are.  They have a free plan which is useful for analytics.
-2. [PGBackups](https://devcenter.heroku.com/articles/pgbackups) -- this add-on lets you make backups of your database.  There's nothing worse than losing data, and so this app will make your life a lot easier.  The free tier lets you manually download backups or set up rake tasks to do the same.
-3. [SendGrid](https://devcenter.heroku.com/articles/sendgrid) is an email service, which we'll cover more later.  You can't send email without help and it's actually incredibly complex behind the scenes.  This add-on makes your life a lot easier by doing most of it for you.
+1. [New Relic](https://devcenter.heroku.com/articles/newrelic) -- It is an application monitoring and analytics service, so you know when your application has gone down or where your bottlenecks are. They have a free plan which is useful for analytics.
+2. [PGBackups](https://devcenter.heroku.com/articles/pgbackups) -- this add-on lets you make backups of your database. There's nothing worse than losing data, and so this app will make your life a lot easier. The free tier lets you manually download backups or set up rake tasks to do the same.
+3. [SendGrid](https://devcenter.heroku.com/articles/sendgrid) is an email service, which we'll cover more later. You can't send email without help and it's actually incredibly complex behind the scenes. This add-on makes your life a lot easier by doing most of it for you.
 4. Visit [Heroku Addons Center](https://addons.heroku.com/) for more information on available addons.
 
 Note that you'll probably be prompted for your billing information when installing add-ons \(or possibly before\) because they need to be able to charge for overages.
@@ -59,12 +59,12 @@ If you haven't deployed to Heroku before and this is your first time, feel free 
 
 We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 6.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails6). A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
 
-* Download and install the Heroku CLI.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
-* Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
-* Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up PostgreSQL for production since it's the only database Heroku uses.  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
-* Create a new Heroku application from the command line using `$ heroku create`.  This will also add a new remote to your Git setup so that Git knows where to push your app \(so you don't need to worry about that\).
-* Ready? Push using the command `$ git push heroku main`.
-* But wait, there's more!  The last step you'll need to do is manually set up your database.  Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku.  If it's your first database, you'll likely do something like `$ heroku run rails db:migrate`.  If you've set up seeds, you can also run them now.
+- Download and install the Heroku CLI. You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
+- Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
+- Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up PostgreSQL for production since it's the only database Heroku uses. This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
+- Create a new Heroku application from the command line using `$ heroku create`. This will also add a new remote to your Git setup so that Git knows where to push your app \(so you don't need to worry about that\).
+- Ready? Push using the command `$ git push heroku main`.
+- But wait, there's more! The last step you'll need to do is manually set up your database. Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku. If it's your first database, you'll likely do something like `$ heroku run rails db:migrate`. If you've set up seeds, you can also run them now.
 
 ### **What's happening?**
 
@@ -82,10 +82,10 @@ Once precompilation is complete, Heroku will fire up a dyno with your applicatio
 
 A brief list of Heroku commands you should know:
 
-* `$ heroku run rails db:migrate`
-* `$ heroku run console` gives you a Rails console, though in Production \(so don't mess around with things, this is real data!\)
-* `$ heroku logs -t` shows you your server logs \(like you're used to when running `$ rails server`\) on a streaming basis \(which is the result of the `-t`, or "tail" flag\).  See [this Heroku post](https://devcenter.heroku.com/articles/logging) for more information on logging.
-* `$ heroku restart` -- for if your application has failed and won't start up.  See [this SO post](http://stackoverflow.com/questions/14612695/heroku-how-can-i-restart-my-rails-server) for more.
+- `$ heroku run rails db:migrate`
+- `$ heroku run console` gives you a Rails console, though in Production \(so don't mess around with things, this is real data!\)
+- `$ heroku logs -t` shows you your server logs \(like you're used to when running `$ rails server`\) on a streaming basis \(which is the result of the `-t`, or "tail" flag\). See [this Heroku post](https://devcenter.heroku.com/articles/logging) for more information on logging.
+- `$ heroku restart` -- for if your application has failed and won't start up. See [this SO post](http://stackoverflow.com/questions/14612695/heroku-how-can-i-restart-my-rails-server) for more.
 
 ## Errors
 
@@ -101,7 +101,7 @@ Your very first few times, you'll probably run into relatively straightforward e
 
 Another common early mistake is forgetting to include a gem \(or forgetting to put it in the correct section of your gemfile -- remember we're in the `production` section, not the `development` section\).
 
-Once the early errors are bypassed, another really common class of errors is related to the asset pipeline. I'm not going to claim to understand where all these come from -- I've had asset pipeline issues dozens of times before and you can probably expect them as well. For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets. You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images \(this should be apparent if you've got errors in your browser's console\).
+Once the early errors are bypassed, another really common class of errors is related to the asset pipeline. We're not going to claim to understand where all these come from -- we've had asset pipeline issues dozens of times before and you can probably expect them as well. For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets. You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images \(this should be apparent if you've got errors in your browser's console\).
 
 Deployment errors, including those with asset precompilation, are often solved by modifying your Rails configuration files. The two main files you'll probably find yourself needing to edit are `config/environments/production.rb` \(most common\) and `config/initializers/some_gem.rb` \(if a gem needs to be configured\). Often the stuff you read on Stack Overflow will tell you to add or edit one of the options, e.g. `config.assets.compile = false`. Bear with it.
 
@@ -125,7 +125,7 @@ To get your environment variables to Heroku, you can either manage them using a 
 
 Dialing things back to the local environment, here are a few useful things to know to help you work more efficiently in development:
 
-* Use `$ rails server -p 3001` to create a Rails server on a different port \(in the example, port 3001\).  This way you can run multiple Rails apps at the same time.  Just go to [http://localhost:3001](http://localhost:3001) now to access the new app.
+- Use `$ rails server -p 3001` to create a Rails server on a different port \(in the example, port 3001\). This way you can run multiple Rails apps at the same time. Just go to [http://localhost:3001](http://localhost:3001) now to access the new app.
 
 ## Assignment
 
@@ -144,7 +144,6 @@ Best of all, once you can deploy an app to the interwebs, you're officially free
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Heroku Custom Domains](https://devcenter.heroku.com/articles/custom-domains) help file
-* [Converting from PostgreSQL to SQLite3](http://manuel.manuelles.nl/blog/2012/01/18/convert-postgresql-to-sqlite/)
-* [Webinar on Using Heroku in Production](https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku)
-
+- [Heroku Custom Domains](https://devcenter.heroku.com/articles/custom-domains) help file
+- [Converting from PostgreSQL to SQLite3](http://manuel.manuelles.nl/blog/2012/01/18/convert-postgresql-to-sqlite/)
+- [Webinar on Using Heroku in Production](https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku)

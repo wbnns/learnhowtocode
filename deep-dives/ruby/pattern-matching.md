@@ -14,17 +14,17 @@ At the time of writing we still recommend Ruby 2.7 as Ruby 3 is quite new and it
 
 By the end of this lesson, you should be able to do the following:
 
-* Explain the syntax for implementing a pattern matching case statement.
-* Explain what types can be used in pattern matching.
-* Explain the possible return values from a pattern match.
-* Explain how to implement a guard condition in a pattern match statement.
-* Explain how to pattern match against an Array and Arrays within Arrays.
-* Explain how to pattern match against a Hash.
-* Explain the main differences between Hash and Array pattern matching.
-* Explain the use of the pin operator.
-* Explain the use of the alternative pattern.
-* Explain how to bind matches to a variable.
-* Explain how to match against your own custom classes.
+- Explain the syntax for implementing a pattern matching case statement.
+- Explain what types can be used in pattern matching.
+- Explain the possible return values from a pattern match.
+- Explain how to implement a guard condition in a pattern match statement.
+- Explain how to pattern match against an Array and Arrays within Arrays.
+- Explain how to pattern match against a Hash.
+- Explain the main differences between Hash and Array pattern matching.
+- Explain the use of the pin operator.
+- Explain the use of the alternative pattern.
+- Explain how to bind matches to a variable.
+- Explain how to match against your own custom classes.
 
 ## Basics
 
@@ -34,11 +34,16 @@ The basic format for a pattern match is a case statement. This is not too differ
 grade = 'C'
 
 case grade
-when 'A' then puts 'Amazing effort'
-when 'B' then puts 'Good work'
-when 'C' then puts 'Well done'
-when 'D' then puts 'Room for improvement'
-else puts 'See me'
+when 'A'
+  puts 'Amazing effort'
+when 'B'
+  puts 'Good work'
+when 'C'
+  puts 'Well done'
+when 'D'
+  puts 'Room for improvement'
+else
+  puts 'See me'
 end
 
 # => Well done
@@ -50,11 +55,16 @@ vs pattern matching syntax:
 grade = 'C'
 
 case grade
-in 'A' then puts 'Amazing effort'
-in 'B' then puts 'Good work'
-in 'C' then puts 'Well done'
-in 'D' then puts 'Room for improvement'
-else puts 'See me'
+in 'A'
+  puts 'Amazing effort'
+in 'B'
+  puts 'Good work'
+in 'C'
+  puts 'Well done'
+in 'D'
+  puts 'Room for improvement'
+else
+  puts 'See me'
 end
 
 # => Well done
@@ -80,18 +90,18 @@ The case/in format is best used when there are multiple conditionals you could p
 
 There are multiple ways of potentially matching against an input. Patterns in Ruby 2.7 can be:
 
-* Any Ruby object which is matched using `===`. The Object Pattern.
-* A variable capture / Variable Pattern
-* An As Pattern
-* An Alternative Pattern
-* A Guard Condition
-* An Array Pattern
-* A Hash Pattern
+- Any Ruby object which is matched using `===`. The Object Pattern.
+- A variable capture / Variable Pattern
+- An As Pattern
+- An Alternative Pattern
+- A Guard Condition
+- An Array Pattern
+- A Hash Pattern
 
 With Ruby 3 you can use the above patterns while also having the following new additions:
 
-* Rightward Assignment
-* A Find Pattern
+- Rightward Assignment
+- A Find Pattern
 
 Patterns can also be matched using many of the patterns above together. You may for example have an array inside a hash so you could use the hash and array patterns. We'll go through each of the various patterns in more detail below.
 
@@ -115,8 +125,10 @@ Because of this we can also check against data types:
 input = 3
 
 case input
-in String then puts 'input was of type String'
-in Integer then puts 'input was of type Integer'
+in String
+  puts 'input was of type String'
+in Integer
+  puts 'input was of type Integer'
 end
 
 #=> input was of type Integer
@@ -126,16 +138,16 @@ It's important to note here that Ruby places the pattern to match on the left of
 
 With Ruby pattern matching you can match against the following literal types
 
-* Booleans
-* nil
-* Numbers
-* Strings
-* Symbols
-* Arrays
-* Hashes
-* Ranges
-* Regular Expressions
-* Procs
+- Booleans
+- nil
+- Numbers
+- Strings
+- Symbols
+- Arrays
+- Hashes
+- Ranges
+- Regular Expressions
+- Procs
 
 This isn't any different from what we can do with a case/when statement, but the power comes when you match these types within some of the other patterns as we'll see next
 
@@ -237,11 +249,13 @@ You can use any expression in the condition that can evaluate to true or false. 
 Matching against arrays can be done in a few different ways. At its most basic you can match against the exact elements in the array.
 
 ```ruby
-arr = [1 ,2]
+arr = [1, 2]
 
 case arr
-in [1, 2] then puts :match
-in [3, 4] then puts :no_match
+in 1, 2
+  puts :match
+in 3, 4
+  puts :no_match
 end
 
 # => match
@@ -253,9 +267,9 @@ That works using the `===` operator from the object pattern match so would work 
 arr = [1, 2]
 
 case arr
-in [Integer, Integer]
+in Integer, Integer
   puts :match
-in [String, String]
+in String, String
   puts :no_match
 end
 
@@ -270,7 +284,7 @@ What happens if we have more elements in the array?
 arr = [1, 2, 3]
 
 case arr
-in [Integer, Integer]
+in Integer, Integer
   puts :no_match
 end
 
@@ -283,7 +297,7 @@ An error! Ruby appears to only match against arrays with the same number of elem
 arr = [1, 2, 3]
 
 case arr
-in [Integer, Integer, *]
+in Integer, Integer, *
   puts :match
 end
 
@@ -296,7 +310,7 @@ You can place the splat anywhere in an array to match against multiple entries:
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 case arr
-in [Integer, Integer, *, Integer, Integer]
+in Integer, Integer, *, Integer, Integer
   puts :match
 end
 
@@ -309,7 +323,7 @@ Here we are checking only the first and last two elements are Integers. You can 
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 case arr
-in [Integer, Integer, *, 9, 10]
+in Integer, Integer, *, 9, 10
   puts :match
 end
 
@@ -322,7 +336,7 @@ If you want to scoop up the values of the array matched against the splat you ca
 arr = [1, 2, 3, 4]
 
 case arr
-in [1, 2, *tail]
+in 1, 2, *tail
   p tail
 end
 
@@ -335,7 +349,7 @@ If you don't care about some values in the array and are happy to match against 
 arr = [1, 2, 3, 4]
 
 case arr
-in [_, _, 3, 4]
+in _, _, 3, 4
   puts :match
 end
 
@@ -347,7 +361,7 @@ Let's say you want to match against an array of two numbers, but only if they ar
 ```ruby
 arr = [1, 2]
 case arr
-in [a, b] unless a == b
+in a, b unless a == b
   puts :match
 end
 
@@ -360,7 +374,7 @@ You can even match against nested arrays:
 arr = [1, 2, [3, 4]]
 
 case arr
-in [_, _, [3, 4]]
+in _, _, [3, 4]
   puts :match
 end
 
@@ -375,7 +389,7 @@ You can incorporate the variable pattern to bind matching values to variables to
 arr = [1, 2, 3, 4, 5]
 
 case arr
-in [1, 2, 3, a, b]
+in 1, 2, 3, a, b
   puts a
   puts b
 end
@@ -388,7 +402,7 @@ Let's say you have a nested array and you want to match against both the nested 
 
 ```ruby
 case [1, 2, 3, [4, 5]]
-in [1, 2, 3, [4, a] => arr]
+in 1, 2, 3, [4, a] => arr
   puts a
   p arr
 end
@@ -433,9 +447,9 @@ We can match against the actual values of a hash:
 
 ```ruby
 case { a: 'apple', b: 'banana' }
-in { a: 'aardvark', b: 'bat' }
+in a: 'aardvark', b: 'bat'
   puts :no_match
-in { a: 'apple', b: 'banana' }
+in a: 'apple', b: 'banana'
   puts :match
 end
 
@@ -446,7 +460,7 @@ We can match against a hash and assign values to variables:
 
 ```ruby
 case { a: 'apple', b: 'banana' }
-in { a: a, b: b }
+in a: a, b: b
   puts a
   puts b
 end
@@ -459,7 +473,7 @@ Because of ruby syntactic sugar for hashes we could rewrite the above as below. 
 
 ```ruby
 case { a: 'apple', b: 'banana' }
-in { a:, b: }
+in a:, b:
   puts a
   puts b
 end
@@ -485,7 +499,7 @@ You can use the double splat `**` to scoop up multiple key:value pairs:
 
 ```ruby
 case { a: 'ant', b: 'ball', c: 'cat' }
-in { a: 'ant', **rest }
+in a: 'ant', **rest
   p rest
 end
 
@@ -496,9 +510,9 @@ Something to be mindful of with hashes is that because a hash will match with on
 
 ```ruby
 case { a: 'ant', b: 'ball' }
-in { a: 'ant' }
+in a: 'ant'
   'this will match'
-in { a: 'ant', b: 'ball' }
+in a: 'ant', b: 'ball'
   'this will never be reached'
 end
 ```
@@ -582,7 +596,7 @@ end
 Here's an interesting one. Let's say you have an array of both string and integers and want to match on the first instance of two consecutive strings. While that would be a bit of a pain to implement without using pattern matching, with the find pattern it's easy. We can even throw in the as pattern to grab the values of the two consecutive strings.
 
 ```ruby
-case [1, 2, "a", 4, "b", "c", 7, 8, 9]
+case [1, 2, 'a', 4, 'b', 'c', 7, 8, 9]
 in [*pre, String => x, String => z, *post]
   p pre
   p x
@@ -600,11 +614,26 @@ As a last example we'll consider a common use case which will hopefully show whe
 
 ```ruby
 data = [
-  {name: 'James', age: 50, first_language: 'english', job_title: 'general manager'},
-  {name: 'Jill', age: 32, first_language: 'italian', job_title: 'leet coder'},
-  {name: 'Helen', age: 24, first_language: 'dutch', job_title: 'biscuit quality control'},
-  {name: 'Bob', age: 64, first_language: 'english', job_title: 'table tennis king'},
-  {name: 'Betty', age: 55, first_language: 'spanish', job_title: 'pie maker'},
+  {
+    name: 'James',
+    age: 50,
+    first_language: 'english',
+    job_title: 'general manager',
+  },
+  { name: 'Jill', age: 32, first_language: 'italian', job_title: 'leet coder' },
+  {
+    name: 'Helen',
+    age: 24,
+    first_language: 'dutch',
+    job_title: 'biscuit quality control',
+  },
+  {
+    name: 'Bob',
+    age: 64,
+    first_language: 'english',
+    job_title: 'table tennis king',
+  },
+  { name: 'Betty', age: 55, first_language: 'spanish', job_title: 'pie maker' },
 ]
 ```
 
@@ -615,9 +644,11 @@ name = 'Jill'
 age = 32
 job_title = 'leet coder'
 
-match = data.find do |person|
-  person[:name] == name && person[:age] == age && person[:job_title] == job_title
-end
+match =
+  data.find do |person|
+    person[:name] == name && person[:age] == age &&
+      person[:job_title] == job_title
+  end
 
 match&.fetch(:first_language)
 ```
@@ -632,7 +663,12 @@ age = 32
 job_title = 'leet coder'
 
 case data
-in [*, { name: ^name, age: ^age, first_language: first_language, job_title: ^job_title }]
+in *,
+   { name: ^name,
+   age: ^age,
+   first_language: first_language,
+   job_title: ^job_title }
+
 else
   first_language = nil
 end
@@ -642,7 +678,7 @@ puts first_language
 # => italian
 ```
 
-With pattern matching we do need to consider the case if there is no match, without the else clause we'd get the no matching pattern error. But that is exactly what the else clause is for in the case statement. We get a couple of benefits from doing it this way. Firstly we can bind the first\_language value to a variable right there in the pattern. Secondly, and I acknowledge this is somewhat subjective, but I find it beneficial in the case statement to see exactly what kind of data structure I'm trying to match against. This can be useful when getting to grips with code where the data may come from a third party api. And remember, this is still a very simplistic example, in the real world data can be nested several levels deep which can lead to a horrible tangle of spaghetti code when trying to make sure you can locate a value several levels deep. What if you had to dive 6 levels, but grab a value or two along the way from a couple of the higher levels. No problem with pattern matching.
+With pattern matching we do need to consider the case if there is no match, without the else clause we'd get the no matching pattern error. But that is exactly what the else clause is for in the case statement. We get a couple of benefits from doing it this way. Firstly we can bind the first_language value to a variable right there in the pattern. Secondly, and I acknowledge this is somewhat subjective, but I find it beneficial in the case statement to see exactly what kind of data structure we're trying to match against. This can be useful when getting to grips with code where the data may come from a third party api. And remember, this is still a very simplistic example, in the real world data can be nested several levels deep which can lead to a horrible tangle of spaghetti code when trying to make sure you can locate a value several levels deep. What if you had to dive 6 levels, but grab a value or two along the way from a couple of the higher levels. No problem with pattern matching.
 
 ## Wrapping up
 
@@ -652,4 +688,3 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 
 1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
 2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstructkeys-and-deconstruct).
-

@@ -69,7 +69,7 @@ export default Routes;
 So what is happening here? First we are importing React, our two components \(Profile and App\), and a few things from the package we just installed:
 
 1. **Route**: Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
-2. **BrowserRouter**: Is a router, which uses the history API \(`pushState`, `replaceState` and the `popstate` event\) to keep your UI in sync with the URL. For completion I have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
+2. **BrowserRouter**: Is a router, which uses the history API \(`pushState`, `replaceState` and the `popstate` event\) to keep your UI in sync with the URL. For completion we have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
 3. **Switch**: Renders the first child Route that matches the location. In other words, the `Switch` component is going to look through all your Routes and checks their path. The first Route, whose path matches the url will be rendered; all others will be ignored. Important to note is that in our above example, both routes; the homepage \("/"\) as well as the profile route \("/profile"\) contain, at first, a / in their path. This means that when you go to "/profile" you will see the App component render, as it is the first path that matches the url. Our profile route gets ignored because it is second place. Therefore, our Profile component never gets rendered.
 
 Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `Routes.js` to be the first. Your `index.js` should look something like this:
@@ -111,6 +111,5 @@ You should now have enough basics to get started with React routing. There are a
 
 ## Additional resources
 
-* [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.
-* For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).
-
+- [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.
+- For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).
