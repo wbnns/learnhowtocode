@@ -213,11 +213,11 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is a stack trace?
-* What is generally the most useful line in a stack trace?
-* What are the two things you can learn from the first line of a stack trace?
-* How do `puts` and Pry help you in the debugging process?
-* What should you use instead of `puts` for `nil` values?
-* Where should you start with debugging if you encounter a runtime error?
-* Where should you start with debugging if your program runs but does not work the way you expect?
+* **What is a stack trace?**
+* **What is generally the most useful line in a stack trace?**
+* **What are the two things you can learn from the first line of a stack trace?**
+* **How do `puts` and Pry help you in the debugging process?**
+* **What should you use instead of `puts` for `nil` values?**
+* **Where should you start with debugging if you encounter a runtime error?**
+* **Where should you start with debugging if your program runs but does not work the way you expect?**
 

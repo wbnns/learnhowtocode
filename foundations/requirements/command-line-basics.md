@@ -106,48 +106,48 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson.
 
-What is the command line?
+**What is the command line?**
 
 * The command line is a way to interact with the computer using specific words called "commands".
 
-How do you open the command line on your computer?
+**How do you open the command line on your computer?**
 
 * On Linux: Open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL` + `ALT` + `T`.
 * On Mac: Open your applications folder and find "Terminal".
 
-How can you navigate to a particular directory?
+**How can you navigate to a particular directory?**
 
 * You can use the `cd` command to change directories.
 
-Where will `cd` on its own navigate you to?
+**Where will `cd` on its own navigate you to?**
 
 * On Linux and Mac, it will navigate you home.
 
-Where will `cd ..` navigate you to?
+**Where will `cd ..` navigate you to?**
 
 * It will navigate you "up" one folder, that is, into the parent of the current directory.
 
-How do you display the name of the directory you are currently in?
+**How do you display the name of the directory you are currently in?**
 
 * On Linux and Mac, use the `pwd` \(print working directory\) command.
 
-How do you display the contents of the directory you are currently in?
+**How do you display the contents of the directory you are currently in?**
 
 * On Linux and Mac, use the `ls` command. Use `ls -l` to display the files in a list.
 
-How do you create a new directory?
+**How do you create a new directory?**
 
 * You can do this using the `mkdir` command.
 
-How do you create a new file?
+**How do you create a new file?**
 
 * On Linux and Mac, use the `touch` command, e.g., `touch new-file.txt`.
 
-How do you destroy a directory or file?
+**How do you destroy a directory or file?**
 
 * On Linux and Mac, use the `rm` command. To destroy folders, use `rm -r` or `rmdir`.
 
-How do you rename a directory or file?
+**How do you rename a directory or file?**
 
 * On Linux and Mac, use the `mv` command, e.g., `mv folder/old-file.txt folder/new-file.txt`.
 

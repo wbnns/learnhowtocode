@@ -190,12 +190,12 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are the differences between hashes and arrays?
-* What are keys and values in a hash?
-* How can you create a new hash?
-* How can you populate a hash with data?
-* How can you change existing values within a hash?
-* How can you delete existing data from a hash?
-* How can you merge two hashes together?
-* Why is it preferred to use symbols as hash keys?
+* **What are the differences between hashes and arrays?**
+* **What are keys and values in a hash?**
+* **How can you create a new hash?**
+* **How can you populate a hash with data?**
+* **How can you change existing values within a hash?**
+* **How can you delete existing data from a hash?**
+* **How can you merge two hashes together?**
+* **Why is it preferred to use symbols as hash keys?**
 

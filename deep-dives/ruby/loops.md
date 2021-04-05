@@ -165,11 +165,11 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is a loop and why it is useful?
-* What is a `loop` loop, and how would you use it?
-* What is a `while` loop, and how would you use it?
-* What is a `for` loop, and how would you use it?
-* What is a `#times` loop, and how would you use it?
-* What is an `until` loop, and how would you use it?
-* What are the `#upto` and `#downto` loops, and how would you use them?
+* **What is a loop and why it is useful?**
+* **What is a `loop` loop, and how would you use it?**
+* **What is a `while` loop, and how would you use it?**
+* **What is a `for` loop, and how would you use it?**
+* **What is a `times` loop, and how would you use it?**
+* **What is an `until` loop, and how would you use it?**
+* **What are the `upto` and `downto` loops, and how would you use them?**
 

@@ -139,11 +139,11 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is a variable?
-* How do you assign a value or an expression to a variable?
-* What does the `+=` assignment operator do?
-* What does the `-=` assignment operator do?
-* What does the `*=` assignment operator do?
-* What does the `/=` assignment operator do?
-* What are the variable naming conventions?
+* **What is a variable?**
+* **How do you assign a value or an expression to a variable?**
+* **What does the `+=` assignment operator do?**
+* **What does the `-=` assignment operator do?**
+* **What does the `*=` assignment operator do?**
+* **What does the `/=` assignment operator do?**
+* **What are the variable naming conventions?**
 

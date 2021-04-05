@@ -321,16 +321,16 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* How would you create your own method?
-* How would you call your new method?
-* How do you pass variables to your method?
-* How do you define default parameters for your method?
-* What is the difference between an explicit return and an implicit return?
-* What is the difference between `puts` and `return`?
-* How do you chain multiple methods together?
-* Give an example of a valid method name and an invalid method name.
-* What is snake case?
-* What are some of Ruby's reserved words?
-* What do you call a method that returns `true` or `false`? What is their naming convention?
-* What do bang methods do? What is their naming convention?
+* **How would you create your own method?**
+* **How would you call your new method?**
+* **How do you pass variables to your method?**
+* **How do you define default parameters for your method?**
+* **What is the difference between an explicit return and an implicit return?**
+* **What is the difference between `puts` and `return`?**
+* **How do you chain multiple methods together?**
+* **Give an example of a valid method name and an invalid method name.**
+* **What is snake case?**
+* **What are some of Ruby's reserved words?**
+* **What do you call a method that returns `true` or `false`? What is their naming convention?**
+* **What do bang methods do? What is their naming convention?**
 

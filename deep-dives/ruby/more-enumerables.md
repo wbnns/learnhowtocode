@@ -6,7 +6,7 @@ description: Learn more about predicate enumerable methods.
 
 ## Introduction
 
-In the previous lesson, you learned about some really handy enumerable methods like `#each`, `#map`, and `#select`. In this lesson, we're going to learn about _even more_ enumerable methods! Woohoo!
+In the previous lesson, you learned about some really handy enumerable methods like `each`, `map`, and `select`. In this lesson, we're going to learn about _even more_ enumerable methods! Woohoo!
 
 This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark \(`?`\) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else [Enumerable](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
 
@@ -239,9 +239,9 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* Why is there a question mark after some method names?
-* What does the `#include?` method do?
-* What does the `#any?` method do?
-* What does the `#all?` method do?
-* What does the `#none?` method do?
+* **Why is there a question mark after some method names?**
+* **What does the `include?` method do?**
+* **What does the `any?` method do?**
+* **What does the `all?` method do?**
+* **What does the `none?` method do?**
 

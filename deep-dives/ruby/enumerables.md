@@ -18,10 +18,10 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 
 By the end of this lesson, you should be able to do the following:
 
-* Explain how the `#each` and `#each_with_index` methods work and how they differ.
-* Explain how the `#map` method works.
-* Explain how the `#select` method works.
-* Explain how the `#reduce` method works.
+* Explain how the `each` and `each_with_index` methods work and how they differ.
+* Explain how the `map` method works.
+* Explain how the `select` method works.
+* Explain how the `reduce` method works.
 * Describe the differences between using `do...end` and `{...}`.
 * Explain what a bang method is and why it is or is not considered best practice.
 
@@ -448,11 +448,11 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What does the `#each` method do? What does it return?
-* What does the `#each_with_index` method do?
-* What does the `#map` method do?
-* What does the `#select` method do?
-* What does the `#reduce` method do?
-* When should you use `do...end` around a code block versus `{...}`?
-* Why should you avoid using the bang methods of enumerables?
+* **What does the `#each` method do? What does it return?**
+* **What does the `#each_with_index` method do?**
+* **What does the `#map` method do?**
+* **What does the `#select` method do?**
+* **What does the `#reduce` method do?**
+* **When should you use `do...end` around a code block versus `{...}`?**
+* **Why should you avoid using the bang methods of enumerables?**
 

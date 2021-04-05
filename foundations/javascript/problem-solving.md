@@ -260,11 +260,11 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are the three stages in the problem solving process?
-* Why is it important to clearly understand the problem first?
-* What can you do to help get a clearer understanding of the problem?
-* What are some of the things you should do in the planning stage of the problem solving process?
-* What is an algorithm?
-* What is pseudo code?
-* What are the advantages of breaking a problem down and solving the smaller problems?
+* **What are the three stages in the problem solving process?**
+* **Why is it important to clearly understand the problem first?**
+* **What can you do to help get a clearer understanding of the problem?**
+* **What are some of the things you should do in the planning stage of the problem solving process?**
+* **What is an algorithm?**
+* **What is pseudo code?**
+* **What are the advantages of breaking a problem down and solving the smaller problems?**
 

@@ -170,9 +170,9 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is an array and why is it useful?
-* What are two ways to create a new empty array?
-* What are some ways of accessing the elements in an array?
-* What are 3 ways to add data to an array?
-* How can you remove elements from an array?
+* **What is an array and why is it useful?**
+* **What are two ways to create a new empty array?**
+* **What are some ways of accessing the elements in an array?**
+* **What are 3 ways to add data to an array?**
+* **How can you remove elements from an array?**
 
