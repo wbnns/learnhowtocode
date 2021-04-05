@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn everything you need to know to kick off or level up your career as a
-  developer.
+  A completely free website that helps you learn everything you need to know to
+  kick off or level up your career as a developer.
 ---
 
 # Welcome
