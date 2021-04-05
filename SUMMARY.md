@@ -159,6 +159,7 @@
   * [Methods](deep-dives/ruby/methods.md)
   * [Enumerables](deep-dives/ruby/enumerables.md)
   * [More enumerables](deep-dives/ruby/more-enumerables.md)
+  * [Nested collections](deep-dives/ruby/nested-collections.md)
   * [Blocks](deep-dives/ruby/blocks.md)
   * [Pattern matching](deep-dives/ruby/pattern-matching.md)
   * [Debugging](deep-dives/ruby/debugging.md)
