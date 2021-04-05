@@ -29,7 +29,7 @@ Most lessons will contain questions that you should be able to answer before mov
 
 Please be aware that this curriculum is written in English, and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
 
-If you are a non-English speaker, or English is not a primary language for you, this fact is not meant to discourage you, but to prepare you.
+If you are a non-English speaker, or English is not a primary language for you, don't be discouraged. You can use [Google Chrome](https://www.google.com/chrome/) to automatically translate this site!
 
 As another part of this preparation, we _highly_ recommend spending extra time on topics and terms that you do not understand right away. We also encourage you to seek out additional resources that teach about these topics in your own native language so you can understand them more fully.
 
