@@ -15,9 +15,9 @@ You still may feel shaky on RSpec at this point \(which is totally normal\), so 
 
 ### Practice
 
-1. Go back to the [Caesar Cipher Project](/courses/ruby-programming/lessons/caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
+1. Go back to the [Caesar Cipher Project](https://www.learnhowtocodebook.com/deep-dives/ruby/project-caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
 2. Clone [this repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder. 
-3. Write tests for your [Tic Tac Toe project](/courses/ruby-programming/lessons/tic-tac-toe).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
+3. Write tests for your [Tic Tac Toe project](https://www.learnhowtocodebook.com/deep-dives/ruby/project-tic-tac-toe).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
    * Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method \(or its equivalent\) should trigger.
    * Test each of your critical methods to make sure they function properly and handle edge cases.
    * Use mocks/doubles to isolate methods to make sure that they're sending back the right outputs.

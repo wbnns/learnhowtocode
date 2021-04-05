@@ -124,10 +124,10 @@ We'll do a broad overview of the process here:
   end
 ```
 
-1. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
-2. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_for` inside your existing `#form_for` form.
+* Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
+* Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_for` inside your existing `#form_for` form.
 
-There are a couple new aspects to this process. You saw `#fields_for` in the [Basic Forms lesson](/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now. It's basically how you create a form within a form \(which should make sense since it's actually used behind the scenes by `#form_for`\). In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
+There are a couple new aspects to this process. You saw `#fields_for` in the [Basic Forms lesson](https://www.learnhowtocodebook.com/deep-dives/ruby-on-rails/forms) but it probably has new meaning to you now. It's basically how you create a form within a form \(which should make sense since it's actually used behind the scenes by `#form_for`\). In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
 ```ruby
   <%= form_for @user do |f| %>
