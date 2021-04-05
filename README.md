@@ -6,7 +6,7 @@ description: >-
 
 # Welcome
 
-## This site is dedicated to you
+### This site is dedicated to you
 
 Content is divided into many sections to help you learn how to code or to become a better developer. Stick to this material, teach yourself to fish, and feed yourself for a lifetime.
 
@@ -14,7 +14,7 @@ Content is divided into many sections to help you learn how to code or to become
 >   
 > T. E. Lawrence
 
-**What would you do if self-doubt was the only thing that could stop you?**
+What would you do if self-doubt was the only thing that could stop you?
 
 Start with the "Introduction" and begin your course...
 
