@@ -35,9 +35,9 @@ You'll probably be asked about some of the technical things you've listed on you
 
 **FINAL NOTE** -- this is not one-size-fits-all and many companies skip the light stuff and dive right into a technical screen so you've got to be prepared just in case! The Coding Horror link below is more descriptive about that case.
 
-* [Mastering the phone screen by Monster](http://career-advice.monster.com/job-interview/interview-preparation/mastering-the-phone-interview/article.aspx)
-* [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
-* [A much more technical phone screen from Coding Horror](http://www.codinghorror.com/blog/2008/01/getting-the-interview-phone-screen-right.html)
+- [Mastering the phone screen by Monster](http://career-advice.monster.com/job-interview/interview-preparation/mastering-the-phone-interview/article.aspx)
+- [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
+- [A much more technical phone screen from Coding Horror](http://www.codinghorror.com/blog/2008/01/getting-the-interview-phone-screen-right.html)
 
 ### The technical interview
 
@@ -55,22 +55,22 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 #### Technical interview practice resources
 
-* [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
-* [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
-* [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently \(they can be very computationally intensive\).
-* [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
-* [Coding Bat](http://codingbat.com/) has practice questions in Java and Python.
-* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms and data scructures. 
+- [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
+- [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
+- [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently \(they can be very computationally intensive\).
+- [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
+- [Coding Bat](http://codingbat.com/) has practice questions in Java and Python.
+- [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms and data scructures.
 
 #### Algorithms training
 
-* [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) \(asynchronous\)
-* [Coursera course on Algorithms](https://www.coursera.org/course/algo) \(semi-synchronous\)
-* [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
+- [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) \(asynchronous\)
+- [Coursera course on Algorithms](https://www.coursera.org/course/algo) \(semi-synchronous\)
+- [Visualgo](https://visualgo.net/) visualizes many common algorithms to help better understand data structures and algorithms.
 
 #### Architecture
 
-* [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
+- [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
 ### Take-home challenges
 
@@ -91,4 +91,3 @@ Do. Not. Provide. Compensation. Expectations.
 Companies will always ask you "how much do you expect to get paid". Your answer? "I expect to get paid a fair market rate". There's nothing you can possibly gain from providing an expectation for compensation. If it's lower than what they would have offered you, you just capped what they'll offer you. If it's higher, they may just scuttle the process because you're too expensive.
 
 Once you have an offer, you can check it against fair market rate by asking other people \(hopefully you've got some people by now who you might ask\) or going to [Glassdoor](http://glassdoor.com) \(just remember you're a brand new developer you might get below "average"\). But the real point is to not shoot yourself in the foot when they ask.
-

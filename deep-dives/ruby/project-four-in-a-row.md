@@ -11,16 +11,16 @@ description: >-
 
 A good way to get familiar with and begin contributing to a new project is to write tests for it. It's also the best way to become familiar with a new code base, something you'll have to do when you start working. It's pretty common for test code to ultimately take up twice as many lines of code as the actual project code!
 
-You still may feel shaky on RSpec at this point \(which is totally normal\), so let's go back in time and write tests for some of the code you've already done to build up a bit of muscle memory. If you've written a good batch, submit them below and we'll include them as part of the original project description to help future students!
+You still may feel shaky on RSpec at this point \(which is totally normal\), so let's go back in time and write tests for some of the code you've already done to build up a bit of muscle memory.
 
 ### Practice
 
-1. Go back to the [Caesar Cipher Project](https://www.learnhowtocodebook.com/deep-dives/ruby/project-caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
-2. Clone [this repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder. 
-3. Write tests for your [Tic Tac Toe project](https://www.learnhowtocodebook.com/deep-dives/ruby/project-tic-tac-toe).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
-   * Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method \(or its equivalent\) should trigger.
-   * Test each of your critical methods to make sure they function properly and handle edge cases.
-   * Use mocks/doubles to isolate methods to make sure that they're sending back the right outputs.
+1. Go back to the [Caesar Cipher Project](https://www.learnhowtocodebook.com/deep-dives/ruby/project-caesar-cipher) and write tests for your code. It shouldn't take more than a half-dozen tests to cover all the possible cases.
+2. Clone [this repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder.
+3. Write tests for your [Tic Tac Toe project](https://www.learnhowtocodebook.com/deep-dives/ruby/project-tic-tac-toe). In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing. You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
+   - Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method \(or its equivalent\) should trigger.
+   - Test each of your critical methods to make sure they function properly and handle edge cases.
+   - Use mocks/doubles to isolate methods to make sure that they're sending back the right outputs.
 
 ## Project: Four in a row
 
@@ -34,13 +34,12 @@ Only write exactly enough code to make your test pass. Oftentimes, you'll end up
 
 ### Assignment
 
-* Build it!  Be sure to adhere to a process of TDD.
+- Build it! Be sure to adhere to a process of TDD.
 
 ## Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
-* [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
-* [Tutorials Point RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm)
-
+- [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
+- [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
+- [Tutorials Point RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm)
