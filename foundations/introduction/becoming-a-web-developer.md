@@ -46,10 +46,11 @@ Finally, large, older companies still need web developers. These companies offer
 
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
-- **Computer**
-- [**Google**](https://www.google.com/)
-- **Text Editor**
-- **Command Line Interface \(CLI\)**
-- [**Stack Overflow**](http://stackoverflow.com/)
-- [**Git**](https://git-scm.com/)
-- [**GitHub**](https://github.com/)
+* **Computer**
+* [**Google**](https://www.google.com/)
+* **Text Editor**
+* **Command Line Interface \(CLI\)**
+* [**Stack Overflow**](http://stackoverflow.com/)
+* [**Git**](https://git-scm.com/)
+* [**GitHub**](https://github.com/)
+

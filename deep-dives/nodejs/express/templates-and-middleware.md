@@ -8,11 +8,11 @@ In the last lesson, we set the stage by explaining quite a bit of the background
 
 By the end of this lesson, you should be able to do the following:
 
-- Use `express-generator` to generate a basic express site.
-- Understand the basic parts of an express project.
-- Understand what a Templating Language is and be able to list a couple of popular ones.
-- Understand what Middleware is.
-- Understand `req`, `res` and `next` in the context of middleware.
+* Use `express-generator` to generate a basic express site.
+* Understand the basic parts of an express project.
+* Understand what a Templating Language is and be able to list a couple of popular ones.
+* Understand what Middleware is.
+* Understand `req`, `res` and `next` in the context of middleware.
 
 ## Templating Engines
 
@@ -42,11 +42,11 @@ When someone visits your site, their web-browser sends a request to your server.
 
 `req` or `request` is an object that has data about the incoming request such as the exact URL that was visited, any parameters in the URL, the `body` of the request \(useful if the user is submitting a form with some data in it\) and many other things.
 
-- You can see everything it includes in the [express docs](https://expressjs.com/en/4x/api.html#req).
+* You can see everything it includes in the [express docs](https://expressjs.com/en/4x/api.html#req).
 
   `res` or `response` is an object that represents the response that Express is going to send back to the user. Typically, you use the information in the `req` to determine what you're going to do with the `res` by calling `res.send()` or another method on the object.
 
-- Check out the documentation for the response object [here!](https://expressjs.com/en/4x/api.html#res)
+* Check out the documentation for the response object [here!](https://expressjs.com/en/4x/api.html#res)
 
 `next` is a function that you see a little less often, but is _very_ important to the functioning of your app. If you are writing or using some middleware that does not send a response back to the user's client then you _must_ call the `next` function at the end of your middleware function. The next function simply tells express to move to the next middleware in the stack, but if you forget to call it then your app will pause and nothing will happen!
 
@@ -74,10 +74,11 @@ As a final detail, the order that middleware gets executed in your app matters! 
 
 if you choose to use git when completing this tutorial \(you should!\) then you will want to add a `.gitignore` file to make sure you do not commit/upload your `node_modules` folder to GitHub. `node_modules` is the directory where all of your project's dependencies are installed \(it's where the code for express is downloaded\) and it can get quite large. References to all of these dependencies are stored in the `package.json` file anyway, so anyone that wants to clone and work on the project simply has to run `npm install` to download and install all those dependencies anyway, so uploading them to GitHub is a waste of time and space.
 
-- [This article](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) explains the process. You just need to create a file called `.gitignore` and put `node_modules` on a line inside that file.
+* [This article](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) explains the process. You just need to create a file called `.gitignore` and put `node_modules` on a line inside that file.
 
 ## Assignment
 
 1. Read this [intro article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) on MDN.
 2. Begin the project by following [this lesson](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website). Be sure to read everything carefully! There's quite a bit of important information in this article. You only have to do part 2 for now. We will continue where we leave off later.
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
+

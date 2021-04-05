@@ -133,8 +133,8 @@ To create a new SSH key, run the following command inside your terminal. The `-C
 ssh-keygen -C <youremail>
 ```
 
-- When it prompts you for a location to save the generated key, just push `Enter`.
-- Next, it will ask you for a password; enter one if you wish, but it's not required.
+* When it prompts you for a location to save the generated key, just push `Enter`.
+* Next, it will ask you for a password; enter one if you wish, but it's not required.
 
 ### **Step 2.4: Link your SSH key with GitHub**
 
@@ -157,3 +157,4 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 ### **Step 2.5 Testing your key**
 
 Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection **\(Don't forget to omit the `$` when you copy and paste the code!\)**. You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Fear not the part about not being provided shell access. If you see this message, you've successfully added your SSH key and you can move on.
+

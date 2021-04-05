@@ -26,51 +26,51 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### **Important concepts:**
 
-- What is the Primary Key?
-- What are Foreign Keys?
-- What is a Schema?
+* What is the Primary Key?
+* What are Foreign Keys?
+* What is a Schema?
 
 ### **Statements:**
 
-- `SELECT`
-- `CREATE TABLE`
-- `DROP TABLE`
-- `CREATE INDEX`
-- `DROP INDEX`
-- `UPDATE`
-- `DELETE`
-- `INSERT INTO`
-- `CREATE DATABASE`
-- `DROP DATABASE`
-- `COMMIT` \(concept\)
-- `ROLLBACK` \(concept\)
+* `SELECT`
+* `CREATE TABLE`
+* `DROP TABLE`
+* `CREATE INDEX`
+* `DROP INDEX`
+* `UPDATE`
+* `DELETE`
+* `INSERT INTO`
+* `CREATE DATABASE`
+* `DROP DATABASE`
+* `COMMIT` \(concept\)
+* `ROLLBACK` \(concept\)
 
 ### **Clauses:**
 
-- `DISTINCT`
-- `WHERE`
-- `IN`
-- `AND`
-- `OR`
-- `BETWEEN`
-- `LIKE`
-- `ORDER BY`
-- `COUNT`
+* `DISTINCT`
+* `WHERE`
+* `IN`
+* `AND`
+* `OR`
+* `BETWEEN`
+* `LIKE`
+* `ORDER BY`
+* `COUNT`
 
 ### **Functions**
 
-- `GROUP BY`
-- `HAVING`
-- `AVG`
-- `COUNT`
-- `MIN`
-- `MAX`
-- `SUM`
+* `GROUP BY`
+* `HAVING`
+* `AVG`
+* `COUNT`
+* `MIN`
+* `MAX`
+* `SUM`
 
 ### **Other stuff**
 
-- What are Indexes good for?
-- What's the difference between `WHERE` and `HAVING`?
+* What are Indexes good for?
+* What's the difference between `WHERE` and `HAVING`?
 
 ## The world's fastest semi-complete explanation of SQL
 
@@ -78,7 +78,7 @@ This is a very brief soup-to-nuts explanation of SQL. It won't do a particularly
 
 SQL is the language used to talk to many relational databases. These databases use lots of tables to store different types of data \(e.g. "users" and "posts" tables\). Tables are long lists like spreadsheets where each row is a different record \(or object, e.g. a single user\) and each column is one of that record's attributes \(like name, email, etc\). The one column that all tables include is an "ID" column, which gives the unique row numbers, and is called the record's "primary key".
 
-You can "link" tables together by making one of the columns in one table point to the ID of another table, for instance a row in the "posts" table might include the author's ID under the column called "user_id". Because the "posts" table has the ID of another table in it, that column is called a "foreign key".
+You can "link" tables together by making one of the columns in one table point to the ID of another table, for instance a row in the "posts" table might include the author's ID under the column called "user\_id". Because the "posts" table has the ID of another table in it, that column is called a "foreign key".
 
 ### **Setting stuff up**
 
@@ -182,8 +182,9 @@ The next step, once you've had a chance to practice this all in the project, is 
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- Hunter D's [GitHub Book on SQL](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which you should totally check out if you want a decent resource.
-- [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
-- [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
-- [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
-- If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/) .
+* Hunter D's [GitHub Book on SQL](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which you should totally check out if you want a decent resource.
+* [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
+* [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
+* [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
+* If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/) .
+

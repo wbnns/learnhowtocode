@@ -1,8 +1,7 @@
 ---
 description: >-
-  Learn How to Code is a free resource based on The Odin Project's open
-  curriculum for learning web development. Learn everything you need to know to
-  kick off or level up your career as a developer.
+  Learn everything you need to know to kick off or level up your career as a
+  developer.
 ---
 
 # Welcome

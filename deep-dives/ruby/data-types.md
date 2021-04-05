@@ -14,12 +14,12 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 
 By the end of this lesson, you should be able to do the following:
 
-- List the basic arithmetic operators and what they do.
-- Describe the difference between an integer and a float and how to convert between the two.
-- Explain string interpolation and concatenation.
-- Describe what escape characters are, and list several examples.
-- Define what a symbol is and how it differs from a string.
-- Explain what the Booleans `true`, `false`, and `nil` represent.
+* List the basic arithmetic operators and what they do.
+* Describe the difference between an integer and a float and how to convert between the two.
+* Explain string interpolation and concatenation.
+* Describe what escape characters are, and list several examples.
+* Define what a symbol is and how it differs from a string.
+* Explain what the Booleans `true`, `false`, and `nil` represent.
 
 ## Numbers
 
@@ -316,46 +316,47 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's _Introduction to Programming With Ruby_ for a different explanation of Ruby's data types.
 2. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 3. Finally complete the basic data types exercises provided for this lesson:
-   - [Follow the instructions in the main README to set up the exercise repo](https://github.com/TheOdinProject/ruby-exercises)
-   - [Follow the instructions in the README here to complete the basic data types exercises](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics)
+   * [Follow the instructions in the main README to set up the exercise repo](https://github.com/TheOdinProject/ruby-exercises)
+   * [Follow the instructions in the README here to complete the basic data types exercises](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics)
 
 ## Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- If you want to go deeper into Ruby's numbers and string data types, read these chapters from the _Bastards Book of Ruby_:
-  - [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
-  - [Strings](http://ruby.bastardsbook.com/chapters/strings/)
-- Read through these Ruby Monstas sections about data types:
-  - [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-  - [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-  - [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-  - [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
+* If you want to go deeper into Ruby's numbers and string data types, read these chapters from the _Bastards Book of Ruby_:
+  * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
+  * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+* Read through these Ruby Monstas sections about data types:
+  * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+  * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+  * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+  * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
 
 ## Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- **Numbers**
-  - What are the basic arithmetic operators you can use on numbers?
-  - What's the difference between an integer and a float?
-  - What method would you use to convert a float to an integer?
-  - What method would you use to convert an integer to a float?
-- **Strings**
-  - What is a string?
-  - What are the differences between single and double quotes?
-  - What is string interpolation?
-  - How do you concatenate strings?
-  - What method would you use to change all the characters in your string to upper case?
-  - What method would you use to split up strings into arrays?
-  - What are escape characters?
-  - How do you access a specific character or substring?
-  - How do you convert other data types into strings?
-- **Symbols**
-  - What is a symbol?
-  - How do you create a symbol?
-  - What's the difference between a symbol and a string?
-- **Booleans**
-  - What does `true` represent?
-  - What does `false` represent?
-  - What does `nil` represent?
+* **Numbers**
+  * What are the basic arithmetic operators you can use on numbers?
+  * What's the difference between an integer and a float?
+  * What method would you use to convert a float to an integer?
+  * What method would you use to convert an integer to a float?
+* **Strings**
+  * What is a string?
+  * What are the differences between single and double quotes?
+  * What is string interpolation?
+  * How do you concatenate strings?
+  * What method would you use to change all the characters in your string to upper case?
+  * What method would you use to split up strings into arrays?
+  * What are escape characters?
+  * How do you access a specific character or substring?
+  * How do you convert other data types into strings?
+* **Symbols**
+  * What is a symbol?
+  * How do you create a symbol?
+  * What's the difference between a symbol and a string?
+* **Booleans**
+  * What does `true` represent?
+  * What does `false` represent?
+  * What does `nil` represent?
+

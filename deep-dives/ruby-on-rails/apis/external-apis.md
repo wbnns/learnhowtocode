@@ -21,20 +21,20 @@ This lesson will cover some general steps that are common across APIs and will d
 
 Look through these now and then use them to test yourself after doing the assignment.
 
-- What's the best way to locate an API's docs?
-- What are the steps you'll almost always have to go through when setting up your app to use an API?
-- What is an API key?
-- How is API use typically controlled?
-- How do you avoid including an API's secret token in your GitHub repo \(e.g. hard coding it\)?
-- Why is it important to know which API version you're using?
-- What is a RESTful API and why does that make your life easier?
-- What \(basically\) is OAuth?
-- Why would a user prefer to sign into your site using Facebook instead of giving you a new password?
-- How \(basically\) does this process work from the user's perspective?
-- How \(basically\) does this process work from your \(the application developer's\) perspective?
-- What are the basic rules of thumb for not abusing APIs?
-- What is OmniAuth and why does it save you tons of time/pain?
-- What is an SDK and why are they useful for working with APIs?
+* What's the best way to locate an API's docs?
+* What are the steps you'll almost always have to go through when setting up your app to use an API?
+* What is an API key?
+* How is API use typically controlled?
+* How do you avoid including an API's secret token in your GitHub repo \(e.g. hard coding it\)?
+* Why is it important to know which API version you're using?
+* What is a RESTful API and why does that make your life easier?
+* What \(basically\) is OAuth?
+* Why would a user prefer to sign into your site using Facebook instead of giving you a new password?
+* How \(basically\) does this process work from the user's perspective?
+* How \(basically\) does this process work from your \(the application developer's\) perspective?
+* What are the basic rules of thumb for not abusing APIs?
+* What is OmniAuth and why does it save you tons of time/pain?
+* What is an SDK and why are they useful for working with APIs?
 
 ## First steps
 
@@ -132,7 +132,8 @@ Working with external APIs can be incredibly rewarding because you're able to le
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
-- [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
-- Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over intergrating a third party API with Rails 5.
-- See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a simple rails app using the OMDB API, an open source movie database.
+* See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
+* [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
+* Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over intergrating a third party API with Rails 5.
+* See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a simple rails app using the OMDB API, an open source movie database.
+

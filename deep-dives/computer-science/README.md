@@ -12,13 +12,13 @@ This course is not about teaching you the ins and outs of a language, although y
 
 Computer Science itself is an extremely broad subject concerning everything from hardware to the very low level, bare metal of how software works. This course will not cover all of it; only a small chunk of the subject of writing code and understanding some of the lingo that Computer Scientists/Programmers love to throw around. Specifically, we will be covering the following subjects in considerable detail:
 
-- Pseudo-code and what Algorithms are
-- Recursion, it's benefits and it's pitfalls
-- Iteration vs Recursion
-- Specific, commonly mentioned algorithms
-- Time and Space Complexity, and Big O.
-- Commonly used data structures, and how to make them
-- A more general idea of data structures
+* Pseudo-code and what Algorithms are
+* Recursion, it's benefits and it's pitfalls
+* Iteration vs Recursion
+* Specific, commonly mentioned algorithms
+* Time and Space Complexity, and Big O.
+* Commonly used data structures, and how to make them
+* A more general idea of data structures
 
 ## Prerequisites
 
@@ -32,3 +32,4 @@ The next lesson will discuss a concept called `pseudo-code`; with an example. Mo
 
 1. Brush up on your maths, and understand what factorials, indices and logarithms are.
 2. If you haven't already learned the basics of a language, do so. Consider [Ruby](https://www.learnhowtocodebook.com/deep-dives/ruby) or [JavaScript](https://www.learnhowtocodebook.com/deep-dives/javascript).
+

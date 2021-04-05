@@ -8,9 +8,9 @@ Last lesson, we glossed over what a data structure is, and covered The `Array` a
 
 Look through these now and then use them to test yourself after doing the assignment:
 
-- What are Maps, Stacks and Queues?
-- What are their differences, and how may each be used?
-- What features would you expect each of these to have?
+* What are Maps, Stacks and Queues?
+* What are their differences, and how may each be used?
+* What features would you expect each of these to have?
 
 ## Maps
 
@@ -32,7 +32,7 @@ This data structure allow us to store values with keys that have some meaning, o
 
 ## Stacks
 
-You may recall that `The Stack` was mentioned in when we were learning about recursion, a concept that functions and parameters are stacked on top of each other in memory, then taken from the top down when they are needed. \[Stacks\]\([https://en.wikipedia.org/wiki/Stack\_\(abstract_data_type](https://en.wikipedia.org/wiki/Stack_%28abstract_data_type)\)\) as a data structure follow the same methodology of stacking their input on top of remaining data, and taking data off the top of the stack.
+You may recall that `The Stack` was mentioned in when we were learning about recursion, a concept that functions and parameters are stacked on top of each other in memory, then taken from the top down when they are needed. \[Stacks\]\([https://en.wikipedia.org/wiki/Stack\_\(abstract\_data\_type](https://en.wikipedia.org/wiki/Stack_%28abstract_data_type)\)\) as a data structure follow the same methodology of stacking their input on top of remaining data, and taking data off the top of the stack.
 
 `Stacks` should allow users to use two methods to manipulate data. `#push`, which puts it's input on the top, or the `head` of the stack; and `#pop`, which removes the element from the head of the stack and returns it. Some implementations may have `#peek`, which allow users to see the head of the stack without removing it. Here is an example of what `Stack` use may look like
 
@@ -56,7 +56,7 @@ Both [Ruby](https://ruby-doc.org/core-2.6/Array.html#method-i-pop) and [Javascri
 
 You will be familiar with the concept of queuing for something. Say you're buying groceries, and there's a line of people waiting to purchase their goods; and you join the back of this line. You have just joined a `Queue`.
 
-By definition, a \[Queue\]\([https://en.wikipedia.org/wiki/Queue\_\(abstract_data_type](https://en.wikipedia.org/wiki/Queue_%28abstract_data_type)\)\), like a `Stack`, should allow uses to use two methods: `#enqueue`, which places it's input at the back of the queue, and `#dequeue` which removes an element from the front of the queue and returns it.
+By definition, a \[Queue\]\([https://en.wikipedia.org/wiki/Queue\_\(abstract\_data\_type](https://en.wikipedia.org/wiki/Queue_%28abstract_data_type)\)\), like a `Stack`, should allow uses to use two methods: `#enqueue`, which places it's input at the back of the queue, and `#dequeue` which removes an element from the front of the queue and returns it.
 
 To go back to our grocery analogy; you joining the queue would be `#enqueue`, and the individual finally buying and bagging their food would be `#dequeue`'d. Here is an example of what a `Queue` may look like:
 
@@ -78,3 +78,4 @@ Some languages have builtin queues ready for use; but Ruby and Javascript do not
 
 1. Use pop, push and shift in your language of choice and get a feel for how these work! If you're not using Ruby or Javascript for this course, you might need to google around to find Queue implementation.
 2. View the docs of your chosen language and find how maps work in your language. It could be under a different name, like 'Hash' or 'Dictionary'.
+
