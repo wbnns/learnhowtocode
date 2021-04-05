@@ -160,6 +160,7 @@
   * [Enumerables](deep-dives/ruby/enumerables.md)
   * [More enumerables](deep-dives/ruby/more-enumerables.md)
   * [Blocks](deep-dives/ruby/blocks.md)
+  * [Pattern matching](deep-dives/ruby/pattern-matching.md)
   * [Debugging](deep-dives/ruby/debugging.md)
   * [Project: Caesar cipher](deep-dives/ruby/project-caesar-cipher.md)
   * [Project: Substrings](deep-dives/ruby/project-substrings.md)
