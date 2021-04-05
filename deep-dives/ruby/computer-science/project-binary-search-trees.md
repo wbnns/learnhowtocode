@@ -26,14 +26,14 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 10. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 11. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
 12. Write a simple driver script that does the following:
-    - Create a binary search tree from an array of random numbers \(`Array.new(15) { rand(1..100) }`\)
-    - Confirm that the tree is balanced by calling `#balanced?`
-    - Print out all elements in level, pre, post, and in order
-    - Try to unbalance the tree by adding several numbers &gt; 100
-    - Confirm that the tree is unbalanced by calling `#balanced?`
-    - Balance the tree by calling `#rebalance`
-    - Confirm that the tree is balanced by calling `#balanced?`
-    - Print out all elements in level, pre, post, and in order
+    * Create a binary search tree from an array of random numbers \(`Array.new(15) { rand(1..100) }`\)
+    * Confirm that the tree is balanced by calling `#balanced?`
+    * Print out all elements in level, pre, post, and in order
+    * Try to unbalance the tree by adding several numbers &gt; 100
+    * Confirm that the tree is unbalanced by calling `#balanced?`
+    * Balance the tree by calling `#rebalance`
+    * Confirm that the tree is balanced by calling `#balanced?`
+    * Print out all elements in level, pre, post, and in order
 
 **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method:
 
@@ -48,3 +48,4 @@ def pretty_print(node = @root, prefix = '', is_left = true)
   end
 end
 ```
+
