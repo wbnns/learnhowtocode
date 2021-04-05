@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Most of this should be review since you've already completed [the Foundations HTML/CSS Lesson](/courses/foundations/lessons/html-and-css-basics) \(Right??\) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base. It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.
+Most of this should be review since you've already completed the [Foundations HTML/CSS Lesson](https://www.learnhowtocodebook.com/foundations/frontend/html-and-css) \(Right??\) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base. It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.
 
 ## Learning outcomes
 
