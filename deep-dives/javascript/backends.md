@@ -14,7 +14,7 @@ If not, never fear: you can learn how to build a back-end later using [Node.js](
 
 ## **Building your own backend with Ruby on Rails**
 
-For those of you who are on the [full-stack Ruby on Rails path](https://www.learnhowtocodebook.com/deep-dives/ruby-on-rails), the next step is obvious: you get to build your own backend with Rails! In preparation, reread the [Rails lesson on building an API](https://github.com/wbnns/learnhowtocode/tree/af8a9f1f207c0f8d8314178bf5d98e3968f9c756/courses/ruby-on-rails/lessons/apis-and-building-your-own/README.md) to refresh how to set up a Rails backend that can handle JSON requests.
+For those of you who are on the [full-stack Ruby on Rails path](https://www.learnhowtocodebook.com/deep-dives/ruby-on-rails), the next step is obvious: you get to build your own backend with Rails! In preparation, reread the [Rails lesson on building an API](https://www.learnhowtocodebook.com/deep-dives/ruby-on-rails/apis) to refresh how to set up a Rails backend that can handle JSON requests.
 
 Are you done? Good. Next, it's time to practice allowing your front end Javascript to talk to your Rails backend using AJAX. We'll cover some best practices for how to pass data from one to another, but otherwise it's up to you: you've got everything you need to put together those final pieces of the web development puzzle.
 
@@ -45,8 +45,6 @@ If you skipped Ruby and/or Ruby on Rails or are on a different path, you're not 
 1. [Check out "Using Javascript in your Rails App" from Daniel Kehoe](http://railsapps.github.io/rails-javascript-include-external.html). It is long and covers a lot of ground, but it's got great content. Some of the stuff on dependencies can be skimmed, but pay attention to the `content_for` stuff at the bottom.
 2. [Refresh yourself on Rails AJAX from RailsGuides](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html) \(just skim the top few sections\).
 3. Read [Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view) to learn about passing data to your front end.
-
-   &lt;/div&gt;
 
 ## **With Firebase**
 
