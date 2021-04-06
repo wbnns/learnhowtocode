@@ -1,3 +1,9 @@
+---
+description: >-
+  In this lesson, we look at some of the more simple data structures that don't
+  come in layers. We will be looking at Maps, Stacks and Queues.
+---
+
 # Maps, Stacks and Queues
 
 ## Introduction

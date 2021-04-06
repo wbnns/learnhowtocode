@@ -1,5 +1,8 @@
 ---
-description: Learn more about algorithms.
+description: >-
+  In this lesson, we will be looking at an overview of different common
+  categories of problems faced in computer science, and a few of their solutions
+  algorithms.
 ---
 
 # More on algorithms

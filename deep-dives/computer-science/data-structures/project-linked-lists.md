@@ -1,10 +1,17 @@
+---
+description: >-
+  Learning how nodes work by writing them, and building a linked list, will give
+  you a solid understanding for learning about a more complex subject in the
+  next section, trees.
+---
+
 # Project: Linked Lists
 
 ## Introduction
 
 In our previous lesson, we looked at `Nodes`, `Linked Lists` and `Trees`; the latter two being core `data structures` to add to your repetoire, and `Nodes` being the foundation those `data structures` are built upon.
 
-As stated previously, if your language of choice is `Ruby` or `Javascript`, in practice you won't have to concern yourself with implementing `Linked Lists` as `Arrays` are not a fixed sized in these languages. However, learning how `Nodes` work by writing them, and building a `Linked List` with them; will give you a working understanding of how `Linked Lists` work, and give you a solid, founding principle for tackling the bigger task ahead...
+As stated previously, if your language of choice is `Ruby` or `JavaScript`, in practice you won't have to concern yourself with implementing `Linked Lists` as `Arrays` are not a fixed sized in these languages. However, learning how `Nodes` work by writing them, and building a `Linked List` with them; will give you a working understanding of how `Linked Lists` work, and give you a solid, founding principle for tackling the bigger task ahead...
 
 `Trees.`
 

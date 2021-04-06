@@ -1,3 +1,10 @@
+---
+description: >-
+  You've learned core concepts that are not exclusive to any language. The steps
+  and pseudo-code you use for an algorithm will never change. This will help you
+  be a more flexible developer.
+---
+
 # Next steps
 
 ## Congratulations

@@ -1,3 +1,10 @@
+---
+description: >-
+  This is mostly an academic exercise, so you will be asked to refrain from
+  using queue-like or stack-like methods in your solution, however tempting this
+  otherwise sensible choice would be.
+---
+
 # Project: Stacks and Queues
 
 ## Introduction

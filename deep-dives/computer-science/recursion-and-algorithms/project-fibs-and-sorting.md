@@ -1,14 +1,15 @@
 ---
 description: >-
-  Learn how to write a method to find the Fibonacci sequence for a number, and
-  also how to write a merge sort algorithm.
+  This project will help you understand that everything that can be done with
+  recursion can be done with iteration; although the iteration solution may be
+  more difficult to figure out.
 ---
 
 # Project: Fibs and sorting
 
 ## Introduction
 
-This project assumes you already have experience with loops, and that you've been doing some practice with your programming outside of this Computer Science course. This project will putting your ability to use recursion through a basic test, and allowing you to compare what you do with recursion with what you do with iteration \(loops\). This project will also help you understand that everything that can be done with recursion can be done with iteration; although the iteration solution may be more difficult to figure out...
+This project assumes you already have experience with loops, and that you've been doing some practice with your programming outside of this Computer Science course. This project will putting your ability to use recursion through a basic test, and allowing you to compare what you do with recursion with what you do with iteration \(loops\). This project will also help you understand that everything that can be done with recursion can be done with iteration; although the iteration solution may be more difficult to figure out.
 
 ## Starting small: Fibonacci
 

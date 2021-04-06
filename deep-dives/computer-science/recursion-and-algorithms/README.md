@@ -1,5 +1,8 @@
 ---
-description: Learn about recursion and algorithms.
+description: >-
+  This lesson will cover what recursion is, when you may want to use it and when
+  you really shouldn't, so that it is yet another tool in your problem-busting
+  arsenal.
 ---
 
 # Recursion and algorithms

@@ -1,3 +1,10 @@
+---
+description: >-
+  In this project, we shall first do a relatively straightforward task in
+  implementing a Binary Search Tree. Afterwards, we will be tackling a Chess
+  related challenge.
+---
+
 # Project: Trees
 
 ## Introduction

@@ -10,7 +10,7 @@ description: >-
 
 In our last lesson, we looked at the problems of sorting and searching an array, and briefly discussed some algorithms concerned with tackling these problems, both 'good' and 'bad'. We've even discussed which ones are efficient and which ones are inefficient; but we never really discussed by what metric we define an algorithm as efficient or inefficient. This is where `Big-O` notation, and other notations, come in!
 
-As a disclaimer, do not be disheartened or discouraged if this is a little tricky to grasp on your first try. You will not often be expected to work out precisely how efficient your code is. This lesson more to get a `general understanding` and `appreciation` for what `Big-O` is.
+As a disclaimer, do not be disheartened or discouraged if this is a little tricky to grasp on your first try. You will not often be expected to work out precisely how efficient your code is. This lesson will help you to get a general understanding and appreciation for what `Big-O` is.
 
 ## Learning outcomes
 

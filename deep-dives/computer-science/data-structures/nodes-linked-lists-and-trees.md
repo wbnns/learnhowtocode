@@ -1,3 +1,10 @@
+---
+description: >-
+  In this lesson, we will be doing more of this; but our approach won't think of
+  data as an Array that needs to be accessed, but as Nodes that can be
+  rearranged.
+---
+
 # Nodes, Linked Lists and Trees
 
 ## Introduction

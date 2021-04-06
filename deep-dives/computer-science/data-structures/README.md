@@ -1,3 +1,9 @@
+---
+description: >-
+  A data structure is simply an object or collection of objects that is designed
+  to enable you to store, access and manipulate data.
+---
+
 # Data structures
 
 ## Introduction
@@ -10,7 +16,7 @@ If you're unsure of how to implement classes and objects in your chosen language
 
 ## What is a data structure?
 
-A data structure is simply an object or collection of objects that is designed to enable you to store; access and manipulate the data within it in a certain way. This can help access and modifications easy, enable the use of certain algorithms to tackle a specific problem or restrict how we interact with our data into very specific methods. Ruby, Javascript and various other languages have some data structures built-in for you to make use of; but we will soon look into how we could implement them as educational examples.
+A data structure is simply an object or collection of objects that is designed to enable you to store, access and manipulate the data within it in a certain way. This can help access and modifications easy, enable the use of certain algorithms to tackle a specific problem or restrict how we interact with our data into very specific methods. Ruby, JavaScript and various other languages have some data structures built-in for you to make use of; but we will soon look into how we could implement them as educational examples.
 
 You will have certainly already dealt with one data structure already... `The Array`. `Arrays` can conceptually be thought of a line of boxes, and you can insert, look at, change and remove these boxes. In our next lesson, we'll be looking at data structures similar to arrays, but at the same time rather different.
 

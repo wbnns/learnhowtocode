@@ -1,5 +1,8 @@
 ---
-description: Learn about pseudocode and algorithms.
+description: >-
+  Although you may read that you may not be involved in writing algorithms very
+  often in web development; it's a good idea to at least develop an awareness of
+  what algorithms and pseudocode are.
 ---
 
 # Pseudocode and algorithms

@@ -1,5 +1,8 @@
 ---
-description: 'Learn how to write insertion sort, linear and binary search methods.'
+description: >-
+  In this project, you'll be using your language of choice for writing an
+  insertion sort and a merge sort and testing them against large unsorted and
+  sorted arrays.
 ---
 
 # Project: Practicing Big O
@@ -8,7 +11,7 @@ description: 'Learn how to write insertion sort, linear and binary search method
 
 You've learned a lot a different `algorithms` and `Big O` notation. You may still feel a bit nervous about navigating your way around `Big O`; but this project should give you some practical experience in how algorithms behave!
 
-In this project, you'll be using your language of choice for writing an `insertion sort` and a `merge sort` \(if you haven't done the [previous project](https://www.learnhowtocodebook.com/deep-dives/computer-science/recursion-and-algorithms/more-on-algorithms)\); and testing them against large unsorted and sorted arrays.
+In this project, you'll be using your language of choice for writing an `insertion sort` and a `merge sort` \(if you haven't done the [previous project](https://www.learnhowtocodebook.com/deep-dives/computer-science/recursion-and-algorithms/more-on-algorithms)\), and testing them against large unsorted and sorted arrays.
 
 You will then be implementing a `Linear Search` and `Binary Search` algorithm to tackle finding an element in these arrays; keeping in mind how long it takes each algorithm to complete it's search. So let's start with the sorting!
 
