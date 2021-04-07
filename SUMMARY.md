@@ -19,7 +19,6 @@
   * [Git basics](foundations/git/git-basics.md)
   * [Project: Practicing Git](foundations/git/project-practicing-git.md)
 * [Frontend](foundations/frontend/README.md)
-  * [Untitled](foundations/frontend/untitled.md)
   * [HTML and CSS](foundations/frontend/html-and-css.md)
   * [Developer Tools](foundations/frontend/developer-tools.md)
   * [Project: Create a web page](foundations/frontend/project-create-a-web-page.md)
