@@ -1,3 +1,10 @@
+---
+description: >-
+  SQL Zoo will show you a table and have you run queries against it to answer
+  specific questions. The queries start off simple and then gradually get harder
+  as you go.
+---
+
 # Project: SQL Zoo
 
 ## Overview

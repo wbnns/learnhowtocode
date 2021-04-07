@@ -1,3 +1,10 @@
+---
+description: >-
+  This is a very brief explanation of SQL. It won't be teaching you specific new
+  tactics but instead will present a good general overview to help you get you
+  started.
+---
+
 # Databases and SQL
 
 ## Getting started
