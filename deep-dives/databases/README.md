@@ -1,5 +1,7 @@
 ---
-description: Learn everything you need to know in order to start working with databases.
+description: >-
+  SQL (Structured Query Language), which is used to query databases, is a very
+  simple syntax... there are only a small handful of verbs to learn.
 ---
 
 # Databases
