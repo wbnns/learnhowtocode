@@ -29,6 +29,8 @@ Don't let the stack trace intimidate you. You don't need to read it all or even 
 
 The stack trace prints each line of code in your program that was executed before it crashed. The very first line of the stack trace will generally provide the most useful information about the error your program encountered:
 
+![](../../.gitbook/assets/image%20%281%29.png)
+
 First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of the file `lib/bottles.rb`. This line also provides a brief explanation of the error and the name of the error. \(In this case, it's a [`NameError`](https://ruby-doc.org/core-2.6/NameError.html)\). And yes, in Ruby, [errors](https://ruby-doc.org/core-2.6/Exception.html) are _also_ objects.
 
 There you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
