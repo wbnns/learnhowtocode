@@ -75,7 +75,11 @@ This will install the latest version of Git. Easy, right?
 git --version
 ```
 
-If the version number is less than 2.28, follow the instructions again.
+If the version number is less than 2.28, follow the instructions again. If you are encountering a `no formulae found in taps` error:
+
+1. Run `brew doctor`
+2.  You must run each command line snippet that Homebrew provides in order to repair your installation of Homebrew, including `brew cleanup` at the end.
+3. Run `brew install git`, **open a new terminal window**, then check your version of Git, which should now be the latest version.
 
 ## Step 2: Configure Git and GitHub
 
