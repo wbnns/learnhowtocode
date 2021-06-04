@@ -6,7 +6,7 @@ description: >-
 
 # Welcome
 
-### This site is dedicated to you
+### Getting started
 
 Content is divided into many sections to help you learn how to code or to become a better developer. Stick to this material, teach yourself to fish, and feed yourself for a lifetime.
 
