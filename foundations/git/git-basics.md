@@ -22,13 +22,13 @@ By the end of this lesson, you should be able to do the following:
 
 ## Assignment
 
+**Note:** As of October 1st, 2020, all new Git repositories create a default branch named `main` instead of `master`. Visit [this article](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main) by Carolyn Heinze if you wish to understand the reasons behind the change.
+
 1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
 
 ## Cheatsheet
 
 This is a reference list of the most commonly used Git commands. \(You might consider bookmarking this handy page.\) Try to familiarize yourself with the commands so that you can eventually remember them all:
-
-**Note:** Starting October 1st, 2020, all new Git repositories create a default branch named `main` instead of `master`. Visit [this article](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main) by Carolyn Heinze if you wish to understand the reasons behind the change.
 
 * Commands related to a remote repository:
   * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
