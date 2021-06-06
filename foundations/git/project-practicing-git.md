@@ -88,3 +88,15 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) by [Chris Beams](https://github.com/cbeams) provides guidelines for writing neat and concise commit messages.
 
+## Knowledge check
+
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* How do you create a new repository on GitHub?
+* How do you copy a repository onto your local machine?
+* What does the name "origin" indicate about the remote connection?
+* What does git status do?
+* How do you move files to the staging area in git?
+* How do you commit files to the main branch in git?
+* How do you push your changes to the GitHub website?​
+
