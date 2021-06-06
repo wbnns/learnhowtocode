@@ -176,6 +176,6 @@ If you want to get a better understanding of how create-react-app works and whic
 
 ## Additional resources
 
-* [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important react concepts.
+* [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important React concepts.
 * [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application, without using create-react-app
 
