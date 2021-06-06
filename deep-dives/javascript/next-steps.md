@@ -19,7 +19,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [An Android development tutorial from CodeLearn](http://www.codelearn.org/android-tutorial)
 * [Giant meta-list of screencasts by Avdi Grimm](https://www.rubytapas.com/2016/06/30/new-list-programming-screencast-series/)
 * [appendTo's Javascript track \(incomplete\)](http://learn.appendto.com/lesson/javascript-101)
-* [Front End Programming best practices from betterfrontend](http://betterfrontend.com/)
 * [D3 and other visualization tool examples](http://tributary.io)
 * [Tips for using AWS](http://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
 * [\(Video\) Development Workflow of 2013 by Paul Irish](http://www.youtube.com/watch?v=f7AU2Ozu8eo)
