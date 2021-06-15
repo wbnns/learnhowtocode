@@ -16,7 +16,7 @@ Content is divided into many sections to help you learn how to code or to become
 
 What would you do if self-doubt was the only thing that could stop you?
 
-Start with the "Introduction" and begin your course...
+Start with the "Introduction" and begin your course!
 
 {% page-ref page="foundations/introduction/" %}
 
