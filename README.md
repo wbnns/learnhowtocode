@@ -1,7 +1,7 @@
 ---
 description: >-
-  A free ebook with everything you need to get started or level up as a web
-  developer.
+  This website is a free resource with everything you need to get started or
+  level up as a web developer.
 ---
 
 # Welcome
