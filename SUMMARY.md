@@ -235,6 +235,10 @@
   * [Handling an offer](getting-hired/applying-and-interviewing-for-a-job/handling-an-offer.md)
   * [Final words](getting-hired/applying-and-interviewing-for-a-job/final-words.md)
 
+## Editor
+
+* [@wbnns](https://twitter.com/wbnns)
+
 ## License
 
 * [CC BY-NC-SA 4.0 © 2021](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
