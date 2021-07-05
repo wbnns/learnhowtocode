@@ -235,9 +235,9 @@
   * [Handling an offer](getting-hired/applying-and-interviewing-for-a-job/handling-an-offer.md)
   * [Final words](getting-hired/applying-and-interviewing-for-a-job/final-words.md)
 
-## Editor
+## Maintained by <a id="maintainer"></a>
 
-* [@wbnns](https://twitter.com/wbnns)
+* [Will Binns](https://willbinns.org/)
 
 ## License
 
