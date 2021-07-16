@@ -237,7 +237,7 @@
 
 ## Maintained by <a id="maintainer"></a>
 
-* [Will Binns](https://willbinns.org/)
+* [Will Binns](https://about.willbinns.org/)
 
 ## License
 
