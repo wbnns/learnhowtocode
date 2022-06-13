@@ -235,11 +235,10 @@
   * [Handling an offer](getting-hired/applying-and-interviewing-for-a-job/handling-an-offer.md)
   * [Final words](getting-hired/applying-and-interviewing-for-a-job/final-words.md)
 
-## Maintained by <a id="maintainer"></a>
+## Maintained by <a href="#maintainer" id="maintainer"></a>
 
-* [Will Binns](https://about.willbinns.org/)
+* [wbnns](https://0x21e6.dev/)
 
 ## License
 
 * [CC BY-NC-SA 4.0 © 2021](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
-
