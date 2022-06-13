@@ -241,4 +241,4 @@
 
 ## License
 
-* [CC BY-NC-SA 4.0 © 2021](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+* [CC BY-NC-SA 4.0 © 2022](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
