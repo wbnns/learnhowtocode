@@ -237,7 +237,7 @@
 
 ## Maintained by <a href="#maintainer" id="maintainer"></a>
 
-* [wbnns](https://0x21e6.dev/)
+* [wbnns](https://trek.io/)
 
 ## License
 
